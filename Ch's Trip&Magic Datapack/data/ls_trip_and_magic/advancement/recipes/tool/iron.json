@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iron_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ls_trip_and_magic:trip/glaive/iron",
+      "ls_trip_and_magic:trip/knife/iron"
+    ]
+  },
+  "sends_telemetry_event": false
+}

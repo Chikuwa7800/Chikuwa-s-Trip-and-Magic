@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "ls_tm_using_sticks": {
+      "min": 1
+    }
+  }
+}

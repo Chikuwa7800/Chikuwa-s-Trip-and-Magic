@@ -1,0 +1,138 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:stick",
+    "#minecraft:planks"
+  ],
+  "result": {
+    "id": "minecraft:wooden_pickaxe",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "item.material.wood",
+        "with": [
+          ""
+        ],
+        "extra": [
+          {
+            "translate": "item.knife"
+          }
+        ],
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "empty"
+        },
+        {
+          "translate": "item.modifiers.mainhand",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "2 ",
+          "extra": [
+            "",
+            {
+              "translate": "attribute.name.attack_damage"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "2.8 ",
+          "extra": [
+            {
+              "translate": "attribute.name.attack_speed"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "0.5 ",
+          "extra": [
+            {
+              "translate": "attribute.name.attack_knockback"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "2.5 ",
+          "extra": [
+            {
+              "translate": "attribute.name.entity_interaction_range"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "item_model":"trip_magic:trip_weapons/knife/wooden_knife",
+      "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type": "weapon",
+        "item_condition": [
+          "none",
+          {}
+        ],
+        "material": "wood",
+        "weapon_type": "knife"
+      },
+      "minecraft:rarity": "common",
+      "minecraft:weapon": {
+        "item_damage_per_attack": 1,
+        "disable_blocking_for_seconds": 0
+      },
+      "minecraft:max_damage": 42,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:temp",
+          "amount": -1.2,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:temp",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_knockback",
+          "id": "minecraft:temp",
+          "amount": -0.5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "id": "minecraft:temp",
+          "amount": -0.5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:tool": {
+        "rules": [],
+        "default_mining_speed": 1,
+        "damage_per_block": 2,
+        "can_destroy_blocks_in_creative": false
+      },
+      "minecraft:repairable": {
+        "items": "#minecraft:planks"
+      },
+      "minecraft:repair_cost": 1
+    }
+  }
+}

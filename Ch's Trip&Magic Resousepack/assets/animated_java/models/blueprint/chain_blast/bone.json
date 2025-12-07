@@ -1,0 +1,32 @@
+{
+	"textures": {
+		"0": "trip_magic:item/entity/bosses/ginga/under_particle",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [-3, 8, -4],
+			"to": [19, 8, 18],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [-2, 8, -3]
+			},
+			"faces": {
+				"up": {
+					"uv": [16, 16, 0, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [16, 0, 0, 16],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

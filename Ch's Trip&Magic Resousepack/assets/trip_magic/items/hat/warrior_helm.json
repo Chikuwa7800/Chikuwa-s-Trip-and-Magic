@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": "head",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/entity/warrior"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "trip_magic:item/entity/warrior_gui"
+        }
+    },
+    "hand_animation_on_swap": true
+}

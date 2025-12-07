@@ -1,0 +1,10 @@
+{
+  "comparator_output": 12,
+  "description": {
+    "translate": "jukebox_song.ginunga"
+  },
+  "length_in_seconds": 111.0,
+  "sound_event": {
+    "sound_id": "trip_magic:music.battle.ginunga.all"
+  }
+}

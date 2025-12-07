@@ -1,0 +1,13 @@
+execute as @e[tag=ch_effect_explotion_large_core] at @s run function ch_effect_temp:effect/explotion/large/tick
+execute if entity @e[tag=ch_effect_explotion_breaked_block] run function ch_effect_temp:effect/breaked_block/tick
+execute as @a[tag=ch_effect_shock_wave] at @s run function ch_effect_temp:effect/shock/tick
+execute as @e[tag=ch.effect.ginga.explode] at @s run function ch_effect_temp:vfx/ginga/explotion/tick
+execute as @e[tag=ch.effect.ginga.boom] at @s run function ch_effect_temp:vfx/ginga/boom/tick
+execute as @e[tag=ch.effect.ginga.boom.fixed] at @s run function ch_effect_temp:vfx/ginga/large_boom/tick
+execute as @e[tag=ch.effect.ginga.flash] at @s run function ch_effect_temp:vfx/ginga/flash/tick
+execute as @e[tag=ch.effect.ginga.big_smoke] at @s run function ch_effect_temp:vfx/ginga/big_smoke/tick
+execute as @e[tag=ch.effect.ginga.light] at @s run function ch_effect_temp:vfx/ginga/light/tick
+execute as @e[tag=ch.effect.cry] at @s run function ch_effect_temp:vfx/cry/tick
+execute as @e[tag=ch.effect.flash] at @s run function ch_effect_temp:vfx/flash/tick
+execute as @e[tag=ch.effect.bash_in] at @s run function ch_effect_temp:vfx/bash_in/tick
+execute as @e[tag=ch.effect.bash_out] at @s run function ch_effect_temp:vfx/bash_out/tick

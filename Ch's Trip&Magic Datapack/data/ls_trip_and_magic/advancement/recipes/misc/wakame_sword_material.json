@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "ls_trip_and_magic:magic/frenzied_core"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ls_trip_and_magic:magic/fortified_wakame",
+      "ls_trip_and_magic:magic/prismarine_seagrass"
+    ]
+  },
+  "sends_telemetry_event": false
+}

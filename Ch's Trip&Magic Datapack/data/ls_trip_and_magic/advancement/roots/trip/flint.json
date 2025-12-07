@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "advancements.trip.flint.title"
+    },
+    "description": {
+      "translate": "advancements.trip.flint"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ls_trip_and_magic:roots/trip/root",
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "custom_data": {
+                "datapack_type": "ls_trip_magic",
+                "item_type": "weapon",
+                "material": "flint"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

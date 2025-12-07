@@ -1,0 +1,15 @@
+{
+    "values": [
+      "ls_trip_and_magic:add_damage_bypass_cooldown",
+      "ls_trip_and_magic:effect/abyss",
+      "ls_trip_and_magic:effect/cut",
+      "ls_trip_and_magic:effect/electro",
+      "ls_trip_and_magic:effect/erosion",
+      "ls_trip_and_magic:effect/wet",
+      "ls_trip_and_magic:effect/flame",
+      "ls_trip_and_magic:effect/frost",
+      "ls_trip_and_magic:cut",
+      "ls_trip_and_magic:magic/ice_lv2",
+      "ls_trip_and_magic:entity/ginunga/chain_blast"
+    ]
+}

@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X#X",
+    "@$@",
+    "X%X"
+  ],
+  "key": {
+    "X": "minecraft:paper",
+    "#": "minecraft:feather",
+    "@": "minecraft:amethyst_shard",
+    "$": [
+      "minecraft:black_dye",
+      "minecraft:ink_sac"
+    ],
+    "%": "book"
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "item.spell_book.empty",
+        "with": [
+          ""
+        ],
+        "extra": [
+          {
+            "translate": "item.spell_book",
+            "italic": false
+          }
+        ],
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item_lore.spell_book.empty",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item_lore.magic_crafting_table.core",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "item_model":"trip_magic:empty_spell_book",
+      "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type":"item_core",
+        "core_type": "magic_book"
+      },
+      "minecraft:rarity": "common",
+      "minecraft:weapon": {
+        "item_damage_per_attack": 0,
+        "disable_blocking_for_seconds": 0
+      },
+      "minecraft:max_damage": 1250,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:temp",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:temp",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_knockback",
+          "id": "minecraft:temp",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "id": "minecraft:temp",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:tool": {
+        "rules": [],
+        "default_mining_speed": 1,
+        "damage_per_block": 0,
+        "can_destroy_blocks_in_creative": true
+      }
+    }
+  }
+}

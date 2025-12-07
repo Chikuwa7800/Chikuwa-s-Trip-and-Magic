@@ -1,0 +1,16 @@
+{
+    "values": [
+        "ls_trip_and_magic:magic/bolts_lv1",
+      "ls_trip_and_magic:magic/bolts_lv2",
+      "ls_trip_and_magic:magic/bolts_lv3",
+      "ls_trip_and_magic:magic/bolts_lv3_string",
+      "ls_trip_and_magic:magic/fire_lv1",
+      "ls_trip_and_magic:magic/ice_lv1",
+      "ls_trip_and_magic:magic/ice_lv2",
+      "ls_trip_and_magic:magic/nature_lv1",
+      "ls_trip_and_magic:magic/nature_lv2",
+      "ls_trip_and_magic:magic/void_lv1",
+      "ls_trip_and_magic:magic/void_lv2",
+      "ls_trip_and_magic:magic/waters_lv1"
+    ]
+}

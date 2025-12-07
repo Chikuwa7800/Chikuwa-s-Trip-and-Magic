@@ -1,0 +1,32 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/explode_large_effect/shock_wave",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [6.5, 8, 6.5],
+			"to": [9.5, 8, 9.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [7, 8, 7]
+			},
+			"faces": {
+				"up": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 16, 16, 0],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

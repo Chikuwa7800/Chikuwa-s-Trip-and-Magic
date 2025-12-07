@@ -1,0 +1,12 @@
+tag @s add ls_tm_magic_pl
+tag @s add ls_tm_magic_flare_cooldown
+
+
+#ls_tm_fireball_display
+$summon block_display ~ ~ ~ {teleport_duration:3,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.2f,0.2f,0.2f]},Tags:["ls_tm_fireball_display","ls_tm_magic_ball"],Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"enchant"},Radius:0.5f,Owner:$(UUID),Tags:["ch_tm.magic_info"]}]}
+
+execute anchored eyes run tp @e[tag=ls_tm_fireball_display,sort=nearest,limit=1] ^ ^ ^0.5 ~ ~
+
+playsound entity.zombie.infect player @a ~ ~ ~ 1 0.25
+particle lava ~ ~ ~ 0 0 0 0.5 5 force
+

@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": "fixed",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/frenzied_core"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "trip_magic:item/frenzied_core"
+        }
+    },
+    "hand_animation_on_swap": true
+}

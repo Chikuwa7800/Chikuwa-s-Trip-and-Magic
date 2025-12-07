@@ -1,0 +1,9 @@
+{
+	"values": [
+	"animated_java:global/on_tick", 
+	"ch_effect_temp:tick", 
+	"ch_trip_and_magic_boss:tick", 
+	"ls_trip_and_magic:main",
+	"ch_debug:tick"
+]
+}

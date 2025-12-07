@@ -1,0 +1,3 @@
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "equipment","equipment_type": "magic_core","item_condition": "mana_max_up","item_magic": "true"}}}},predicate=ls_trip_and_magic:score/used_stick] at @s run function ls_trip_and_magic:magic/items/artifacts/magic_core/mana_up
+
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "equipment","equipment_type": "magic_core","item_condition": "mana_health_up","item_magic": "true"}}}},predicate=ls_trip_and_magic:score/used_stick] at @s run function ls_trip_and_magic:magic/items/artifacts/magic_core/mana_health_up

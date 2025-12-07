@@ -1,0 +1,78 @@
+{
+	"credit": "Made by Chikuwa",
+	"textures": {
+		"0": "trip_magic:item/entity/farmer_zombie",
+		"particle": "trip_magic:item/entity/farmer_zombie"
+	},
+	"elements": [
+		{
+			"from": [0, 2, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 12.5, 3, 7.25], "texture": "#0"},
+				"east": {"uv": [0, 12, 3.75, 3.75], "texture": "#0"},
+				"south": {"uv": [0, 12, 4.75, 8.5], "texture": "#0"},
+				"west": {"uv": [0, 12, 4.75, 8.5], "texture": "#0"},
+				"up": {"uv": [7.75, 12, 11.75, 16], "texture": "#0"},
+				"down": {"uv": [7.75, 12, 11.75, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 2.001, 4],
+			"to": [12, 6.001, 12],
+			"faces": {
+				"north": {"uv": [10, 2, 12, 3], "texture": "#0"},
+				"east": {"uv": [8, 2, 10, 3], "texture": "#0"},
+				"south": {"uv": [14, 2, 16, 3], "texture": "#0"},
+				"west": {"uv": [12, 2, 14, 3], "texture": "#0"},
+				"up": {"uv": [10, 0, 12, 2], "texture": "#0"},
+				"down": {"uv": [8.75, 13, 10.75, 15], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [41, 42, 0],
+			"translation": [0, 2.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [41, 42, 0],
+			"translation": [0, 2.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [41, 42, 0],
+			"translation": [0.25, 4.5, 2.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [41, 42, 0],
+			"translation": [5, 3.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [31, 41, 0],
+			"translation": [0, 1.75, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"translation": [0, 13.5, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1]
+		}
+	]
+}

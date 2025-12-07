@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "emerald"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ls_trip_and_magic:magic/magic_staff/normal"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,1 @@
+$tellraw @s [{translate:"$(name)","color":"dark_red","bold":true,"italic":false,"underlined":true},{"translate":"notice.cooldown","color":"dark_red","bold":true,"italic":false,"underlined":true}]

@@ -1,0 +1,328 @@
+{
+    "entity.explode.small": {
+    "sounds": [
+      "trip_magic:explode/small/explode1",
+      "trip_magic:explode/small/explode2",
+      "trip_magic:explode/small/explode3",
+      "trip_magic:explode/small/explode4"
+    ]
+  },
+  "entity.explode.small.far": {
+    "sounds": [
+      "trip_magic:explode/small/far"
+    ]
+  },
+  "entity.explode.large": {
+    "sounds": [
+      "trip_magic:explode/large/near"
+    ]
+  },
+  "entity.explode.large.far": {
+    "sounds": [
+      "trip_magic:explode/large/far"
+    ]
+  },
+  "entity.explode.large.shock": {
+    "sounds": [
+      "trip_magic:explode/large/shock"
+    ]
+  },
+  "entity.explode.large.shock.far": {
+    "sounds": [
+      "trip_magic:explode/large/shock_far"
+    ]
+  },
+  "entity.explode.nova.big": {
+    "sounds": [
+      "trip_magic:explode/nova/big"
+    ]
+  },
+  "entity.explode.nova.big.far": {
+    "sounds": [
+      "trip_magic:explode/nova/big_far"
+    ]
+  },
+  "entity.explode.nova.big.shock": {
+    "sounds": [
+      "trip_magic:explode/nova/big_shock"
+    ]
+  },
+  "entity.explode.nova.big.shock.far": {
+    "sounds": [
+      "trip_magic:explode/nova/big_shock_far"
+    ]
+  },
+  "entity.explode.nova.small": {
+    "sounds": [
+      "trip_magic:explode/nova/small"
+    ]
+  },
+  "entity.explode.nova.small.far": {
+    "sounds": [
+      "trip_magic:explode/nova/small_far"
+    ]
+  },
+  "entity.explode.nova.small.shock": {
+    "sounds": [
+      "trip_magic:explode/nova/small_shock"
+    ]
+  },
+  "entity.explode.nova.small.shock.far": {
+    "sounds": [
+      "trip_magic:explode/nova/small_shock_far"
+    ]
+  },
+  "entity.explode.dead_ear": {
+    "sounds": [
+      "trip_magic:explode/dead_ear"
+    ]
+  },
+  "ender.break": {
+    "sounds": [
+      "trip_magic:magic/mob/enderman_break"
+    ]
+  },
+  "block.magic_crafting_table.place.core": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/core_place"
+    ]
+  },
+  "block.magic_crafting_table.place.material": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/material_place1",
+      "trip_magic:magic/magic_crafting_table/material_place2",
+      "trip_magic:magic/magic_crafting_table/material_place3"
+    ]
+  },
+  "block.magic_crafting_table.craft_prep": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/craft_prep"
+    ]
+  },
+  "block.magic_crafting_table.craft": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/craft"
+    ]
+  },
+  "block.magic_crafting_table.wakame": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/wakame"
+    ]
+  },
+  "block.magic_crafting_table.bolt": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/bolt"
+    ]
+  },
+  "block.magic_crafting_table.fire": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/fire"
+    ]
+  },
+  "block.magic_crafting_table.ice": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/ice"
+    ]
+  },
+  "block.magic_crafting_table.nature": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/nature"
+    ]
+  },
+  "block.magic_crafting_table.void": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/void"
+    ]
+  },
+  "block.magic_crafting_table.water": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/water"
+    ]
+  },
+  "item.trip.undead_killer": {
+    "sounds": [
+      "trip_magic:trip/undead_killer"
+    ]
+  },
+  "effect.electro": {
+    "sounds": [
+      "trip_magic:effect/electro/electro1",
+      "trip_magic:effect/electro/electro2",
+      "trip_magic:effect/electro/electro3",
+      "trip_magic:effect/electro/electro4"
+    ]
+  },
+  "magic.nature.wood_bind": {
+    "sounds": [
+      "trip_magic:magic/spell/nature/wood_bind"
+    ]
+  },
+  "magic.ice.hiber_latch.summon": {
+    "sounds": [
+      "trip_magic:magic/spell/ice/hiber_latch_summon"
+    ]
+  },
+  "magic.ice.hiber_latch.break": {
+    "sounds": [
+      "trip_magic:magic/spell/ice/hiber_latch_break"
+    ]
+  },
+  "music.audexm.start": {
+    "sounds": [
+      {
+        "name": "trip_magic:bgm/audexm/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.audexm.loop":{
+    "sounds": [
+      {
+      "name":"trip_magic:bgm/audexm/loop",
+      "stream": true
+      }
+    ]
+  },
+  "music.audexm.end":{
+    "sounds": [
+      {
+      "name":"trip_magic:bgm/audexm/end",
+      "stream": true
+      }
+    ]
+  },
+  "entity.ginunga.cry": {
+    "sounds": [
+      "trip_magic:boss/ginunga/cry"
+    ]
+  },
+  "entity.ginunga.cry.strong": {
+    "sounds": [
+      "trip_magic:boss/ginunga/cry_strong"
+    ]
+  },
+  "entity.ginunga.cry.special": {
+    "sounds": [
+      "trip_magic:boss/ginunga/cry_special"
+    ]
+  },
+  "entity.ginunga.attack": {
+    "sounds": [
+      "trip_magic:boss/ginunga/attack"
+    ]
+  },
+  "entity.ginunga.move": {
+    "sounds": [
+      "trip_magic:boss/ginunga/move"
+    ]
+  },
+  "entity.ginunga.attack.move": {
+    "sounds": [
+      "trip_magic:boss/ginunga/attack_move"
+    ]
+  },
+  "entity.ginunga.death": {
+    "sounds": [
+      "trip_magic:boss/ginunga/death"
+    ]
+  },
+  "entity.ginunga.shot.hit": {
+    "sounds": [
+      "trip_magic:boss/ginunga/hit_shot"
+    ]
+  },
+  "entity.ginunga.shot": {
+    "sounds": [
+      "trip_magic:boss/ginunga/shot"
+    ]
+  },
+  "entity.ginunga.set_landmine": {
+    "sounds": [
+      "trip_magic:boss/ginunga/set_landmine"
+    ]
+  },
+  "entity.ginunga.stun": {
+    "sounds": [
+      "trip_magic:boss/ginunga/stun",
+      "trip_magic:boss/ginunga/stun_2"
+    ]
+  },
+  "entity.ginunga.swing.hit": {
+    "sounds": [
+      "trip_magic:boss/ginunga/swing_hit"
+    ]
+  },
+  "entity.ginunga.tp.in": {
+    "sounds": [
+      "trip_magic:boss/ginunga/tp_in"
+    ]
+  },
+  "entity.ginunga.tp.out": {
+    "sounds": [
+      "trip_magic:boss/ginunga/tp_out"
+    ]
+  },
+  "entity.ginunga.afraid": {
+    "sounds": [
+      "trip_magic:boss/ginunga/afraid1",
+      "trip_magic:boss/ginunga/afraid2"
+    ]
+  },
+  "entity.ginunga.cry.prep":{
+    "sounds": [
+      "trip_magic:boss/ginunga/cry_prep"
+    ]
+  },
+  "entity.ginunga.chain_blast":{
+    "sounds": [
+      "trip_magic:boss/ginunga/chain_blast"
+    ]
+  },
+  "entity.ginunga.angel_wisper.blast":{
+    "sounds": [
+      "trip_magic:boss/ginunga/angel_wisper_blast"
+    ]
+  },
+  "entity.ginunga.angel_wisper.prep":{
+    "sounds": [
+      "trip_magic:boss/ginunga/angel_wisper_prep"
+    ]
+  },
+  "entity.ginunga.angel_wisper":{
+    "sounds": [
+      "trip_magic:boss/ginunga/angel_wisper"
+    ]
+  },
+  "music.battle.ginunga.start": {
+    "sounds": [
+      {
+        "name": "trip_magic:bgm/battle/ginga/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.battle.ginunga.loop":{
+    "sounds": [
+      {
+      "name":"trip_magic:bgm/battle/ginga/loop",
+      "stream": true
+      }
+    ]
+  },
+  "music.battle.ginunga.end":{
+    "sounds": [
+      {
+      "name":"trip_magic:bgm/battle/ginga/end",
+      "stream": true
+      }
+    ]
+  },
+  "music.battle.ginunga.all":{
+    "sounds": [
+      {
+      "name":"trip_magic:bgm/battle/ginga/all",
+      "stream": true
+      }
+    ]
+  }
+}

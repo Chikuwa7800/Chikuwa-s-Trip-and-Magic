@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 342358437,
+    "separation": 4,
+    "spacing": 52,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "ch_trip_and_magic_boss:grave_yard",
+      "weight": 10
+    }
+  ]
+}

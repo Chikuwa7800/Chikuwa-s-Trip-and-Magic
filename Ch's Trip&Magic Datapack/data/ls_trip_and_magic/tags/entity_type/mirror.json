@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:arrow",
+    "minecraft:spectral_arrow",
+    "minecraft:wither_skull",
+    "minecraft:dragon_fireball",
+    "minecraft:fireball",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion"
+  ]
+}

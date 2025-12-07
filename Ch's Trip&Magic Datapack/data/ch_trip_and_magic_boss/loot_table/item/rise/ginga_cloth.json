@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "item.ginga_cloth",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item_lore.ginga_cloth.up",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item_lore.ginga_cloth.down",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model":"trip_magic:boss_item/ginunga/ginga_cloth",
+                "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "item_material",
+                  "equipment_type": "ginga_cloth"
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

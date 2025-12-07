@@ -1,0 +1,6 @@
+function ch_trip_and_magic_boss:ginga/separate_prosses/cutter/main
+function ch_trip_and_magic_boss:ginga/separate_prosses/cutter/main
+function ch_trip_and_magic_boss:ginga/separate_prosses/cutter/main
+function ch_trip_and_magic_boss:ginga/separate_prosses/cutter/main
+function ch_trip_and_magic_boss:ginga/separate_prosses/cutter/main
+function ch_trip_and_magic_boss:ginga/separate_prosses/cutter/main

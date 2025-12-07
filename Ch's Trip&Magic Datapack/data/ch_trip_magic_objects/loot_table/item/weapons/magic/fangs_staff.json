@@ -1,0 +1,160 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+        "translate": "item.magic_staff.fang",
+        "extra": [
+          {
+            "translate": "item.magic_staff",
+            "italic": false
+          }
+        ],
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item_lore.fang_staff",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "empty"
+        },
+        {
+            "translate": "attribute.name.added_attack",
+            "color": "gray",
+          "italic": false
+        },
+        {
+                    "translate": "key.mouse.right",
+                    "extra": [
+                      {
+                        "text": ": ",
+                        "extra": [
+                          {
+                            "translate": "item_skill.magic.fangs.attack"
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.keyboard.left.shift",
+                    "extra": [
+                      {
+                        "text": "+",
+                        "extra": [
+                          {
+                            "translate": "key.mouse.right",
+                            "extra": [
+                              {
+                                "text": ": ",
+                                "extra": [
+                                  {
+                                    "translate": "item_skill.magic.fangs.wall"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+        {
+          "translate": "empty"
+        },
+        {
+          "translate": "item.modifiers.mainhand",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "100 ",
+          "extra": [
+            {
+              "translate": "attribute.name.mana"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "1 ",
+          "extra": [
+            {
+              "translate": "attribute.name.mana.recovery"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "translate": "attribute.name.skill",
+          "extra": [
+            {
+              "translate": "item_skill.magic"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model":"trip_magic:magic_weapons/magic_staff/evoker",
+      "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type": "weapon",
+        "item_condition": [
+          "none",
+          {}
+        ],
+        "material": "emerald",
+        "weapon_type": "fangs_staff",
+        "item_magic": "true"
+      },
+      "minecraft:rarity": "common",
+      "minecraft:weapon": {
+        "item_damage_per_attack": 0,
+        "disable_blocking_for_seconds": 0
+      },
+      "minecraft:max_damage": 1250,
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:unbreakable"
+        ]
+      },
+      "minecraft:tool": {
+        "rules": [],
+        "default_mining_speed": 1,
+        "damage_per_block": 0,
+        "can_destroy_blocks_in_creative": false
+      },
+      "minecraft:repairable": {
+        "items": [
+          "minecraft:emerald"
+        ]
+      },
+      "minecraft:repair_cost": 2,
+      "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

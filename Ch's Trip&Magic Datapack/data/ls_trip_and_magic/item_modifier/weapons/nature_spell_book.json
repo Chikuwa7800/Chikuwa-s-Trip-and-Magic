@@ -1,0 +1,89 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+                "minecraft:bundle_contents": [],
+                "minecraft:custom_name": {
+                  "translate": "item.spell_book.nature",
+                  "extra": [
+                    {
+                      "translate": "item.spell_book"
+                    }
+                  ],
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.spell_book.nature",
+                    "extra": [
+                      {
+                        "translate": "item_lore.spell_book.up"
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item_lore.spell_book.down",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "empty"
+                  },
+                  {
+                    "translate": "attribute.name.added_attack",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.mouse.right",
+                    "extra": [
+                      {
+                        "text": ": ",
+                        "extra": [
+                          {
+                            "translate": "item_skill.magic.nature.lv1"
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "empty"
+                  },
+                  {
+                    "translate": "item.modifiers.offhand",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.skill",
+                    "extra": [
+                      {
+                        "translate": "item_skill.nature_magic"
+                      }
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "item_model":"trip_magic:spell_book/nature_spell_book",
+                "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "weapon",
+                  "item_condition": "nature",
+                  "weapon_type": "magic_book"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:unbreakable"
+                  ]
+                },
+                "minecraft:unbreakable": {}
+              }
+  }
+]

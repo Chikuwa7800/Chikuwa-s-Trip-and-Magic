@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:marker",
+    "minecraft:item",
+    "minecraft:falling_block",
+    "minecraft:ender_pearl",
+    "item_display",
+    "block_display",
+    "text_display",
+    "interaction",
+    "eye_of_ender",
+    "experience_orb",
+    "leash_knot",
+    "item_frame",
+    "item_display",
+    "area_effect_cloud"
+  ]
+}

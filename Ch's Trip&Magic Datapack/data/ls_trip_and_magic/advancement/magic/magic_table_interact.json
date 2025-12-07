@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"ch_tm_magic_crafting_table_core\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ls_trip_and_magic:magic/block/magic_crafting_table/interact"
+  }
+}

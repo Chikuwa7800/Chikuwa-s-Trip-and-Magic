@@ -1,0 +1,18 @@
+{
+    "values": [
+      "ls_trip_and_magic:explode/explode_large",
+      "ls_trip_and_magic:explode/explode_nova",
+      "ls_trip_and_magic:explode/explode_catastrophe",
+      "ls_trip_and_magic:explode/explode_catastrophe_sound",
+      "ls_trip_and_magic:magic/waters_lv2",
+      "ls_trip_and_magic:effect/abyss",
+      "ls_trip_and_magic:effect/cut",
+      "ls_trip_and_magic:effect/electro",
+      "ls_trip_and_magic:effect/erosion",
+      "ls_trip_and_magic:effect/wet",
+      "ls_trip_and_magic:effect/flame",
+      "ls_trip_and_magic:effect/frost",
+      "ls_trip_and_magic:cut",
+      "ls_trip_and_magic:entity/ginunga/chain_blast.blast"
+    ]
+}

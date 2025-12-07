@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": "gui",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/spell_book/nature"
+                }
+            },
+            {
+                "when": "ground",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/spell_book/nature"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "trip_magic:item/spell_book/hands/nature"
+        }
+    },
+    "hand_animation_on_swap": true
+}

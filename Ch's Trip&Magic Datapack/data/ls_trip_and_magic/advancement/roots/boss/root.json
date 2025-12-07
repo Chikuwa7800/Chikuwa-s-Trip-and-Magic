@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "advancements.boss.root.title"
+    },
+    "description": {
+      "translate": "advancements.boss.root"
+    },
+    "background": "minecraft:block/sculk_catalyst_top",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/1.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/2.png",
+      "height": 64,
+      "ascent": 32,
+      "chars": [
+        "\uE001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/3.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/4.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/5.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/6.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/7.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/8.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/9.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/10.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/11.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/12.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/explode/13.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE012"
+      ]
+    }
+  ]
+}

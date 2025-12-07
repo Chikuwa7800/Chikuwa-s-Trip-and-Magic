@@ -1,0 +1,9 @@
+{
+	"values": [
+		"animated_java:chain_blast/root/on_load",
+		"animated_java:explode_large_effect/root/on_load",
+		"animated_java:ginunga/root/on_load",
+		"animated_java:hiber_latch/root/on_load",
+		"animated_java:magic_crafting_table/root/on_load"
+	]
+}

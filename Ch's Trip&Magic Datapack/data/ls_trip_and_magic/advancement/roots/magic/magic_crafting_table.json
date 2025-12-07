@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame",
+      "components": {
+        "minecraft:item_model":"trip_magic:magic_crafting_table"
+      }
+    },
+    "title": {
+      "translate": "advancements.magic.crafting_table.title"
+    },
+    "description": {
+      "translate": "advancements.magic.crafting_table"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ls_trip_and_magic:roots/magic/root",
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_model":"trip_magic:magic_crafting_table"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

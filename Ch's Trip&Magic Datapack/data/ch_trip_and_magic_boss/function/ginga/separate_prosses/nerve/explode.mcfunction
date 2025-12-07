@@ -1,0 +1,2 @@
+execute as @e[type=#ls_trip_and_magic:mobs_and_player_and_collision_entity,tag=!ch_trip_and_magic_bosses_intaract_ginga,distance=..1] at @s run damage @s 9 ls_trip_and_magic:entity/ginunga/nerve by @n[tag=ch_tm_bosses_nerve] from @n[tag=ch_trip_and_magic_bosses_intaract_ginga]
+kill @n[tag=ch_tm_bosses_nerve]

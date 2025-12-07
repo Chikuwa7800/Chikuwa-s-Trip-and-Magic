@@ -1,0 +1,2 @@
+execute as @e[tag=ch_tm_magic_crafting_table_item_display] at @s run tp @s ~ ~ ~ ~1 ~
+execute as @e[tag=ch_tm_magic_crafting_table_core_item_display] at @s run function ls_trip_and_magic:magic/block/magic_crafting_table/craft/items/check

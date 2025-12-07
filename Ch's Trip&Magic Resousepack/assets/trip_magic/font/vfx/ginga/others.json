@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/ginga/flash.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE000"
+      ]
+    }
+  ]
+}

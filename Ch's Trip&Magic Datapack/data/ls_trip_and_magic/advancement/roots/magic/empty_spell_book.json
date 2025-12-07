@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "item_model":"trip_magic:empty_spell_book"
+      }
+    },
+    "title": {
+      "translate": "advancements.magic.empty_spell_book.title"
+    },
+    "description": {
+      "translate": "advancements.magic.empty_spell_book"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ls_trip_and_magic:roots/magic/magic_staff",
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+      "item_model":"trip_magic:empty_spell_book",
+      "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type":"item_core",
+        "core_type": "magic_book"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+function ls_trip_and_magic:magic/magic_temp/ices/frost_bullet/main
+function ls_trip_and_magic:magic/magic_temp/ices/frost_bullet/main
+function ls_trip_and_magic:magic/magic_temp/ices/frost_bullet/main

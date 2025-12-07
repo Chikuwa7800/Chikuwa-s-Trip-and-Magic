@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "spyglass"
+      },
+      "title": {
+      "translate": "advancements.trip.root.title"
+    },
+    "description": {
+      "translate": "advancements.trip.root"
+    },
+      "background": "minecraft:block/oak_log",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "trip_root": {
+        "trigger": "minecraft:location"
+      }
+    }
+  }

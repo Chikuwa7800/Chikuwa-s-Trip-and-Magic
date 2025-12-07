@@ -1,0 +1,1 @@
+execute rotated ~ 90 run function ch_effect_temp:effect/small_sound_wave/effect

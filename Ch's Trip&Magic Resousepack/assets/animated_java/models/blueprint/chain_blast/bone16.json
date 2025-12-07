@@ -1,0 +1,59 @@
+{
+	"textures": {
+		"2": "trip_magic:item/entity/bosses/ginga/chain",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [8.5, 8, 7],
+			"to": [8.5, 20, 9],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [9.5, 8, 8]
+			},
+			"faces": {
+				"east": {
+					"uv": [0, 0, 3, 16],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [0, 0, 3, 16],
+					"texture": "#2"
+				}
+			}
+		},
+		{
+			"from": [7.5, 8, 8],
+			"to": [9.5, 20, 8],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8.5, 8, 9]
+			},
+			"faces": {
+				"north": {
+					"uv": [3, 0, 6, 16],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [13, 0, 16, 16],
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [3, 0, 6, 16],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [13, 0, 16, 16],
+					"texture": "#2"
+				}
+			}
+		}
+	]
+}

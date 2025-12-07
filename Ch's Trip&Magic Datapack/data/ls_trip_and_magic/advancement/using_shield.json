@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "hit_arrow": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shield"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ls_trip_and_magic:used_shield"
+  }
+}

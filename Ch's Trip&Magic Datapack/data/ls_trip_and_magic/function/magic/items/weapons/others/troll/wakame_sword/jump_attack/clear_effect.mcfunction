@@ -1,0 +1,1 @@
+#effect clear @a[tag=ls_trip_and_magic_wakame_sword_jump_attack_] levitation

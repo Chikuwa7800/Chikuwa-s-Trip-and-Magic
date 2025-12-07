@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": "gui",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/spell_book/lv_2/water"
+                }
+            },
+            {
+                "when": "ground",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/spell_book/lv_2/water"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "trip_magic:item/spell_book/lv_2/hands/water"
+        }
+    },
+    "hand_animation_on_swap": true
+}

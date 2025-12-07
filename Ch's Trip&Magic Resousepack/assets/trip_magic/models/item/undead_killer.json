@@ -1,0 +1,36 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "trip_magic:item/unded_killer"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-30, -90, 0],
+			"translation": [0, 4, 1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-30, 90, 0],
+			"translation": [0, 4, 1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [-22, -90, 0],
+			"translation": [0, 3.75, 2.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-22, 90, 0],
+			"translation": [0, 3.75, 2.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 13.25, 0]
+		}
+	}
+}

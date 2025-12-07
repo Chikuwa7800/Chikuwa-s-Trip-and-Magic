@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": "gui",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/spell_book/lv_2/fire"
+                }
+            },
+            {
+                "when": "ground",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/spell_book/lv_2/fire"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "trip_magic:item/spell_book/lv_2/hands/fire"
+        }
+    },
+    "hand_animation_on_swap": true
+}

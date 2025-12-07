@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "trip_magic:item/lv_up/emerald_upgrade"
+    }
+}

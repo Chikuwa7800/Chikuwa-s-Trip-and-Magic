@@ -1,0 +1,12 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/gui/mana.png",
+      "ascent": 1,
+      "chars": [
+        "\uE000"
+      ]
+    }
+  ]
+}

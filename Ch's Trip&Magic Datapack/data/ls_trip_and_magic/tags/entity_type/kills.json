@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:experience_bottle",
+    "minecraft:small_fireball",
+    "minecraft:snowball",
+    "minecraft:egg"
+  ]
+}

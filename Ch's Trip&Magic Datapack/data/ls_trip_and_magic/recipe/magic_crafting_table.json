@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " $ ",
+    "#X#",
+    "$@$"
+  ],
+  "key": {
+    "X": [
+      "minecraft:amethyst_shard"
+    ],
+    "#": [
+      "minecraft:white_concrete"
+    ],
+    "@": [
+      "minecraft:black_concrete"
+    ],
+    "$": [
+      "minecraft:lapis_lazuli"
+    ]
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "minecraft:item_model":"trip_magic:magic_crafting_table",
+      "minecraft:custom_name": {
+        "translate": "item.magic_crafting_table",
+        "color": "white",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item_lore.magic_crafting_table.up",
+          "extra": [
+            ""
+          ],
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item_lore.magic_crafting_table.down",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "HasVisualFire": false,
+        "Invulnerable": true,
+        "CustomName": {
+          "translate": "item.magic_crafting_table",
+          "italic": false
+        },
+        "Tags": [
+          "ch_tm_magic_crafting_table_start"
+        ],
+        "Invisible": true,
+        "Fixed": true
+      }
+    },
+    "count": 1
+  }
+}

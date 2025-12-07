@@ -1,0 +1,3 @@
+execute if entity @s[predicate=ls_trip_and_magic:acshident/sneaks] as @e[tag=ls_cutboard_core,sort=nearest,limit=1,nbt={Rotation:[0f,0f]}] at @s run function ls_trip_and_magic:trip/cook/cutting_board/roop_0
+execute if entity @s[predicate=ls_trip_and_magic:acshident/sneaks] as @e[tag=ls_cutboard_core,sort=nearest,limit=1,nbt={Rotation:[90f,0f]}] at @s run function ls_trip_and_magic:trip/cook/cutting_board/roop_90
+advancement revoke @s only ls_trip_and_magic:acshident/cut_board/right_click

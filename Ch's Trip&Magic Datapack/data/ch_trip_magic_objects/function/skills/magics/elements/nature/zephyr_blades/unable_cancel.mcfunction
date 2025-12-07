@@ -1,0 +1,1 @@
+tag @e[tag=ls_wind_lecavary_unable] remove ls_wind_lecavary_unable

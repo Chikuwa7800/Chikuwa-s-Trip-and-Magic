@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "trip_magic:item/entity/bosses/ginga/cut_projectile",
+		"particle": "trip_magic:item/entity/bosses/ginga/cut_projectile"
+	},
+	"elements": [
+		{
+			"from": [-8, 8, 0],
+			"to": [24, 8, 9],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 8, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 4.5, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 4.5, 0], "texture": "#0"},
+				"up": {"uv": [16, 4.5, 0, 0], "texture": "#0"},
+				"down": {"uv": [16, 0, 0, 4.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 0, 9.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}

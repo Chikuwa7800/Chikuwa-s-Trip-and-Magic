@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+                "minecraft:item_model":"trip_magic:hat/spear",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:item.armor.equip_leather",
+                  "dispensable": true,
+                  "swappable": true,
+                  "damage_on_hurt": true,
+                  "equip_on_interact": false
+                },
+                "minecraft:custom_name": {
+                  "translate": "item.lanza_hat",
+                  "italic": false
+                },
+                "minecraft:rarity": "uncommon"
+              }
+  }
+]

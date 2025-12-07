@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "item.grave_heart",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item_lore.grave_heart.up",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item_lore.grave_heart.down",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model":"trip_magic:boss_item/ginunga/grave_heart",
+                "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "equipment",
+                  "equipment_type": "grave_heart"
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

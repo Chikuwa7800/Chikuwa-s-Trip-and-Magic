@@ -1,0 +1,6 @@
+{
+	"exhaustion": 2,
+ 	"message_id": "boss.ginunga.chain_blast.blast",
+	"scaling": "always",
+	"effects": "burning"
+}

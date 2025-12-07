@@ -1,0 +1,2 @@
+function animated_java:ginunga/animations/pause_all
+function animated_java:ginunga/animations/animation.model.angel_wisper/play

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "rewards": {
+    "function": "ch_debug:pktoe"
+  }
+}

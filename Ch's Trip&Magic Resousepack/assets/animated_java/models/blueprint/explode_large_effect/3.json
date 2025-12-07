@@ -1,0 +1,43 @@
+{
+	"textures": {
+		"1": "animated_java:blueprint/explode_large_effect/large_explotion_effect",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {
+					"uv": [2, 4, 4, 6],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [4, 2, 6, 4],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [4, 4, 6, 6],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 6, 2, 8],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [8, 2, 6, 0],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [4, 6, 2, 8],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

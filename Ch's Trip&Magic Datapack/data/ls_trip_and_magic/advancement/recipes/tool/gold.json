@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gold_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ls_trip_and_magic:trip/glaive/gold",
+      "ls_trip_and_magic:trip/knife/gold"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,2 @@
+effect give @a[nbt={equipment:{head:{id:"minecraft:iron_helmet",components:{"minecraft:custom_data":{night_vision:1b}}}}}] minecraft:night_vision 12 0 true
+effect give @a[nbt={equipment:{chest:{id:"minecraft:iron_chestplate",components:{"minecraft:custom_data":{saturation:1b}}}}}] minecraft:saturation 4 0 true
