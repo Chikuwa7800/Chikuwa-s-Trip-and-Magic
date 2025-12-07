@@ -1,2 +1,0 @@
-function ls_trip_and_magic:magic/magic_temp/void/abyss_whisper/main
-function ls_trip_and_magic:magic/magic_temp/void/abyss_whisper/main

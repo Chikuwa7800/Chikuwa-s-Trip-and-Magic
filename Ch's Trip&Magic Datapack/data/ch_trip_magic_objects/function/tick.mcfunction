@@ -1,1 +1,0 @@
-execute as @e[type=item_display,tag=ls_tm_magic_ball.tick] at @s run function ch_trip_magic_objects:entities/magic_ball/tick with entity @s data

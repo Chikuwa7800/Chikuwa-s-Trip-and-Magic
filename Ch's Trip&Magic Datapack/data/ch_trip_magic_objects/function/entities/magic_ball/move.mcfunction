@@ -1,1 +1,0 @@
-$tp @s ^ ^ ^$(movement_speed)

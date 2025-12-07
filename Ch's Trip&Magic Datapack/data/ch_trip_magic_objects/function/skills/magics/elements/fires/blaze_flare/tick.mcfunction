@@ -1,3 +1,0 @@
-function ls_trip_and_magic:magic/magic_temp/fires/blaze_flare/main
-function ls_trip_and_magic:magic/magic_temp/fires/blaze_flare/main
-function ls_trip_and_magic:magic/magic_temp/fires/blaze_flare/main

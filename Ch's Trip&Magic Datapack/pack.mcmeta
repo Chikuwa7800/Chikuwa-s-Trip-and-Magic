@@ -1,7 +1,7 @@
 {
 	"pack": {
 		"description": "Now, where should we go next?",
-		"min_format":94,
-        "max_format":94
+		"min_format":88,
+        "max_format":88
 	}
 }
