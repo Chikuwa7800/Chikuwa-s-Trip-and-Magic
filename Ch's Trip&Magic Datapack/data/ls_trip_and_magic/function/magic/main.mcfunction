@@ -48,7 +48,7 @@ scoreboard players set @a[scores={ls_tm_magic_mana=..-1}] ls_tm_magic_mana 0
 function ls_trip_and_magic:magic/cooldown_tick
 
 #その他の処理
-execute unless entity @e[tag=ls_tm_fireball] run gamerule minecraft:mob_griefing true
+execute unless entity @e[tag=ls_tm_fireball] run gamerule mobGriefing true
 execute as @e[tag=ls_tm_fireball] at @s run particle large_smoke ~ ~ ~ 0.1 0.1 0.1 0.001 4
 execute as @e[tag=ls_tm_fireball] at @s run particle lava ~ ~ ~ 0.1 0.1 0.1 0.001 2
 
