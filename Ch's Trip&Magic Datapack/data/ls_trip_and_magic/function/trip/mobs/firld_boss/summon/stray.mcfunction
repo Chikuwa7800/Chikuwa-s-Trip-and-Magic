@@ -1,5 +1,7 @@
 ##ls_tm_trip_mobs_nomal
 
+execute if entity @s[predicate=ls_trip_and_magic:trip/mobs/passenger] run return run tag @s add ls_tm_trip_mobs
+
 execute store result score @s ls_tm_random run random value 0..100
 execute if entity @s[scores={ls_tm_random=0..49}] run return run tag @s add ls_tm_trip_mobs
 

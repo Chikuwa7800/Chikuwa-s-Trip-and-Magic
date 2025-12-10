@@ -7,10 +7,10 @@ scoreboard players set @e[scores={ls_tm_magic_pl_tick=20..}] ls_tm_magic_pl_tick
 
 
 #アイテム使用系
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon","weapon_type": "wakame_sword"}}}}] at @s run function ls_trip_and_magic:magic/items/weapons/others/troll/wakame_sword/tick
-
-execute as @e[tag=ch_tm_magic_crafting_table_start,type=item_frame,nbt={Facing:1b}] at @s run function ls_trip_and_magic:magic/block/magic_crafting_table/start
-execute as @e[tag=ch_tm_magic_crafting_table_start,type=item_frame,nbt=!{Facing:1b}] at @s run function ls_trip_and_magic:magic/block/magic_crafting_table/start_wall
+execute as @a[predicate=ls_trip_and_magic:magic/wakame] at @s run function ls_trip_and_magic:magic/items/weapons/others/troll/wakame_sword/tick
+execute as @a[predicate=ls_trip_and_magic:score/used_stick,predicate=ls_trip_and_magic:magic/magic_items] run function ls_trip_and_magic:magic/items/used
+execute as @e[tag=ch_tm_magic_crafting_table_start,type=item_frame,predicate=ls_trip_and_magic:facing] at @s run function ls_trip_and_magic:magic/block/magic_crafting_table/start
+execute as @e[tag=ch_tm_magic_crafting_table_start,type=item_frame,predicate=!ls_trip_and_magic:facing] at @s run function ls_trip_and_magic:magic/block/magic_crafting_table/start_wall
 execute as @e[tag=ch_tm_magic_crafting_table_core,type=interaction] at @s run function ls_trip_and_magic:magic/block/magic_crafting_table/tick
 
 execute as @e[tag=ls_tm_fireball_display] at @s run function ls_trip_and_magic:magic/magic_temp/fires/blaze_flare/tick
@@ -21,9 +21,6 @@ execute as @e[tag=ls_tm_abyss_display] at @s run function ls_trip_and_magic:magi
 execute as @e[tag=ls_tm_volt_display] at @s run function ls_trip_and_magic:magic/magic_temp/bolts/volt_strike/tick
 
 execute as @e[tag=ls_magic_lightning_sword_model] at @s run function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/main
-
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon"}}}}] at @s if predicate ls_trip_and_magic:score/used_stick run function ls_trip_and_magic:magic/items/weapons/wands/check
-execute as @a[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon"}}}}}] at @s if predicate ls_trip_and_magic:score/used_stick run function ls_trip_and_magic:magic/items/weapons/wands/check
 
 #エフェクト
 function ls_trip_and_magic:magic/effect/tick
@@ -48,7 +45,7 @@ scoreboard players set @a[scores={ls_tm_magic_mana=..-1}] ls_tm_magic_mana 0
 function ls_trip_and_magic:magic/cooldown_tick
 
 #その他の処理
-execute unless entity @e[tag=ls_tm_fireball] run gamerule mobGriefing true
+execute unless entity @e[tag=ls_tm_fireball] run gamerule mob_griefing true
 execute as @e[tag=ls_tm_fireball] at @s run particle large_smoke ~ ~ ~ 0.1 0.1 0.1 0.001 4
 execute as @e[tag=ls_tm_fireball] at @s run particle lava ~ ~ ~ 0.1 0.1 0.1 0.001 2
 

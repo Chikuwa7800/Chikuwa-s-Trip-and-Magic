@@ -75,8 +75,7 @@
         "datapack_type": "ls_trip_magic",
         "item_type": "weapon",
         "item_condition": [
-          "none",
-          {}
+          "normal"
         ],
         "material": "emerald",
         "weapon_type": "magic_staff",

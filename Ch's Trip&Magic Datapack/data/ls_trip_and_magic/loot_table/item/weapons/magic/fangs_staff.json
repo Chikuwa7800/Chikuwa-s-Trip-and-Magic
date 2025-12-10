@@ -119,11 +119,10 @@
         "datapack_type": "ls_trip_magic",
         "item_type": "weapon",
         "item_condition": [
-          "none",
-          {}
+          "fang"
         ],
-        "material": "emerald",
-        "weapon_type": "fangs_staff",
+        "material": "diamond",
+        "weapon_type": "magic_staff",
         "item_magic": "true"
       },
       "minecraft:rarity": "common",
