@@ -19,7 +19,7 @@ execute if entity @s[scores={ch_tm_bosses_explotion_tick=45}] at @e[tag=ls_tm_bo
 execute if entity @s[scores={ch_tm_bosses_explotion_tick=45}] at @e[tag=ls_tm_bosses_ginga_explotion_before] run particle smoke ~ ~ ~ 0 0 0 0.3 200 force
 execute if entity @s[scores={ch_tm_bosses_explotion_tick=45}] at @e[tag=ls_tm_bosses_ginga_explotion_before] run particle large_smoke ~ ~ ~ 0 0 0 0.3 200 force
 execute if entity @s[scores={ch_tm_bosses_explotion_tick=45}] at @e[tag=ls_tm_bosses_ginga_explotion_before] run particle campfire_cosy_smoke ~ ~ ~ 0 0 0 0.045 10 force
-execute if entity @s[scores={ch_tm_bosses_explotion_tick=45}] as @e[tag=ls_tm_bosses_ginga_explotion_before] at @s as @e[distance=..5,type=#ls_trip_and_magic:mobs_and_player] run damage @s 10 ls_trip_and_magic:entity/ginunga/explotion by @n[tag=ch_trip_and_magic_bosses_intaract_ginga]
+execute if entity @s[scores={ch_tm_bosses_explotion_tick=45}] as @e[tag=ls_tm_bosses_ginga_explotion_before] at @s as @e[distance=..5,type=!#ls_trip_and_magic:cannot_hurt_entities] run damage @s 10 ls_trip_and_magic:entity/ginunga/explotion by @n[tag=ch_trip_and_magic_bosses_intaract_ginga]
 execute if entity @s[scores={ch_tm_bosses_explotion_tick=45..}] run kill @e[tag=ls_tm_bosses_ginga_explotion_before_2]
 execute if entity @s[scores={ch_tm_bosses_explotion_tick=45..}] run kill @e[tag=ls_tm_bosses_ginga_explotion_before]
 execute if entity @s[scores={ch_tm_bosses_explotion_tick=70..}] run tag @n[tag=aj.ginunga.root] remove ch_tm.boss.ginunga.action.explode

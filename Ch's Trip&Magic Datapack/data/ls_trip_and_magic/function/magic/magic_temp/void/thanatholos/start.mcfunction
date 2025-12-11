@@ -5,6 +5,6 @@ execute as @s[tag=ls_tm_thantholos_pl] at @s anchored eyes positioned ^ ^ ^1.5 r
 execute as @s[tag=ls_tm_thantholos_pl] at @s run playsound entity.player.attack.sweep player @a ~ ~1 ~ 1 0.5
 execute as @s[tag=ls_tm_thantholos_pl] at @s run playsound item.trident.throw player @a ~ ~1 ~ 1 0.5
 execute as @s[tag=ls_tm_thantholos_pl] at @s run playsound entity.warden.tendril_clicks player @a ~ ~1 ~ 1 0.75
-execute positioned ^ ^ ^1.5 positioned ~-3 ~ ~-3 as @e[tag=!ls_tm_thantholos_pl,dx=3,dz=3,type=#ls_trip_and_magic:mobs_and_player_and_collision_entity] at @s run damage @s 8 ls_trip_and_magic:add_damage by @p[tag=ls_tm_thantholos_pl]
-execute positioned ^ ^ ^1.5 positioned ~-3 ~ ~-3 as @e[tag=!ls_tm_thantholos_pl,dx=3,dz=3,type=#ls_trip_and_magic:mobs_and_player_and_collision_entity,tag=!ls_tm_using_shield] at @s run function ls_trip_and_magic:magic/effect/abyss/start {"time":"10"}
+execute positioned ^ ^ ^1.5 positioned ~-3 ~ ~-3 as @e[tag=!ls_tm_thantholos_pl,dx=3,dz=3,type=!#ls_trip_and_magic:cannot_hurt_entities] at @s run damage @s 8 ls_trip_and_magic:add_damage by @p[tag=ls_tm_thantholos_pl]
+execute positioned ^ ^ ^1.5 positioned ~-3 ~ ~-3 as @e[tag=!ls_tm_thantholos_pl,dx=3,dz=3,type=!#ls_trip_and_magic:cannot_hurt_entities,tag=!ls_tm_using_shield] at @s run function ls_trip_and_magic:magic/effect/abyss/start {"time":"10"}
 tag @s remove ls_tm_thantholos_pl

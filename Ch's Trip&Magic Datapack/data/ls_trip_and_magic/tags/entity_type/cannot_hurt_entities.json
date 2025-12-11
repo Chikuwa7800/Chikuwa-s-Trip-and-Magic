@@ -1,0 +1,31 @@
+{
+    "values": [
+      "minecraft:arrow",
+      "minecraft:spectral_arrow",
+      "minecraft:wither_skull",
+      "minecraft:dragon_fireball",
+      "minecraft:splash_potion",
+      "minecraft:lingering_potion",
+      "minecraft:experience_bottle",
+      "minecraft:small_fireball",
+      "minecraft:trident",
+      "minecraft:firework_rocket",
+      "minecraft:lightning_bolt",
+      "minecraft:snowball",
+      "minecraft:egg",
+      "minecraft:marker",
+      "minecraft:item",
+      "minecraft:falling_block",
+      "minecraft:ender_pearl",
+      "minecraft:item_display",
+      "minecraft:block_display",
+      "minecraft:text_display",
+      "minecraft:interaction",
+      "minecraft:eye_of_ender",
+      "minecraft:experience_orb",
+      "minecraft:leash_knot",
+      "minecraft:item_frame",
+      "minecraft:item_display",
+      "minecraft:area_effect_cloud"
+    ]
+}

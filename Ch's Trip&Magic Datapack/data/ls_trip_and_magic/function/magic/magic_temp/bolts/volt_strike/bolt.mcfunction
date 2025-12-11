@@ -9,9 +9,9 @@ playsound entity.firework_rocket.blast player @a ~ ~ ~ 1 1
 playsound item.trident.thunder player @a ~ ~ ~ 1 1
 playsound entity.lightning_bolt.thunder player @a ~ ~ ~ 1 2
 
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ls_tm_magic_pl,type=#ls_trip_and_magic:mobs_and_player_and_collision_entity,tag=!ls_tm_volt_display] positioned ~0.5 ~0.5 ~0.5 run function ls_trip_and_magic:magic/magic_temp/bolts/volt_strike/damage with entity @n[tag=ls_tm_magic_pl]
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ls_tm_magic_pl,type=!#ls_trip_and_magic:cannot_hurt_entities,tag=!ls_tm_volt_display] positioned ~0.5 ~0.5 ~0.5 run function ls_trip_and_magic:magic/magic_temp/bolts/volt_strike/damage with entity @n[tag=ls_tm_magic_pl]
 
-#execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ls_tm_magic_pl,type=#ls_trip_and_magic:mobs_and_player_and_collision_entity,tag=!ls_tm_volt_display,predicate=ls_trip_and_magic:trip/mobs/nomal/75] at @s positioned ^ ^ ^4 run function ls_trip_and_magic:magic/magic_temp/bolts/volt_strike/summon
+#execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ls_tm_magic_pl,type=!#ls_trip_and_magic:cannot_hurt_entities,tag=!ls_tm_volt_display,predicate=ls_trip_and_magic:trip/mobs/nomal/75] at @s positioned ^ ^ ^4 run function ls_trip_and_magic:magic/magic_temp/bolts/volt_strike/summon
 
 function ls_trip_and_magic:magic/magic_temp/hit
 

@@ -2,7 +2,7 @@ advancement revoke @s[type=player] only ls_trip_and_magic:trip/weapons/attack/ba
 execute if entity @s[tag=ls_tm_cooldown_bash_shield,type=player] run return fail
 tag @s[type=player] add ls_tm_cooldown_bash_shield
 tag @s add ls_tm_use_bash_shield
-execute positioned ^ ^ ^1.5 as @e[type=#ls_trip_and_magic:mobs_and_player_and_collision_entity,distance=..2,tag=!ls_tm_use_bash_shield] positioned ^ ^ ^-1 at @s run damage @s 6 player_attack by @n[tag=ls_tm_use_bash_shield]
+execute positioned ^ ^ ^1.5 as @e[type=!#ls_trip_and_magic:cannot_hurt_entities,distance=..2,tag=!ls_tm_use_bash_shield] positioned ^ ^ ^-1 at @s run damage @s 6 player_attack by @n[tag=ls_tm_use_bash_shield]
 playsound item.shield.block player @a ~ ~ ~ 1 1
 playsound block.anvil.land player @a ~ ~ ~ 1 1
 playsound entity.zombie.break_wooden_door player @a ~ ~ ~ 1 1

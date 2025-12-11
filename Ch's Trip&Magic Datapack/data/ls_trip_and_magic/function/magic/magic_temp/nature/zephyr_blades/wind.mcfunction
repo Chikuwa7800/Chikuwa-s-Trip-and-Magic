@@ -6,7 +6,7 @@ particle enchant ^ ^ ^-0.5 0 0 0 1 20 force
 playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1
 playsound item.trident.riptide_3 player @a ~ ~ ~ 1 1
 
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ls_tm_zepher_pl,type=#ls_trip_and_magic:mobs_and_player_and_collision_entity,tag=!ls_tm_wind_display] positioned ~0.5 ~0.5 ~0.5 run function ls_trip_and_magic:magic/magic_temp/nature/zephyr_blades/damage with entity @n[tag=ls_tm_magic_pl]
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ls_tm_zepher_pl,type=!#ls_trip_and_magic:cannot_hurt_entities,tag=!ls_tm_wind_display] positioned ~0.5 ~0.5 ~0.5 run function ls_trip_and_magic:magic/magic_temp/nature/zephyr_blades/damage with entity @n[tag=ls_tm_magic_pl]
 
 
 tag @s[tag=ls_wind_lecavary_1,tag=!ls_wind_lecavary_unable] add ls_wind_lecavary_2
