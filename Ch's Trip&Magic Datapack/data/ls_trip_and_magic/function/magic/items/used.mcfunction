@@ -1,2 +1,0 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon"}}}}] at @s run function ls_trip_and_magic:magic/items/weapons/wands/check
-execute as @a[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon"}}}}}] at @s run function ls_trip_and_magic:magic/items/weapons/wands/check
