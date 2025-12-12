@@ -1,6 +1,4 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "trip_magic:item/entity/bosses/ginga/bullet",
 		"particle": "trip_magic:item/entity/bosses/ginga/bullet"

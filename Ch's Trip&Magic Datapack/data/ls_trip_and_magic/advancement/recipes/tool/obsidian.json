@@ -5,9 +5,8 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "copper_ingot"
-            ]
+            "items": 
+              "obsidian"
           }
         ]
       }
@@ -15,8 +14,8 @@
   },
   "rewards": {
     "recipes": [
-      "ls_trip_and_magic:trip/glaive/copper",
-      "ls_trip_and_magic:trip/knife/copper"
+      "ls_trip_and_magic:trip/glaive/obsidian",
+      "ls_trip_and_magic:trip/knife/obsidian"
     ]
   },
   "sends_telemetry_event": false

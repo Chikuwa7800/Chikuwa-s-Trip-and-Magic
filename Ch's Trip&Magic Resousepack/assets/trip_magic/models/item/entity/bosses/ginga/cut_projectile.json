@@ -1,7 +1,4 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "trip_magic:item/entity/bosses/ginga/cut_projectile",
 		"particle": "trip_magic:item/entity/bosses/ginga/cut_projectile"

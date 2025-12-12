@@ -1,6 +1,4 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made by Chikuwa",
 	"textures": {
 		"0": "trip_magic:item/magic_hat/fire",
 		"particle": "trip_magic:item/magic_hat/fire"
