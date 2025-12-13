@@ -8,8 +8,8 @@ scoreboard players set @e[scores={ls_tm_magic_pl_tick=20..}] ls_tm_magic_pl_tick
 
 #アイテム使用系
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon","weapon_type": "wakame_sword"}}}}] at @s run function ls_trip_and_magic:magic/items/weapons/others/troll/wakame_sword/tick
-execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon"}}}}] at @s run function ls_trip_and_magic:magic/items/weapons/wands/check
-execute as @a[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon"}}}}}] at @s run function ls_trip_and_magic:magic/items/weapons/wands/check
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon"}}}}] at @s if predicate ls_trip_and_magic:score/used_stick run function ls_trip_and_magic:magic/items/weapons/wands/check
+execute as @a[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon"}}}}}] at @s if predicate ls_trip_and_magic:score/used_stick run function ls_trip_and_magic:magic/items/weapons/wands/check
 execute as @e[tag=ch_tm_magic_crafting_table_start,type=item_frame,predicate=ls_trip_and_magic:facing] at @s run function ls_trip_and_magic:magic/block/magic_crafting_table/start
 execute as @e[tag=ch_tm_magic_crafting_table_start,type=item_frame,predicate=!ls_trip_and_magic:facing] at @s run function ls_trip_and_magic:magic/block/magic_crafting_table/start_wall
 execute as @e[tag=ch_tm_magic_crafting_table_core,type=interaction] at @s run function ls_trip_and_magic:magic/block/magic_crafting_table/tick
