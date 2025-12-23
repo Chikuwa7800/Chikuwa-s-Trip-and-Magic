@@ -9,9 +9,12 @@
 
 https://modrinth.com/datapack/trip-and-magic
 
-## Required Devices and Versions
+## Required Things
 ### Required Devices
 PC: Windows, Linux
+
+### Required Game
+Minecraft Java Edition
 
 ## Others
 Note: Compatible versions may change.
