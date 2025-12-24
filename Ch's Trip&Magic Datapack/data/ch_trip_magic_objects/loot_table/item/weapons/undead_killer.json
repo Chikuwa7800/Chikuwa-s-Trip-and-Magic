@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model":"trip_magic:trip_weapons/undead_killer",
+                "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type": "weapon",
+        "weapon_type": "undead_killer"
+      },
+                "minecraft:custom_name": {
+                  "translate": "item.undead_killer",
+                  "italic": false
+                },
+                "minecraft:rarity": "common",
+                "minecraft:lore": [
+                  {
+                    "translate": "item_lore.undead_killer.up",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item_lore.undead_killer.down",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+          "translate": "empty"
+        },
+        {
+          "translate": "item.modifiers.mainhand",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "7 ",
+          "extra": [
+            "",
+            {
+              "translate": "attribute.name.attack_damage"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "0.9 ",
+          "extra": [
+            {
+              "translate": "attribute.name.attack_speed"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "translate": "attribute.name.skill",
+          "extra": [
+            {
+              "translate": "item_skill.undead_killer"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        }
+                ],
+                "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:temp",
+          "amount": -3.1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:temp",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+    ]
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

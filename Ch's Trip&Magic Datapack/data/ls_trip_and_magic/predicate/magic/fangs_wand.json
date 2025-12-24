@@ -1,22 +1,21 @@
 {
-    "condition": "entity_properties",
-    "entity": "this",
-    "predicate": {
-        "equipment": {
-            "mainhand": {
-                "components": {
-                    "minecraft:custom_data": {
-                        "datapack_type": "ls_trip_magic",
-                        "item_type": "weapon",
-                        "item_condition": [
-                          "fang"
-                        ],
-                        "material": "diamond",
-                        "weapon_type": "magic_staff",
-                        "item_magic": "true"
-                    }
-                }
-            }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.*": {
+        "predicates": {
+          "minecraft:custom_data": {
+                "item_type": "weapon",
+                "item_condition": [
+                  "fang"
+                ],
+                "material": "diamond",
+                "weapon_type": "magic_staff",
+                "item_magic": "true"
+          }
         }
+      }
     }
+  }
 }

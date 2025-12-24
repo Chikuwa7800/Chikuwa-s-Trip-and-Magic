@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "predicates": {
+          "minecraft:custom_data": {
+                "item_type": "weapon",
+                "weapon_type": "wakame_sword",
+                "item_condition": "normal",
+                "item_magic": "true"
+          }
+        }
+      }
+    }
+  }
+}

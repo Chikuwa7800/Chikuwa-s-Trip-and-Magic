@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "predicates": {
+          "minecraft:custom_data": {
+                "item_type": "item_material",
+                "material_type": "fortified_wakame"
+          }
+        }
+      }
+    }
+  }
+}

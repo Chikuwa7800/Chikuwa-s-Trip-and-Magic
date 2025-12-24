@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": "gui",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/spell_book/lv_3/void"
+                }
+            },
+            {
+                "when": "ground",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/spell_book/lv_3/void"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "trip_magic:item/spell_book/lv_3/hands/void"
+        }
+    },
+    "hand_animation_on_swap": true
+}

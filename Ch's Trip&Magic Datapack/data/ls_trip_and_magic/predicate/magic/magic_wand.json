@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.*": {
+        "predicates": {
+          "minecraft:custom_data": {
+                "item_type": "weapon",
+                "item_condition": [
+                  "normal"
+                ],
+                "material": "emerald",
+                "weapon_type": "magic_staff",
+                "item_magic": "true"
+          }
+        }
+      }
+    }
+  }
+}

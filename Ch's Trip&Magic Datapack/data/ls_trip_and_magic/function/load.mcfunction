@@ -62,6 +62,8 @@
  scoreboard objectives add ls_tm_wave_surfing_tick dummy
  scoreboard objectives add ls_tm_bash_shield_cooldown dummy
  scoreboard objectives add ls_tm_bash_shield_return dummy
+ scoreboard objectives add ls_tm_no_damage_tick dummy
+ scoreboard objectives add ch_tm_entity_id dummy
 
 # trip
  scoreboard objectives add ls_tm_weapons_flint_knife_hit_fire_tick dummy

@@ -257,6 +257,9 @@
     "notice.cooldown": " is cooldown now!",
     "notice.cooldown.end": " cooldown is over!",
     "notice.notenough_mana":"Mana is not enough!",
+    "notice.installed.success": "[Trip and Magic] has been installed in this world.",
+    "notice.installed": "This world has [Trip and Magic] installed.",
+    "notice.created": "Created by Chikuwa7800",
     "notice":"",
     "empty":" ",
     "second": " sec"

@@ -6,7 +6,7 @@ execute as @e[tag=ls_tm_wave_surfing_pl] at @s run tp ^ ^ ^1
 execute as @e[tag=ls_tm_wave_surfing_pl] at @s run particle block{block_state:water} ~ ~ ~ 0 0 0 0 5 force
 execute as @e[tag=ls_tm_wave_surfing_pl] at @s run particle dust{color:[0.118,0.153,0.635],scale:2} ~ ~ ~ 0.5 0.5 0.5 0.2 25 force
 execute as @e[tag=ls_tm_wave_surfing_pl] at @s run particle splash ~ ~ ~ 0.5 0.5 0.5 0.2 25 force
-execute as @e[tag=ls_tm_wave_surfing_pl] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,dy=0,dz=0,tag=!ls_tm_wave_surfing_pl,type=!#ls_trip_and_magic:cannot_hurt_entities] at @s run damage @s 6 magic by @p[tag=ls_tm_wave_surfing_pl]
+execute as @e[tag=ls_tm_wave_surfing_pl] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,dy=0,dz=0,tag=!ls_tm_wave_surfing_pl,type=!#ls_trip_and_magic:cannot_hurt_entities] at @s run damage @s 7 magic by @p[tag=ls_tm_wave_surfing_pl]
 execute as @e[tag=ls_tm_wave_surfing_pl] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,dy=0,dz=0,tag=!ls_tm_wave_surfing_pl,type=!#ls_trip_and_magic:cannot_hurt_entities,tag=!ls_tm_using_shield] at @s run function ls_trip_and_magic:magic/effect/wet/start {"time":"10"}
 execute as @e[tag=ls_tm_wave_surfing_pl] at @s if entity @s[scores={ls_tm_wave_surfing_tick=1..}] run scoreboard players remove @s ls_tm_wave_surfing_tick 1
 execute as @e[tag=ls_tm_wave_surfing_pl] at @s if entity @s[scores={ls_tm_wave_surfing_tick=1..}] run schedule function ls_trip_and_magic:magic/magic_temp/waters/wave_surfing/main 0.5t

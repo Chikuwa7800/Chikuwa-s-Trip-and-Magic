@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model":"trip_magic:hat/fire",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:item.armor.equip_leather",
+                  "dispensable": true,
+                  "swappable": true,
+                  "damage_on_hurt": true,
+                  "equip_on_interact": false
+                },
+                "minecraft:custom_name": {
+                  "translate": "item.fire_magic_hat",
+                  "italic": false
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

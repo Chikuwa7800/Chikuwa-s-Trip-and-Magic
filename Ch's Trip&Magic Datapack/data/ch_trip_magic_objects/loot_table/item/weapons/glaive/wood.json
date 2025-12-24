@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "minecraft:custom_name": {
+        "translate": "item.material.wood",
+        "extra": [
+          {
+            "translate": "item.glaive"
+          }
+        ],
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "empty"
+        },
+        {
+          "translate": "item.modifiers.mainhand",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "5 ",
+          "extra": [
+            {
+              "translate": "attribute.name.attack_damage"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "1.2 ",
+          "extra": [
+            {
+              "translate": "attribute.name.attack_speed"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "item_model":"trip_magic:trip_weapons/glaive/wooden_glaive",
+      "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type": "weapon",
+        "material": "wood",
+        "weapon_type": "glaive"
+      },
+      "minecraft:max_damage": 60,
+      "minecraft:tool": {
+        "rules": [],
+        "default_mining_speed": 1,
+        "damage_per_block": 2,
+        "can_destroy_blocks_in_creative": false
+      },
+      "minecraft:repair_cost": 2,
+      "minecraft:repairable": {
+        "items": "#minecraft:planks"
+      },
+      "minecraft:weapon": {
+        "item_damage_per_attack": 1,
+        "disable_blocking_for_seconds": 0
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:temp",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:temp",
+          "amount": -2.7,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

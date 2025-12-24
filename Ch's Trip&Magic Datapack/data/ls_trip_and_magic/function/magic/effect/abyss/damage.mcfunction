@@ -8,4 +8,4 @@ execute if entity @s[type=slime] run particle dust{color:[0.067,0.0,0.173],scale
 playsound block.sculk_catalyst.bloom neutral @a ~ ~ ~ 1 1
 playsound entity.warden.step neutral @a ~ ~ ~ 0.5 1
 playsound entity.warden.sonic_boom neutral @a ~ ~ ~ 0.5 2
-damage @s 1 ls_trip_and_magic:effect/abyss
+damage @s 1.5 ls_trip_and_magic:effect/abyss

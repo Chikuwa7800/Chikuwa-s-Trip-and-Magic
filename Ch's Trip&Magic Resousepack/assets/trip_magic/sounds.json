@@ -167,6 +167,13 @@
       "trip_magic:magic/spell/ice/hiber_latch_break"
     ]
   },
+  "magic.ice.frost_bullet.hit": {
+    "sounds": [
+      "trip_magic:magic/spell/ice/frost_bullet_hit1",
+      "trip_magic:magic/spell/ice/frost_bullet_hit2",
+      "trip_magic:magic/spell/ice/frost_bullet_hit3"
+    ]
+  },
   "music.audexm.start": {
     "sounds": [
       {

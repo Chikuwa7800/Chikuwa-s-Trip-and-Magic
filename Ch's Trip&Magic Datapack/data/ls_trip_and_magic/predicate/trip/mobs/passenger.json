@@ -2,7 +2,7 @@
     "condition": "entity_properties",
     "entity": "this",
     "predicate": {
-        "vehicle": {
+        "passenger": {
             "type": "#ls_trip_and_magic:vehicle"
         }
     }

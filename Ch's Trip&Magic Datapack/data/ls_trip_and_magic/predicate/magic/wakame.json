@@ -1,17 +1,17 @@
 {
-    "condition": "entity_properties",
-    "entity": "this",
-    "predicate": {
-        "equipment": {
-            "mainhand": {
-                "components": {
-                    "minecraft:custom_data": {
-                        "datapack_type": "ls_trip_magic",
-                        "item_type": "weapon",
-                        "weapon_type": "wakame_sword"
-                    }
-                }
-            }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.*": {
+        "predicates": {
+          "minecraft:custom_data": {
+                "item_type": "weapon",
+                "weapon_type": "wakame_sword",
+                "item_magic": "true"
+          }
         }
+      }
     }
+  }
 }

@@ -1,15 +1,7 @@
 ##魔導書選択
- #メインハンド
-  execute if entity @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "fire","weapon_type": "magic_book"}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/fire/select
-  execute if entity @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "ice","weapon_type": "magic_book"}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/ice/select
-  execute if entity @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "water","weapon_type": "magic_book"}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/water/select
-  execute if entity @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "nature","weapon_type": "magic_book"}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/nature/select
-  execute if entity @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "void","weapon_type": "magic_book"}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/void/select
-  execute if entity @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "bolt","weapon_type": "magic_book"}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/bolt/select
- #オフハンド
-  execute if entity @s[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "fire","weapon_type": "magic_book"}}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/fire/select
-  execute if entity @s[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "ice","weapon_type": "magic_book"}}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/ice/select
-  execute if entity @s[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "water","weapon_type": "magic_book"}}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/water/select
-  execute if entity @s[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "nature","weapon_type": "magic_book"}}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/nature/select
-  execute if entity @s[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "void","weapon_type": "magic_book"}}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/void/select
-  execute if entity @s[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"item_condition": "bolt","weapon_type": "magic_book"}}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/bolt/select
+  execute if predicate ls_trip_and_magic:magic/spell_book/bolt run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/bolt/select
+  execute if predicate ls_trip_and_magic:magic/spell_book/fire run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/fire/select
+  execute if predicate ls_trip_and_magic:magic/spell_book/ice run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/ice/select
+  execute if predicate ls_trip_and_magic:magic/spell_book/nature run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/nature/select
+  execute if predicate ls_trip_and_magic:magic/spell_book/void run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/void/select
+  execute if predicate ls_trip_and_magic:magic/spell_book/water run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/water/select

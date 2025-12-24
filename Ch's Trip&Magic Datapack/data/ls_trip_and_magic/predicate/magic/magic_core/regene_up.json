@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.*": {
+        "predicates": {
+          "minecraft:custom_data": {
+                "item_type": "equipment",
+                "equipment_type": "magic_core",
+                "item_condition": "mana_health_up",
+                "item_magic": "true"
+          }
+        }
+      }
+    }
+  }
+}

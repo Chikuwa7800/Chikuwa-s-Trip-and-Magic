@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/large_flash.png",
+      "height":1000,
+      "ascent": 500,
+      "chars": [
+        "\uE000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/electro_flash.png",
+      "height":1000,
+      "ascent": 500,
+      "chars": [
+        "\uE001"
+      ]
+    }
+  ]
+}

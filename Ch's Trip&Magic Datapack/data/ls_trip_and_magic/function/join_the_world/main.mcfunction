@@ -1,14 +1,16 @@
-execute unless entity @e[type=armor_stand,tag=ls_trip_magic_install] run summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["ls_trip_magic_install"]}
+execute unless entity @e[type=marker,tag=ls_trip_magic_install] run summon marker ~ ~ ~ {Tags:["ls_trip_magic_install"]}
 
-tellraw @a ["\n---------------\n\n",{"text":"ワールドに [Magic & Trip] がインストールされました。\n\nCreated "},{"text":"Chikuwa","color":"yellow"},"\n\n---------------\n"]
+tellraw @s ["\n---------------\n\n",{"translate":"notice.installed.success",fallback:"§4The resource pack has not been installed!"},{text:"\n"},{"translate":"notice.created","color":"yellow",fallback:"Please install [Ch's Trip&Magic Resourse Pack α0.7.0]!"},"\n\n---------------\n"]
 
-execute as @a at @s run playsound block.beacon.power_select master @s ~ ~ ~ 1 1
-execute as @a at @s run playsound item.book.page_turn master @s ~ ~ ~ 1 1
-execute as @a at @s run playsound item.book.put master @s ~ ~ ~ 1 1
-execute as @a at @s run playsound item.armor.equip_iron master @s ~ ~ ~ 1 1
+playsound block.beacon.activate master @s ~ ~ ~ 1 1
+playsound item.book.page_turn master @s ~ ~ ~ 1 1
+playsound item.book.put master @s ~ ~ ~ 1 1
+playsound item.armor.equip_leather master @s ~ ~ ~ 1 1
 function #load
 
-scoreboard players set @a ls_tm_magic_mana 100
-scoreboard players set @a ls_tm_magic_mana_max 100
-scoreboard players set @a ls_tm_magic_mana_add 0
-scoreboard players set @a ls_tm_magic_mana_up 1
+scoreboard players set @s ls_tm_magic_mana 100
+scoreboard players set @s ls_tm_magic_mana_max 100
+scoreboard players set @s ls_tm_magic_mana_add 0
+scoreboard players set @s ls_tm_magic_mana_up 1
+
+function ls_trip_and_magic:set_entity_id

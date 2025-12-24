@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:bundle_contents": [],
+                "minecraft:custom_name": {
+                  "translate": "item.spell_book.ice",
+                  "extra": [
+                    {
+                      "translate": "item.spell_book",
+                      "extra": [
+                          {
+                            "text": " Lv.3"
+                          }
+                        ]
+                    }
+                  ],
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.spell_book.ice",
+                    "extra": [
+                      {
+                        "translate": "item_lore.spell_book.up"
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item_lore.spell_book.down",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "empty"
+                  },
+                  {
+                    "translate": "attribute.name.added_attack",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.mouse.right",
+                    "extra": [
+                      {
+                        "text": ": ",
+                        "extra": [
+                          {
+                            "translate": "item_skill.magic.ice.lv1"
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.keyboard.left.shift",
+                    "extra": [
+                      {
+                        "text": "+",
+                        "extra": [
+                          {
+                            "translate": "key.mouse.right",
+                            "extra": [
+                          {
+                            "text": ": ",
+                            "extra": [
+                          {
+                            "translate": "item_skill.magic.ice.lv2"
+                          }
+                        ]
+                          }
+                        ]
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "empty"
+                  },
+                  {
+                    "translate": "item.modifiers.any",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.skill",
+                    "extra": [
+                      {
+                        "translate": "item_skill.ice_magic"
+                      }
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                "item_model":"trip_magic:spell_book/lv_3/ice_spell_book",
+                "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "weapon",
+                  "item_condition": "ice",
+                  "weapon_type": "magic_book",
+                  "spell_level":["1","2","3"],
+                  "item_magic": "true"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:unbreakable"
+                  ]
+                },
+                "minecraft:unbreakable": {}
+              },
+              "conditions": []
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

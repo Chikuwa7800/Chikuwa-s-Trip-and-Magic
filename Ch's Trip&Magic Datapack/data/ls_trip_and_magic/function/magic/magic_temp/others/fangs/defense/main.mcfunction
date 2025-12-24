@@ -30,7 +30,9 @@ execute as @e[tag=ls_tm_fangs_staff_defense_marker_eyeline,sort=nearest,limit=1]
 execute as @e[type=marker,tag=ls_tm_fangs_staff_defense_marker_eyeline,sort=nearest,limit=1] at @s run tp @e[type=marker,tag=ls_tm_fangs_staff_defense_marker_out_8,sort=nearest,limit=1] ~ ~ ~ ~315 0
 playsound entity.evoker.prepare_attack player @a ~ ~ ~ 1 1
 playsound entity.evoker.cast_spell player @a ~ ~ ~ 1 1
-execute positioned ~ ~0.75 ~ run particle effect ^0.25 ^ ^ 0.1 0.1 0.1 0. 10
-execute positioned ~ ~0.75 ~ run particle effect ^-0.25 ^ ^ 0.1 0.1 0.1 0. 10
+execute positioned ~ ~0.75 ~ run particle entity_effect{color:-11649210} ^0.25 ^ ^ 0.1 0.75 0.1 0. 10
+execute positioned ~ ~0.75 ~ run particle entity_effect{color:-11649210} ^-0.25 ^ ^ 0.1 0.75 0.1 0. 10
+execute positioned ~ ~0.75 ~ run particle entity_effect{color:-11649210} ^ ^ ^0.25 0.1 0.75 0.1 0. 10
+execute positioned ~ ~0.75 ~ run particle entity_effect{color:-11649210} ^ ^ ^-0.25 0.1 0.75 0.1 0. 10
 function ls_trip_and_magic:magic/magic_temp/others/fangs/defense/summon_fangs_inside
 kill @e[type=marker,tag=ls_tm_fangs_staff_defense_marker_eyeline,sort=nearest,limit=1]

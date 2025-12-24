@@ -11,3 +11,5 @@ execute as @e[tag=ch.effect.cry] at @s run function ch_effect_temp:vfx/cry/tick
 execute as @e[tag=ch.effect.flash] at @s run function ch_effect_temp:vfx/flash/tick
 execute as @e[tag=ch.effect.bash_in] at @s run function ch_effect_temp:vfx/bash_in/tick
 execute as @e[tag=ch.effect.bash_out] at @s run function ch_effect_temp:vfx/bash_out/tick
+execute as @e[tag=ch.effect.large_flash] at @s run function ch_effect_temp:vfx/large_flash/tick
+execute as @e[tag=ch.effect.electro_flash] at @s run function ch_effect_temp:vfx/electro_flash/tick

@@ -1,4 +1,3 @@
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon","weapon_type": "magic_book"}}}}] run return run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/select
-execute if entity @s[nbt={equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_data":{"datapack_type": "ls_trip_magic","item_type": "weapon","weapon_type": "magic_book"}}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/select
-execute if entity @s[nbt=!{equipment:{offhand:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"weapon_type": "magic_book"}}}}},nbt=!{SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{"weapon_type": "magic_book"}}}}] run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/no
+execute if predicate ls_trip_and_magic:magic/spell_book/_has run return run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/select
+execute unless predicate ls_trip_and_magic:magic/spell_book/_has run function ls_trip_and_magic:magic/items/weapons/wands/magic_staff/no
 #say ok
