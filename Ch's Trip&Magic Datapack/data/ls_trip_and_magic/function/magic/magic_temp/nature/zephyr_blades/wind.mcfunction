@@ -6,7 +6,7 @@ particle crit ^ ^ ^-0.5 0.5 0.5 0.5 0.2 20 force
 particle enchant ^ ^ ^-0.5 0 0 0 1 20 force
 
 playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1
-playsound item.trident.riptide_3 player @a ~ ~ ~ 1 1
+playsound entity.wind_charge.wind_burst player @a ~ ~ ~ 1 0.25
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ls_tm_zepher_pl,type=!#ls_trip_and_magic:cannot_hurt_entities,tag=!ls_tm_wind_display] positioned ~0.5 ~0.5 ~0.5 run function ls_trip_and_magic:magic/magic_temp/nature/zephyr_blades/damage
 
