@@ -12,5 +12,6 @@ scoreboard players set @s ls_tm_magic_mana 100
 scoreboard players set @s ls_tm_magic_mana_max 100
 scoreboard players set @s ls_tm_magic_mana_add 0
 scoreboard players set @s ls_tm_magic_mana_up 1
+scoreboard players set @s ch_tm_magic_xp_level_dummy 0
 
 function ls_trip_and_magic:set_entity_id

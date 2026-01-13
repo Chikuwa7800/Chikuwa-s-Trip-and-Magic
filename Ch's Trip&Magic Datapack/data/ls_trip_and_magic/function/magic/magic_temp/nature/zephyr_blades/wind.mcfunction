@@ -1,16 +1,12 @@
-execute as @e[tag=ch.has.entity_id] if score @s ch_tm_entity_id = @n[tag=ls_tm_wind_display] ch_tm_entity_id run tag @s add ch_tm_zb_attacker
-
 particle cloud ^ ^ ^-0.5 0 0 0 0. 5 force
 particle poof ^ ^ ^-0.5 0 0 0 0.1 5 force
 particle crit ^ ^ ^-0.5 0.5 0.5 0.5 0.2 20 force
 particle enchant ^ ^ ^-0.5 0 0 0 1 20 force
 
 playsound entity.player.attack.sweep player @a ~ ~ ~ 1 1
-playsound entity.wind_charge.wind_burst player @a ~ ~ ~ 1 0.25
-
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ls_tm_zepher_pl,type=!#ls_trip_and_magic:cannot_hurt_entities,tag=!ls_tm_wind_display] positioned ~0.5 ~0.5 ~0.5 run function ls_trip_and_magic:magic/magic_temp/nature/zephyr_blades/damage
-
-tag @n[tag=ch_tm_zb_attacker] remove ch_tm_zb_attacker
+playsound entity.wind_charge.wind_burst player @a ~ ~ ~ 2 0.25
+playsound entity.wind_charge.wind_burst player @a ~ ~ ~ 2 0.75
+playsound entity.breeze.shoot player @a ~ ~ ~ 2 0.75
 
 tag @s[tag=ls_wind_lecavary_1,tag=!ls_wind_lecavary_unable] add ls_wind_lecavary_2
 

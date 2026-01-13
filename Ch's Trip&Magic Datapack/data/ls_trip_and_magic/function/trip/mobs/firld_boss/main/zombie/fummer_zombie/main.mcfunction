@@ -14,7 +14,7 @@ execute if entity @s[scores={ls_trip_boss_tick_ex=7},tag=ls_tm_trip_firld_boss_z
 execute if entity @s[scores={ls_trip_boss_tick_ex=12},tag=ls_tm_trip_firld_boss_zombie_jump_ex] run function ls_trip_and_magic:trip/mobs/firld_boss/main/zombie/fummer_zombie/jump_ex
 execute if entity @s[scores={ls_trip_boss_tick_ex=17},tag=ls_tm_trip_firld_boss_zombie_jump_ex] run function ls_trip_and_magic:trip/mobs/firld_boss/main/zombie/fummer_zombie/jump_ex
 
-execute if entity @s[scores={ls_trip_boss_tick_ex=22},tag=ls_tm_trip_firld_boss_zombie_jump_ex] run function ls_trip_and_magic:trip/mobs/firld_boss/main/zombie/fummer_zombie/jump
+execute if entity @s[scores={ls_trip_boss_tick_ex=20},tag=ls_tm_trip_firld_boss_zombie_jump_ex] run function ls_trip_and_magic:trip/mobs/firld_boss/main/zombie/fummer_zombie/jump
 
 execute if entity @s[scores={ls_trip_boss_tick_ex=22..60},tag=ls_tm_trip_firld_boss_zombie_jump] unless block ~ ~-0.25 ~ #ls_trip_and_magic:no_collision run function ls_trip_and_magic:trip/mobs/firld_boss/main/zombie/fummer_zombie/boom
 

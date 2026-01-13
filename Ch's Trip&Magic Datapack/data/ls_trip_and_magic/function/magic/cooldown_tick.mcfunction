@@ -18,6 +18,8 @@ execute as @a[tag=ls_tm_magic_zephyr_cooldown] at @s run function ls_trip_and_ma
 
 execute as @a[tag=ls_tm_magic_atte_cooldown] at @s run function ls_trip_and_magic:magic/cooldown/atte
 
+execute as @a[tag=ls_tm_magic_gust_cooldown] at @s run function ls_trip_and_magic:magic/cooldown/gust
+
 execute as @a[tag=ls_tm_magic_abyss_cooldown] at @s run function ls_trip_and_magic:magic/cooldown/abyss
 
 execute as @a[tag=ls_tm_than_cooldown] at @s run function ls_trip_and_magic:magic/cooldown/than

@@ -7,6 +7,20 @@
  scoreboard objectives add ls_trip_magic_install custom:minecraft.leave_game
  scoreboard objectives add ls_trip_magic_health dummy
  scoreboard objectives add ls_trip_magic_death deathCount
+ scoreboard objectives add ch_tm_motion_x1 dummy
+ scoreboard objectives add ch_tm_motion_y1 dummy
+ scoreboard objectives add ch_tm_motion_z1 dummy
+ scoreboard objectives add ch_tm_motion_x2 dummy
+ scoreboard objectives add ch_tm_motion_y2 dummy
+ scoreboard objectives add ch_tm_motion_z2 dummy
+ scoreboard objectives add ch_tm_death_count deathCount
+ scoreboard objectives add ch_tm_keepinventory dummy
+ scoreboard objectives add ch_tm_2 dummy
+ scoreboard objectives add ch_tm_5 dummy
+ scoreboard objectives add ch_tm_10 dummy
+ scoreboard players add #ch_trip_amount ch_tm_2 2
+ scoreboard players add #ch_trip_amount ch_tm_5 5
+ scoreboard players add #ch_trip_amount ch_tm_10 10
 
 # magic
  scoreboard objectives add ls_tm_magic_mana dummy
@@ -64,6 +78,19 @@
  scoreboard objectives add ls_tm_bash_shield_return dummy
  scoreboard objectives add ls_tm_no_damage_tick dummy
  scoreboard objectives add ch_tm_entity_id dummy
+ scoreboard objectives add ch_tm_spell_charge dummy
+ scoreboard objectives add ls_tm_magic_gust_cooldown dummy
+ scoreboard objectives add ls_tm_magic_gust_tick dummy
+ scoreboard objectives add ls_tm_magic_mana_max_xp dummy
+ scoreboard objectives add ls_tm_magic_mana_up_xp dummy
+ scoreboard objectives add ch_tm_magic_xp_level level
+ scoreboard objectives add ch_tm_magic_xp_level_dummy dummy
+ scoreboard objectives add ch_tm_magic_mana_max_by_core dummy
+ scoreboard objectives add ch_tm_magic_mana_up_by_core dummy
+ scoreboard objectives add ch_tm_magic_mana_max_default dummy
+ scoreboard objectives add ch_tm_magic_mana_up_default dummy
+ scoreboard players add #ch_trip_amount ch_tm_magic_mana_max_default 100
+ scoreboard players add #ch_trip_amount ch_tm_magic_mana_up_default 1
 
 # trip
  scoreboard objectives add ls_tm_weapons_flint_knife_hit_fire_tick dummy

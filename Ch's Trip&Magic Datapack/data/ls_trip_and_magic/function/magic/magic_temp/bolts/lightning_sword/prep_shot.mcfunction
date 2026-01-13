@@ -1,0 +1,10 @@
+execute anchored eyes positioned ^1 ^ ^ as @n[tag=ch_tm_magic_lightning_sword_1,tag=!ch_tm_magic_lightning_sword_shot] at @s run particle end_rod ~ ~ ~ 0 0 0 0.25 20
+execute anchored eyes positioned ^0.5 ^0.5 ^ as @n[tag=ch_tm_magic_lightning_sword_2,tag=!ch_tm_magic_lightning_sword_shot] at @s run particle end_rod ~ ~ ~ 0 0 0 0.25 20
+execute anchored eyes positioned ^ ^1 ^ as @n[tag=ch_tm_magic_lightning_sword_3,tag=!ch_tm_magic_lightning_sword_shot] at @s run particle end_rod ~ ~ ~ 0 0 0 0.25 20
+execute anchored eyes positioned ^-0.5 ^0.5 ^ as @n[tag=ch_tm_magic_lightning_sword_4,tag=!ch_tm_magic_lightning_sword_shot] at @s run particle end_rod ~ ~ ~ 0 0 0 0.25 20
+execute anchored eyes positioned ^-1 ^ ^ as @n[tag=ch_tm_magic_lightning_sword_5,tag=!ch_tm_magic_lightning_sword_shot] at @s run particle end_rod ~ ~ ~ 0 0 0 0.25 20
+execute anchored eyes positioned ^1 ^ ^ as @n[tag=ch_tm_magic_lightning_sword_1,tag=!ch_tm_magic_lightning_sword_shot] at @s run playsound block.trial_spawner.about_to_spawn_item player @a ~ ~ ~ 3 1.25
+execute anchored eyes positioned ^0.5 ^0.5 ^ as @n[tag=ch_tm_magic_lightning_sword_2,tag=!ch_tm_magic_lightning_sword_shot] at @s run playsound block.trial_spawner.about_to_spawn_item player @a ~ ~ ~ 3 1.25
+execute anchored eyes positioned ^ ^1 ^ as @n[tag=ch_tm_magic_lightning_sword_3,tag=!ch_tm_magic_lightning_sword_shot] at @s run playsound block.trial_spawner.about_to_spawn_item player @a ~ ~ ~ 3 1.25
+execute anchored eyes positioned ^-0.5 ^0.5 ^ as @n[tag=ch_tm_magic_lightning_sword_4,tag=!ch_tm_magic_lightning_sword_shot] at @s run playsound block.trial_spawner.about_to_spawn_item player @a ~ ~ ~ 3 1.25
+execute anchored eyes positioned ^-1 ^ ^ as @n[tag=ch_tm_magic_lightning_sword_5,tag=!ch_tm_magic_lightning_sword_shot] at @s run playsound block.trial_spawner.about_to_spawn_item player @a ~ ~ ~ 3 1.25

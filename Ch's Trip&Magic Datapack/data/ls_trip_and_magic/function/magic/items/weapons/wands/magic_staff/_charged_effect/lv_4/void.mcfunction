@@ -1,0 +1,1 @@
+particle sculk_soul ^ ^ ^0.1 0.25 0.25 0.25 0.1 5 force
