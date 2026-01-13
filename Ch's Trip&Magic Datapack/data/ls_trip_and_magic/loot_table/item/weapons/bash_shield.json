@@ -22,7 +22,7 @@
                   "disabled_sound":"item.shield.break",
                   "bypassed_by":"#bypasses_shield"
                   },
-                "minecraft:custom_name": {
+                "minecraft:item_name": {
                   "translate": "item.bash_shield",
                   "italic": false
                 },

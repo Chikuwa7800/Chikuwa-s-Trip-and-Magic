@@ -20,7 +20,7 @@
                   "damage_on_hurt": true,
                   "equip_on_interact": false
                 },
-                "minecraft:custom_name": {
+                "minecraft:item_name": {
                   "translate": "item.water_magic_hat",
                   "italic": false
                 },

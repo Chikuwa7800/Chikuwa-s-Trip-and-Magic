@@ -6,7 +6,7 @@
     "minecraft:diamond"
   ],
   "result": {
-    "id": "minecraft:wooden_pickaxe",
+    "id": "minecraft:diamond_pickaxe",
     "components": {
       "minecraft:custom_name": {
         "translate": "item.material.diamond",

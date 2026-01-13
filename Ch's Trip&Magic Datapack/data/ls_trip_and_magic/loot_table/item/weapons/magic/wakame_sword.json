@@ -12,7 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:bundle_contents": [],
-                "minecraft:custom_name": {
+                "minecraft:item_name": {
                   "translate": "item.wakame_sword",
                   "italic": false
                 },

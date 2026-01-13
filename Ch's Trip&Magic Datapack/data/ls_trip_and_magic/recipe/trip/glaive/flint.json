@@ -14,7 +14,7 @@
     ]
   },
   "result": {
-    "id": "minecraft:wooden_pickaxe",
+    "id": "minecraft:diamond_pickaxe",
     "components": {
       "minecraft:enchantments": {
         "minecraft:fire_aspect": 1

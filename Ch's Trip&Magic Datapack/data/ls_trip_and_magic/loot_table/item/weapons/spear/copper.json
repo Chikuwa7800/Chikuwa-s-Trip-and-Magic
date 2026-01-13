@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_pickaxe",
+          "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.material.copper",
         "with": [""],
         "extra": [
@@ -132,7 +132,7 @@
       },
       "minecraft:repairable": {
         "items": [
-          "minecraft:netherite_ingot"
+          "minecraft:copper_ingot"
         ]
       },
       "minecraft:repair_cost": 1

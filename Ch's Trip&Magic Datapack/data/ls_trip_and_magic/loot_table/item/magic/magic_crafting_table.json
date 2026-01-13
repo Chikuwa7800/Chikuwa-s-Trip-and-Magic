@@ -12,7 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model":"trip_magic:magic_crafting_table",
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.magic_crafting_table",
         "color": "white",
         "italic": false

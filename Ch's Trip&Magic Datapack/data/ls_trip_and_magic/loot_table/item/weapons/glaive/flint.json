@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_pickaxe",
+          "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -15,7 +15,7 @@
         "minecraft:fire_aspect": 1
       },
       "minecraft:enchantment_glint_override": false,
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.material.flint",
         "extra": [
           {
@@ -55,7 +55,7 @@
           "italic": false
         },
         {
-          "text": "1.2 ",
+          "text": "1.3 ",
           "extra": [
             {
               "translate": "attribute.name.attack_speed"

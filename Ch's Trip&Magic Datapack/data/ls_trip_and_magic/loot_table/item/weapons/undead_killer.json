@@ -17,7 +17,7 @@
         "item_type": "weapon",
         "weapon_type": "undead_killer"
       },
-                "minecraft:custom_name": {
+                "minecraft:item_name": {
                   "translate": "item.undead_killer",
                   "italic": false
                 },

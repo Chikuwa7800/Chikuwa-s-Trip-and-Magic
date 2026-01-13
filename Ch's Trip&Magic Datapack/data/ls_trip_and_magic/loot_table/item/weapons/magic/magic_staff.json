@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_pickaxe",
+          "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
+                "minecraft:item_name": {
         "translate": "item.magic_staff.normal",
         "with": [""],
         "extra": [
@@ -30,41 +30,6 @@
         },
         {
           "translate": "empty"
-        },
-        {
-          "translate": "item.modifiers.mainhand",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "150 ",
-          "extra": [
-            {
-              "translate": "attribute.name.mana"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "text": "2 ",
-          "extra": [
-            {
-              "translate": "attribute.name.mana.recovery"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "translate": "attribute.name.skill",
-          "extra": [
-            {
-              "translate": "item_skill.magic"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
         }
       ],
       "minecraft:item_model":"trip_magic:magic_weapons/magic_staff/normal",
@@ -84,36 +49,6 @@
         "disable_blocking_for_seconds": 0
       },
       "minecraft:max_damage": 1250,
-      "minecraft:attribute_modifiers": [
-        {
-          "type": "minecraft:attack_speed",
-          "id": "minecraft:temp",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:attack_damage",
-          "id": "minecraft:temp",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:attack_knockback",
-          "id": "minecraft:temp",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:entity_interaction_range",
-          "id": "minecraft:temp",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "mainhand"
-        }
-      ],
       "minecraft:tooltip_display": {
         "hidden_components": [
           "minecraft:unbreakable",
@@ -132,12 +67,89 @@
         ]
       },
       "minecraft:repair_cost": 1,
-      "minecraft:unbreakable": {}
+      "minecraft:unbreakable": {},
+      "attribute_modifiers": [
+        {
+          "id": "minecraft:temp",
+          "type": "armor",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "0 ",
+              "extra": [
+                {
+                  "text": "100 ",
+          "extra": [
+            {
+              "translate": "attribute.name.mana"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "armor_toughness",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "0 ",
+              "extra": [
+                {
+                  "text": "1 ",
+          "extra": [
+            {
+              "translate": "attribute.name.mana.recovery"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "armor_toughness",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "0 ",
+              "extra": [
+                {
+                  "translate": "attribute.name.skill",
+          "extra": [
+            {
+              "translate": "item_skill.magic"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+                }
+              ]
+            }
+          }
+        }
+      ]
               }
+              }
+            ]
             }
           ]
         }
       ]
     }
-  ]
-}

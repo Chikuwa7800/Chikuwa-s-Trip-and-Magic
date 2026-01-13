@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_pickaxe",
+          "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -16,7 +16,7 @@
                 },
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:rarity": "common",
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.material.flint",
         "with": [""],
         "extra": [

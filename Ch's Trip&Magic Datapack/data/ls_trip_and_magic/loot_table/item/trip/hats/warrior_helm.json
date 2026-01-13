@@ -12,7 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model":"trip_magic:hat/warrior_helm",
-                "minecraft:custom_name": {
+                "minecraft:item_name": {
                   "translate": "item.warrior_helm",
                   "italic": false
                 },

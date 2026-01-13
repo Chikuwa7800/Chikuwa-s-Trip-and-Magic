@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
+                "minecraft:item_name": {
         "translate": "item.magic_staff.fang",
         "extra": [
           {
@@ -74,45 +74,7 @@
                     ],
                     "color": "gray",
                     "italic": false
-                  },
-        {
-          "translate": "empty"
-        },
-        {
-          "translate": "item.modifiers.mainhand",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": "100 ",
-          "extra": [
-            {
-              "translate": "attribute.name.mana"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "text": "1 ",
-          "extra": [
-            {
-              "translate": "attribute.name.mana.recovery"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "translate": "attribute.name.skill",
-          "extra": [
-            {
-              "translate": "item_skill.magic"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
-        }
+                  }
       ],
       "minecraft:item_model":"trip_magic:magic_weapons/magic_staff/evoker",
       "minecraft:custom_data": {
@@ -148,7 +110,84 @@
         ]
       },
       "minecraft:repair_cost": 2,
-      "minecraft:unbreakable": {}
+      "minecraft:unbreakable": {},
+      "attribute_modifiers": [
+        {
+          "id": "minecraft:temp",
+          "type": "armor",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "0 ",
+              "extra": [
+                {
+                  "text": "100 ",
+          "extra": [
+            {
+              "translate": "attribute.name.mana"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "armor_toughness",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "0 ",
+              "extra": [
+                {
+                  "text": "1 ",
+          "extra": [
+            {
+              "translate": "attribute.name.mana.recovery"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "armor_toughness",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "0 ",
+              "extra": [
+                {
+                  "translate": "attribute.name.skill",
+          "extra": [
+            {
+              "translate": "item_skill.magic.fangs"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+                }
+              ]
+            }
+          }
+        }
+      ]
               }
             }
           ]
