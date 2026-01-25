@@ -6,7 +6,7 @@
     "flint"
   ],
   "result": {
-    "id": "minecraft:diamond_pickaxe",
+    "id": "minecraft:warped_fungus_on_a_stick",
     "components": {
             "minecraft:enchantments": {
                   "minecraft:fire_aspect": 1
@@ -158,7 +158,8 @@
         ]
       },
       "minecraft:repair_cost": 1,
-                "minecraft:rarity": "common"
+                
+      "minecraft:rarity": "common"
     }
   }
 }

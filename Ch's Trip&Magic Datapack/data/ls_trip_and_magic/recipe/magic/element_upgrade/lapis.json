@@ -34,6 +34,7 @@
         "item_type": "item_core",
         "core_type": "element_core_upgrade_lv1"
       },
+      
       "minecraft:rarity": "uncommon"
     }
   }

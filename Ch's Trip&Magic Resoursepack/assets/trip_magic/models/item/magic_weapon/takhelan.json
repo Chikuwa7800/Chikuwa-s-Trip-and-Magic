@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "trip_magic:item/magic_weapon/takhelan"
+  }
+}

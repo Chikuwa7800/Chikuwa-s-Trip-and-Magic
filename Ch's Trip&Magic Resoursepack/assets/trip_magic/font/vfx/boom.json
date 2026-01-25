@@ -1,0 +1,76 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/boom_0.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/boom_1.png",
+      "height": 64,
+      "ascent": 32,
+      "chars": [
+        "\uE001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/boom_2.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/boom_3.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/boom_4.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/boom_5.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/boom_6.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/boom_7.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE007"
+      ]
+    }
+  ]
+}

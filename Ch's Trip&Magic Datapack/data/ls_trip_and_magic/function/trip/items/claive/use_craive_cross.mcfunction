@@ -1,0 +1,1 @@
+ execute if predicate ls_trip_and_magic:trip/claive/cross_ready

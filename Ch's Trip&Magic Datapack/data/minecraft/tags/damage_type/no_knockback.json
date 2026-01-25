@@ -10,6 +10,7 @@
       "ls_trip_and_magic:effect/frost",
       "ls_trip_and_magic:cut",
       "ls_trip_and_magic:magic/ice_lv2",
+      "ls_trip_and_magic:magic/fire_lv2_hit",
       "ls_trip_and_magic:entity/ginunga/chain_blast"
     ]
 }

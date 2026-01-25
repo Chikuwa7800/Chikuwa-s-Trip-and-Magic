@@ -30,6 +30,7 @@
         "material_type": "element_core",
         "item_condition": "void"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:item_name": {
         "translate": "item.spell_book.void",

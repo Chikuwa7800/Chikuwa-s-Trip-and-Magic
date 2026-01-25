@@ -126,6 +126,7 @@
         "weapon_type": "fangs_staff",
         "item_magic": "true"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 0,

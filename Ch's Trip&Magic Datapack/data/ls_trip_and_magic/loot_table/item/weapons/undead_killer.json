@@ -21,7 +21,8 @@
                   "translate": "item.undead_killer",
                   "italic": false
                 },
-                "minecraft:rarity": "common",
+                
+      "minecraft:rarity": "common",
                 "minecraft:lore": [
                   {
                     "translate": "item_lore.undead_killer.up",

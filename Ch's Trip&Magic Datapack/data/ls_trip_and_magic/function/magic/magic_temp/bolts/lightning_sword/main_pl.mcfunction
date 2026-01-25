@@ -9,4 +9,5 @@ execute if score @s ls_tm_magic_lightsword_tick matches 1..38 run function ls_tr
 execute if score @s ls_tm_magic_lightsword_tick matches 1..38 run function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/tp_to_user
 execute if score @s ls_tm_magic_lightsword_tick matches 19 run function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/prep_shot
 execute if score @s ls_tm_magic_lightsword_tick matches 39 run function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/shot
-
+execute if score @s ls_tm_magic_lightsword_tick matches 39 run tag @s remove ls_magic_lightning_sword_pl
+execute if score @s ls_tm_magic_lightsword_tick matches 39 run scoreboard players reset @s ls_tm_magic_lightsword_tick

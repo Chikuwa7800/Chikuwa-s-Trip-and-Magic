@@ -95,6 +95,7 @@
 # trip
  scoreboard objectives add ls_tm_weapons_flint_knife_hit_fire_tick dummy
  scoreboard objectives add ls_trip_boss_tick_ex dummy
+ scoreboard objectives add ls_tm_craive_cooldown dummy
 
 # boss
  scoreboard objectives add ls_trip_boss_tick dummy

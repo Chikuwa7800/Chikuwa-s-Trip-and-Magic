@@ -210,7 +210,8 @@
                     "minecraft:attribute_modifiers"
                   ]
                 },
-                "minecraft:rarity": "epic"
+                
+      "minecraft:rarity": "epic"
               }
             }
           ],

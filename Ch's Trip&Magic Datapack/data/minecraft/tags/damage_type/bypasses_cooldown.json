@@ -3,6 +3,7 @@
       "ls_trip_and_magic:cut",
       "ls_trip_and_magic:add_damage_bypass_cooldown",
       "ls_trip_and_magic:break_block",
-      "ls_trip_and_magic:entity/ginunga/chain_blast"
+      "ls_trip_and_magic:entity/ginunga/chain_blast",
+      "ls_trip_and_magic:magic/fire_lv2_hit"
     ]
 }

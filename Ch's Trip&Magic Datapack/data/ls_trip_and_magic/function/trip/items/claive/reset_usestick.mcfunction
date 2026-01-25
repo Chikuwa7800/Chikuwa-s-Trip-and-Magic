@@ -1,0 +1,2 @@
+scoreboard players reset @s ls_tm_craive_using_sticks
+function ls_trip_and_magic:trip/items/claive/use_craive

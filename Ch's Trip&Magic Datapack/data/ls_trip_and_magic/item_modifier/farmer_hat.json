@@ -15,7 +15,8 @@
                   "translate": "item.farmer_hat",
                   "italic": false
                 },
-                "minecraft:rarity": "uncommon"
+                
+      "minecraft:rarity": "uncommon"
               }
   }
 ]

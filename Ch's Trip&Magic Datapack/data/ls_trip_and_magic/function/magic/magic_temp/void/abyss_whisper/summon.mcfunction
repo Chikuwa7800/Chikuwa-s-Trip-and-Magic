@@ -1,5 +1,4 @@
 tag @s add ls_tm_magic_pl
-tag @s add ls_tm_magic_abyss_cooldown
 
 
 #ls_tm_abyss_display

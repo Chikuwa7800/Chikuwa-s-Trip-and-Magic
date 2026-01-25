@@ -116,6 +116,7 @@
         "material": "emerald",
         "weapon_type": "fangs_staff"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 0,

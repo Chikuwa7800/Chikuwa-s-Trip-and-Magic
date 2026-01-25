@@ -25,3 +25,9 @@ function ls_trip_and_magic:trip/mobs/main
 
 scoreboard players add @a[tag=ls_tm_cooldown_bash_shield] ls_tm_bash_shield_cooldown 1
 execute as @a[tag=ls_tm_cooldown_bash_shield,scores={ls_tm_bash_shield_cooldown=60..}] at @s run function ls_trip_and_magic:trip/weapons/reuse_bash_shield
+
+execute as @a[predicate=ls_trip_and_magic:trip/claive/inventory] at @s run function ls_trip_and_magic:trip/items/claive/craive_main
+execute as @a[predicate=ls_trip_and_magic:trip/claive/inventory] at @s run function ls_trip_and_magic:trip/items/claive/craive_main
+execute as @a[predicate=ls_trip_and_magic:trip/claive/offhand] at @s run function ls_trip_and_magic:trip/items/claive/craive_main
+
+execute as @e at @s if score @s ls_tm_using_sticks matches 1.. run function ls_trip_and_magic:trip/items/claive/use_craive

@@ -33,7 +33,8 @@
                   "item_type": "item_material",
                   "equipment_type": "ginga_cloth"
                 },
-                "minecraft:rarity": "uncommon"
+                
+      "minecraft:rarity": "uncommon"
               }
             }
           ],

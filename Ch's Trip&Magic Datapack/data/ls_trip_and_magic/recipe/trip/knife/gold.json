@@ -82,6 +82,7 @@
         "material": "gold",
         "weapon_type": "knife"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 1,

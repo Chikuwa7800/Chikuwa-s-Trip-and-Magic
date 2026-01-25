@@ -1,4 +1,4 @@
-summon breeze_wind_charge ~ ~ ~ {Tags:["ch_tm_gust_burster"]}
+$summon breeze_wind_charge ~ ~ ~ {Tags:["ch_tm_gust_burster"],Owner:$(UUID)}
 summon marker ~ ~ ~ {Tags:["ch_motion_marker"]}
 execute anchored feet run particle cloud ^ ^ ^0.01 0.25 0.25 0.25 0.01 10 force
 execute anchored eyes run tp @n[tag=ch_tm_gust_burster] ^ ^ ^0.1 ~ ~

@@ -1,0 +1,5 @@
+execute as @e[tag=ch.has.entity_id] if score @s ch_tm_entity_id = @n[tag=ch_tm_magic_lightning_sword_shot,tag=!ch_tm_magic_lightning_sword_hit] ch_tm_entity_id run tag @s add ch_tm_ls_attacker
+execute positioned ~-1.5 ~-1.5 ~-1.5 as @e[type=!#ls_trip_and_magic:cannot_hurt_entities,dx=2,dy=2,dz=2,tag=!ch_tm_ls_attacker] positioned ~1.5 ~1.5 ~1.5 run function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/ls_action/damage
+execute positioned ~-3 ~-3 ~-3 as @e[type=!#ls_trip_and_magic:cannot_hurt_entities,dx=5,dy=5,dz=5,tag=!ch_tm_ls_attacker,tag=!ls_tm_using_shield] positioned ~3 ~3 ~3 run function ls_trip_and_magic:magic/effect/electro/start {"time":"5"}
+execute positioned ~-5.5 ~-5.5 ~-5.5 as @e[type=!#ls_trip_and_magic:cannot_hurt_entities,dx=10,dy=10,dz=10,] positioned ~5.5 ~5.5 ~5.5 run playsound entity.player.attack.sweep player @s ~ ~ ~ 5 2
+tag @n[tag=ch_tm_ls_attacker] remove ch_tm_ls_attacker

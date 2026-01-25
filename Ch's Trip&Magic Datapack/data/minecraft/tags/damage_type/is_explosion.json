@@ -3,6 +3,7 @@
       "ls_trip_and_magic:explode/explode_small",
       "ls_trip_and_magic:explode/explode_large",
       "ls_trip_and_magic:explode/explode_nova",
-      "ls_trip_and_magic:explode/explode_catastrophe"
+      "ls_trip_and_magic:explode/explode_catastrophe",
+      "ls_trip_and_magic:magic/fire_lv2"
     ]
 }

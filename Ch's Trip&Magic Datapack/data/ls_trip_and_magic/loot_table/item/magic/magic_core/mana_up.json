@@ -44,6 +44,7 @@
         "item_condition": "mana_max_up",
         "item_magic": "true"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 0,

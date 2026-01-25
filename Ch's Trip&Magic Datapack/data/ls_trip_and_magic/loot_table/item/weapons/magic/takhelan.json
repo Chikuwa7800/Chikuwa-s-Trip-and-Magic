@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.takhelan"
+                },
+                "minecraft:item_model": "trip_magic:magic_weapons/takhelan",
+                "consumable": {
+        "animation": "none",
+        "consume_seconds": 100000000
+      },
+      "use_effects":{
+        "speed_multiplier": 1,
+        "can_sprint": true
+      },
+      
+      "max_stack_size": 1,
+      "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

@@ -42,6 +42,7 @@
         "item_type":"item_core",
         "core_type": "magic_book"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 0,

@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "use_craive": {
+        "trigger": "minecraft:shot_crossbow",
+        "conditions": {
+            "player": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": "crossbow",
+                        "predicates": {
+                        "minecraft:custom_data": {
+                        "datapack_type": "ls_trip_magic",
+                        "item_type": "craive",
+                        "glaive": false,
+                        "ready":true
+                   }
+                }
+                    }
+                }
+            }
+        }
+        }
+    },
+    "rewards": {
+        "function": "ls_trip_and_magic:trip/items/claive/shot"
+    }
+}

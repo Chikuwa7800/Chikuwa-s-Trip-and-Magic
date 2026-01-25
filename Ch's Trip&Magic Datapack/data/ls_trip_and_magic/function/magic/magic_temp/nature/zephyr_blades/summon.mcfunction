@@ -1,5 +1,4 @@
 tag @s add ls_tm_magic_pl
-tag @s add ls_tm_magic_zephyr_cooldown
 
 
 #ls_tm_zephyr_display

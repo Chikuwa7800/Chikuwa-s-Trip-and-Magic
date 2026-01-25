@@ -8,6 +8,8 @@
       "ls_trip_and_magic:explode/explode_nova_shock",
       "ls_trip_and_magic:explode/explode_catastrophe",
       "ls_trip_and_magic:explode/explode_catastrophe_shock",
-      "ls_trip_and_magic:explode/explode_catastrophe_sound"
+      "ls_trip_and_magic:explode/explode_catastrophe_sound",
+      "ls_trip_and_magic:magic/fire_lv2",
+      "ls_trip_and_magic:magic/fire_lv2_hit"
     ]
 }

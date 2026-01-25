@@ -32,6 +32,7 @@
         "material_type": "element_core",
         "item_condition": "bolt"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:custom_name": {
         "translate": "item.spell_book.bolt",

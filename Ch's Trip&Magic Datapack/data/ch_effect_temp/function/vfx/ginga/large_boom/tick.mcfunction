@@ -5,7 +5,7 @@
  scoreboard players add @s ch_effect_vfx_timer 1
 
 #テキストディスプレイの中身を書き換える
-  execute if entity @s[scores={ch_effect_vfx_timer=1}] run data modify entity @s text set value {text:"\uE000",font:"trip_magic:vfx/ginga/boom",color:white}
+  execute if entity @s[scores={ch_effect_vfx_timer=1}] run data modify entity @s text set value {"text":"\uE000",font:"trip_magic:vfx/ginga/boom",color:white}
   execute if entity @s[scores={ch_effect_vfx_timer=2}] run data modify entity @s text set value {"text":"\uE001",font:"trip_magic:vfx/ginga/boom",color:white}
   execute if entity @s[scores={ch_effect_vfx_timer=3}] run data modify entity @s text set value {"text":"\uE002",font:"trip_magic:vfx/ginga/boom",color:white}
   execute if entity @s[scores={ch_effect_vfx_timer=4}] run data modify entity @s text set value {"text":"\uE003",font:"trip_magic:vfx/ginga/boom",color:white}

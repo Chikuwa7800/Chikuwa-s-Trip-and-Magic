@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "trip_magic:item/illagers_weapons/glaive_craive_ready"
+    },
+    "hand_animation_on_swap": true
+}

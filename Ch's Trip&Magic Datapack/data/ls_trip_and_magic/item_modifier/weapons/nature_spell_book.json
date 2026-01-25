@@ -77,7 +77,8 @@
                   "item_condition": "nature",
                   "weapon_type": "magic_book"
                 },
-                "minecraft:rarity": "uncommon",
+                
+      "minecraft:rarity": "uncommon",
                 "minecraft:tooltip_display": {
                   "hidden_components": [
                     "minecraft:unbreakable"

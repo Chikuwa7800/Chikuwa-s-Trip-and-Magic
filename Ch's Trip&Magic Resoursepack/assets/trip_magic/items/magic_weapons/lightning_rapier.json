@@ -1,6 +1,41 @@
 {
     "model": {
-        "type": "model",
-        "model": "trip_magic:item/magic_weapon/lightning_rapier"
-    }
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": "firstperson_lefthand",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/magic_weapon/lightning_rapier_in_hand"
+                }
+            },
+            {
+                "when": "firstperson_righthand",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/magic_weapon/lightning_rapier_in_hand"
+                }
+            },
+            {
+                "when": "thirdperson_lefthand",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/magic_weapon/lightning_rapier_in_hand"
+                }
+            },
+            {
+                "when": "thirdperson_righthand",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/magic_weapon/lightning_rapier_in_hand"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "trip_magic:item/magic_weapon/lightning_rapier"
+        }
+    },
+    "hand_animation_on_swap": true
 }

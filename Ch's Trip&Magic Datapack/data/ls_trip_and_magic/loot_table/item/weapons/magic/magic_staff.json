@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_pickaxe",
+          "name": "minecraft:warped_fungus_on_a_stick",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -43,6 +43,7 @@
         "weapon_type": "magic_staff",
         "item_magic": "true"
       },
+      "max_stack_size": 1,
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 0,

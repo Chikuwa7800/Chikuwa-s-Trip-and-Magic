@@ -8,7 +8,8 @@
                   "translate": "item.warrior_helm",
                   "italic": false
                 },
-                "minecraft:rarity": "uncommon",
+                
+      "minecraft:rarity": "uncommon",
                 "minecraft:equippable": {
         "slot": "head",
         "equip_sound": "item.armor.equip_iron",

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_pickaxe",
+          "name": "minecraft:warped_fungus_on_a_stick",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -15,7 +15,8 @@
                   "minecraft:fire_aspect": 1
                 },
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:rarity": "common",
+                
+      "minecraft:rarity": "common",
       "minecraft:custom_name": {
         "translate": "item.material.flint",
         "with": [""],

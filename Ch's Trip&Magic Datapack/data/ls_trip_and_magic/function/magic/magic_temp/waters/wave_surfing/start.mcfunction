@@ -1,5 +1,4 @@
 tag @s add ls_tm_wave_surfing_pl
-tag @s add ls_tm_magic_surfing_cooldown
 playsound entity.wither.shoot player @a ~ ~ ~ 1 1
 playsound entity.horse.step player @a ~ ~ ~ 1 1
 playsound entity.evoker.cast_spell player @a ~ ~ ~ 1 2

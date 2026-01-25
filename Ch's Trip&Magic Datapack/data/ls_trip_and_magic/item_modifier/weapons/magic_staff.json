@@ -69,46 +69,16 @@
         "material": "emerald",
         "weapon_type": "magic_staff"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 0,
         "disable_blocking_for_seconds": 0
       },
       "minecraft:max_damage": 1250,
-      "minecraft:attribute_modifiers": [
-        {
-          "type": "minecraft:attack_speed",
-          "id": "minecraft:temp",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:attack_damage",
-          "id": "minecraft:temp",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:attack_knockback",
-          "id": "minecraft:temp",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "minecraft:entity_interaction_range",
-          "id": "minecraft:temp",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "mainhand"
-        }
-      ],
       "minecraft:tooltip_display": {
         "hidden_components": [
-          "minecraft:unbreakable",
-          "attribute_modifiers"
+          "minecraft:unbreakable"
         ]
       },
       "minecraft:tool": {

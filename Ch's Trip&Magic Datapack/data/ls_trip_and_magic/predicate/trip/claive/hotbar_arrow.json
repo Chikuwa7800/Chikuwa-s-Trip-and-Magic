@@ -1,0 +1,15 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "hotbar.*": {
+                "items": [
+                    "arrow",
+                    "tipped_arrow",
+                    "spectral_arrow"
+                ]
+            }
+        }
+    }
+}

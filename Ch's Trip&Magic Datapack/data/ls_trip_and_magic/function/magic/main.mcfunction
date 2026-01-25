@@ -34,13 +34,6 @@ scoreboard players set @a[scores={ls_tm_magic_mana=..-1}] ls_tm_magic_mana 0
 function ls_trip_and_magic:magic/cooldown_tick
 
 #その他の処理
-execute unless entity @e[tag=ls_tm_fireball] run gamerule mob_griefing true
-execute as @e[tag=ls_tm_fireball] at @s run particle large_smoke ~ ~ ~ 0.1 0.1 0.1 0.001 4
-execute as @e[tag=ls_tm_fireball] at @s run particle lava ~ ~ ~ 0.1 0.1 0.1 0.001 2
-
-execute as @e[tag=ls_tm_fireball] at @s unless block ^ ^ ^1 #ls_trip_and_magic:no_collision run particle explosion_emitter ~ ~ ~ 0 0 0 1 1 force
-execute as @e[tag=ls_tm_fireball] at @s unless block ~ ~-0.1 ~ #ls_trip_and_magic:no_collision run particle explosion_emitter ~ ~ ~ 0 0 0 1 1 force
-execute as @e[tag=ls_tm_fireball] at @s unless block ~ ~0.1 ~ #ls_trip_and_magic:no_collision run particle explosion_emitter ~ ~ ~ 0 0 0 1 1 force
 
 #execute as @e[tag=ls_tm_fangs_staff_defense_fang_inside] at @s positioned over motion_blocking run tp @s ~ ~ ~
 
@@ -59,6 +52,7 @@ execute as @e[tag=ch_tm_gust_pl] at @s run function ls_trip_and_magic:magic/magi
 execute as @e[tag=ch_tm_gust_burster] at @s run function ls_trip_and_magic:magic/magic_temp/nature/gust_burst/gust_main
 execute as @e[tag=ls_magic_lightning_sword_pl] at @s run function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/main_pl
 execute as @e[tag=ch_tm_magic_lightning_sword_shot] at @s run function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/main_ls
+execute as @e[tag=ls_tm_blast_ball_display] at @s run function ls_trip_and_magic:magic/magic_temp/fires/flame_blast/main
 
 execute as @a at @s if score @s ch_tm_magic_xp_level > @s ch_tm_magic_xp_level_dummy run function ls_trip_and_magic:magic/magic_strength
 

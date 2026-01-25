@@ -30,6 +30,7 @@
         "material_type": "element_core",
         "item_condition": "nature"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:item_name": {
         "translate": "item.spell_book.nature",

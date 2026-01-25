@@ -2,7 +2,7 @@ execute as @a[tag=ls_tm_magic_volt_cooldown] at @s run function ls_trip_and_magi
 
 execute as @a[tag=ls_tm_magic_screen_cooldown] at @s run function ls_trip_and_magic:magic/cooldown/screen
 
-#execute as @a[tag=ls_tm_magic_lightsword_cooldown] at @s run function ls_trip_and_magic:magic/cooldown/lightsword
+execute as @a[tag=ls_tm_magic_lightsword_cooldown] at @s run function ls_trip_and_magic:magic/cooldown/lightsword
 
 execute as @a[tag=ls_tm_fangs_attack_cooldown] at @s run function ls_trip_and_magic:magic/cooldown/fang
 

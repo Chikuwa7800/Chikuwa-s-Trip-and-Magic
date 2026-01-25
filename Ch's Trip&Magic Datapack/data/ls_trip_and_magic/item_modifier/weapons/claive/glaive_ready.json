@@ -1,0 +1,122 @@
+{
+    "function": "set_components",
+    "components": {
+        "item_model": "trip_magic:illagers_weapons/craive_glaive_ready",
+        "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "craive",
+                  "glaive": true,
+                  "ready":true
+                },
+        "minecraft:lore": [
+                  {
+                    "translate": "item_lore.craive",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {"text": " "},
+                  {
+                    "translate": "attribute.name.added_attack",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.keyboard.left.control",
+                    "color": "gray",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "+",
+                        "extra": [
+                          {
+                            "translate": "key.keyboard.left.shift",
+                            "extra": [
+                              {
+                                "text": ": ",
+                                "extra": [
+                                  {
+                                    "translate": "item_skill.craive.glaive.step"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "key.swapOffhand",
+                    "color": "gray",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": ": ",
+                        "extra": [
+                          {
+                            "translate": "item_skill.craive.change"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+        "enchantments": {
+                "ls_trip_and_magic:craive": 1
+                },
+        "tooltip_display":{
+          "hidden_components": [
+            "enchantments",
+            "unbreakable"
+          ]
+        },
+        "custom_name": {
+          "translate": "item.craive",
+          "color": "white",
+          "italic": false
+        },
+        "rarity": "common",
+        "attribute_modifiers": [
+        {
+          "id": "minecraft:temp",
+          "type": "attack_damage",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+                  "text": "7 ",
+                  "extra": [
+                    {
+                      "translate": "attribute.name.attack_damage"
+                    }
+                ],
+          "color": "dark_green",
+          "italic": false
+            }
+          }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "attack_speed",
+          "amount": -2.7,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+                  "text": "1.3 ",
+                  "extra": [
+                    {
+                      "translate": "attribute.name.attack_speed"
+                    }
+                ],
+          "color": "dark_green",
+          "italic": false
+            }
+          }
+        }
+      ]
+    }
+}

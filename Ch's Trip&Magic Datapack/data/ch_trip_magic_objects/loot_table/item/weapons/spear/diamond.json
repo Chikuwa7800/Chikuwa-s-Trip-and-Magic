@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_pickaxe",
+          "name": "minecraft:warped_fungus_on_a_stick",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -83,6 +83,7 @@
         "material": "diamond",
         "weapon_type": "spear"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 1,

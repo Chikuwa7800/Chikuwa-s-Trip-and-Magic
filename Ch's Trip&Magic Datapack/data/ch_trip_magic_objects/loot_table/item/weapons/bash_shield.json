@@ -65,7 +65,8 @@
                     "italic": false
                   }
                 ],
-                "minecraft:rarity": "uncommon",
+                
+      "minecraft:rarity": "uncommon",
                 "base_color": "black",
                 "minecraft:banner_patterns": [
                   {

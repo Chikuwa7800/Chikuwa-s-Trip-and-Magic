@@ -20,7 +20,8 @@
                   "duration": 12
                 },
                 "minecraft:item_model": "trip_magic:magic_weapons/lightning_rapier",
-                "minecraft:rarity": "uncommon",
+                
+      "minecraft:rarity": "uncommon",
                 "minecraft:weapon": {
                   "item_damage_per_attack": 1
                 },

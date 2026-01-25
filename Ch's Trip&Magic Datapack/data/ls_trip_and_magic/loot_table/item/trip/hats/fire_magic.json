@@ -24,7 +24,8 @@
                   "translate": "item.fire_magic_hat",
                   "italic": false
                 },
-                "minecraft:rarity": "uncommon"
+                
+      "minecraft:rarity": "uncommon"
               }
             }
           ],

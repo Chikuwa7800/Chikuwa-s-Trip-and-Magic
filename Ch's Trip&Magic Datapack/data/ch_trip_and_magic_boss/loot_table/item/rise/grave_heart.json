@@ -33,7 +33,8 @@
                   "item_type": "equipment",
                   "equipment_type": "grave_heart"
                 },
-                "minecraft:rarity": "uncommon"
+                
+      "minecraft:rarity": "uncommon"
               }
             }
           ],

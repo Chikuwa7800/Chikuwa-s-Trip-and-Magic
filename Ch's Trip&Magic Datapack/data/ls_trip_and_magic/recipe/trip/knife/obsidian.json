@@ -6,7 +6,7 @@
     "minecraft:obsidian"
   ],
   "result": {
-    "id": "minecraft:diamond_pickaxe",
+    "id": "minecraft:warped_fungus_on_a_stick",
     "components": {
       "minecraft:custom_name": {
         "translate": "item.material.obsidian",
@@ -82,6 +82,7 @@
         "material": "obsidian",
         "weapon_type": "knife"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 1,

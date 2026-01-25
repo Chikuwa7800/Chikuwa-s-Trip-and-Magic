@@ -88,7 +88,8 @@
                   "spell_level":["1"],
                   "item_magic": "true"
                 },
-                "minecraft:rarity": "uncommon",
+                
+      "minecraft:rarity": "uncommon",
                 "minecraft:tooltip_display": {
                   "hidden_components": [
                     "minecraft:unbreakable"

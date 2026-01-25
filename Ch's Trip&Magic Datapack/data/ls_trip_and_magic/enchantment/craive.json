@@ -1,0 +1,320 @@
+{
+  "description": "c step",
+  "supported_items": "minecraft:warped_fungus_on_a_stick",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:player",
+            "type_specific": {
+              "type": "minecraft:player",
+              "input": {
+                "forward": true,
+                "sneak": true,
+                "sprint": true
+              }
+            },
+            "flags": {
+              "is_on_ground": true
+            },
+            "nbt":{
+              "Tags": ["ls_tm_craive_canuse"]
+            },
+            "slots": {
+            "weapon.mainhand": {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "datapack_type": "ls_trip_magic",
+                        "item_type": "craive",
+                        "glaive": true
+                    }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+            "type": "all_of",
+            "effects": [
+                {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 1.75,
+                "per_level_above_first": 0
+              }
+            }
+            ]
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:player",
+            "type_specific": {
+              "type": "minecraft:player",
+              "input": {
+                "backward": true,
+                "sneak": true,
+                "sprint": true
+              }
+            },
+            "flags": {
+              "is_on_ground": true
+            },
+            "nbt":{
+              "Tags": ["ls_tm_craive_canuse"]
+            },
+            "slots": {
+            "weapon.mainhand": {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "datapack_type": "ls_trip_magic",
+                        "item_type": "craive",
+                        "glaive": true
+                    }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+            "type": "all_of",
+            "effects": [
+                {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 1.75,
+                "per_level_above_first": 0
+              }
+            }
+            ]
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:player",
+            "type_specific": {
+              "type": "minecraft:player",
+              "input": {
+                "left": true,
+                "sneak": true,
+                "sprint": true
+              }
+            },
+            "flags": {
+              "is_on_ground": true
+            },
+            "nbt":{
+              "Tags": ["ls_tm_craive_canuse"]
+            },
+            "slots": {
+            "weapon.mainhand": {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "datapack_type": "ls_trip_magic",
+                        "item_type": "craive",
+                        "glaive": true
+                    }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+            "type": "all_of",
+            "effects": [
+                {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 1.75,
+                "per_level_above_first": 0
+              }
+            }
+            ]
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:player",
+            "type_specific": {
+              "type": "minecraft:player",
+              "input": {
+                "right": true,
+                "sneak": true,
+                "sprint": true
+              }
+            },
+            "flags": {
+              "is_on_ground": true
+            },
+            "nbt":{
+              "Tags": ["ls_tm_craive_canuse"]
+            },
+            "slots": {
+            "weapon.mainhand": {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "datapack_type": "ls_trip_magic",
+                        "item_type": "craive",
+                        "glaive": true
+                    }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+            "type": "all_of",
+            "effects": [
+                {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 1.75,
+                "per_level_above_first": 0
+              }
+            }
+            ]
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:player",
+            "type_specific": {
+              "type": "minecraft:player",
+              "input": {
+                "sneak": true,
+                "sprint": true
+              }
+            },
+            "flags": {
+              "is_on_ground": true
+            },
+            "nbt":{
+              "Tags": ["ls_tm_craive_canuse"]
+            },
+            "slots": {
+            "weapon.mainhand": {
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "datapack_type": "ls_trip_magic",
+                        "item_type": "craive",
+                        "glaive": true
+                    }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+            "type": "all_of",
+            "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "direction": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.65,
+                "per_level_above_first": 0
+              }
+            },
+            {
+              "type": "minecraft:play_sound",
+              "sound": "minecraft:entity.player.attack.sweep",
+              "pitch": 0.75,
+              "volume": 1.0
+            },
+            {
+              "type": "minecraft:run_function",
+              "function": "ls_trip_and_magic:trip/items/claive/step"
+            },
+            {
+              "type": "apply_exhaustion",
+              "amount": 1
+            }
+            ]
+        }
+      }
+    ]
+  }
+}

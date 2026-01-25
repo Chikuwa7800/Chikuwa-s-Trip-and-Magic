@@ -1,5 +1,4 @@
 tag @s add ls_tm_thantholos_pl
-tag @s add ls_tm_than_cooldown
 execute as @s[tag=ls_tm_thantholos_pl] at @s anchored eyes positioned ^ ^ ^1.5 run particle sweep_attack ~ ~-0.5 ~ 0 0 0 1 1
 execute as @s[tag=ls_tm_thantholos_pl] at @s anchored eyes positioned ^ ^ ^1.5 run particle dust{color:[0.157,0.000,0.278],scale:1} ~ ~-0.5 ~ 1.5 0 1.5 1 50
 execute as @s[tag=ls_tm_thantholos_pl] at @s run playsound entity.player.attack.sweep player @a ~ ~1 ~ 1 0.5

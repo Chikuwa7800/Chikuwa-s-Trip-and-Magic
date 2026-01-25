@@ -78,7 +78,8 @@
                   "weapon_type": "magic_book",
                   "spell_level":["1"]
                 },
-                "minecraft:rarity": "uncommon",
+                
+      "minecraft:rarity": "uncommon",
                 "minecraft:tooltip_display": {
                   "hidden_components": [
                     "minecraft:unbreakable"

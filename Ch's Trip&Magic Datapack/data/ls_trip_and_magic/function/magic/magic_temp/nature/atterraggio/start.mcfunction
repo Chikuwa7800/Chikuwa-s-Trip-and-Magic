@@ -1,5 +1,4 @@
 tag @s add ls_tm_magic_pl
-tag @s add ls_tm_magic_atte_cooldown
 
 execute rotated ~ 0 positioned ^ ^ ^3 run playsound block.gravel.break player @a ~ ~ ~ 2 1
 execute rotated ~ 0 positioned ^ ^ ^3 run playsound item.mace.smash_ground player @a ~ ~ ~ 2 1

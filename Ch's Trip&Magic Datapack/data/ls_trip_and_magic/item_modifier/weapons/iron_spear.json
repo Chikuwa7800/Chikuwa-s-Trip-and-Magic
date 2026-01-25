@@ -74,6 +74,7 @@
         "material": "iron",
         "weapon_type": "spear"
       },
+      
       "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 1,
