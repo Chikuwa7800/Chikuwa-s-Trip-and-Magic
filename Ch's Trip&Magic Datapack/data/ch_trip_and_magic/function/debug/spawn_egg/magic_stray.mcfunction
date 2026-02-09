@@ -1,0 +1,1 @@
+give @s stray_spawn_egg[item_name={text:"Wizard Stray Spawn Egg"},entity_data={id:stray,Tags:["ch_tm_spawned","ch_tm_spawned_mst"]}]

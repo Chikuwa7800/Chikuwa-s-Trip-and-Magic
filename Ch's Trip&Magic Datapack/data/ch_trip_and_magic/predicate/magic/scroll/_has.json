@@ -1,0 +1,18 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "weapon.*": {
+                "predicates": {
+                    "custom_data": {
+                        "datapack_type": "ls_trip_magic",
+                        "item_type": "equipment",
+                        "equipment_type": "scroll",
+                        "item_magic": "true"
+                    }
+                }
+            }
+        }
+    }
+}

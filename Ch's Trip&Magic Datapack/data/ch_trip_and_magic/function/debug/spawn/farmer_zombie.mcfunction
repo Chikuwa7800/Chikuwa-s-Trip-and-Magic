@@ -1,0 +1,1 @@
+execute summon zombie run function ch_trip_and_magic:trip/mobs/firld_boss/summon/init/farmer_zombie

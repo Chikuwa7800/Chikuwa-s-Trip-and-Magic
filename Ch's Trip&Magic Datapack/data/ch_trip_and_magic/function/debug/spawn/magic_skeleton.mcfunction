@@ -1,0 +1,1 @@
+execute summon skeleton run function ch_trip_and_magic:trip/mobs/firld_boss/summon/init/magic_skeleton

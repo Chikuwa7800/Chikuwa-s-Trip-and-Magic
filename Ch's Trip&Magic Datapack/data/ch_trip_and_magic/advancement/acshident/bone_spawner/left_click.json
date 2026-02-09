@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"cs_bone_spawner_core\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ch_trip_and_magic:trip/appdata/bone_spawner/get"
+  }
+}

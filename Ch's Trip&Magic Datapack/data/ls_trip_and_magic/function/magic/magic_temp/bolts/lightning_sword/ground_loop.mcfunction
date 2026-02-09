@@ -1,2 +1,0 @@
-execute if block ~ ~ ~ #ls_trip_and_magic:no_collision if entity @s[distance=..129] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @n[tag=!ls_magic_lightning_sword_pl,type=!#ls_trip_and_magic:cannot_hurt_entities,dx=0] positioned ~0.5 ~0.5 ~0.5 positioned ^ ^ ^1 run return run function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/ground_loop
-summon marker ^ ^ ^20 {Tags:["ch_tm_ls_rotate_marker_hitpoint"]}

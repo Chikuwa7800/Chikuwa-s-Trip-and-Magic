@@ -1,15 +1,16 @@
 {
     "values": [
-      "ls_trip_and_magic:break_block",
-      "ls_trip_and_magic:explode/explode_small",
-      "ls_trip_and_magic:explode/explode_large",
-      "ls_trip_and_magic:explode/explode_large_shock",
-      "ls_trip_and_magic:explode/explode_nova",
-      "ls_trip_and_magic:explode/explode_nova_shock",
-      "ls_trip_and_magic:explode/explode_catastrophe",
-      "ls_trip_and_magic:explode/explode_catastrophe_shock",
-      "ls_trip_and_magic:explode/explode_catastrophe_sound",
-      "ls_trip_and_magic:magic/fire_lv2",
-      "ls_trip_and_magic:magic/fire_lv2_hit"
+      "ch_trip_and_magic:break_block",
+      "ch_trip_and_magic:explode/explode_small",
+      "ch_trip_and_magic:explode/explode_large",
+      "ch_trip_and_magic:explode/explode_large_shock",
+      "ch_trip_and_magic:explode/explode_nova",
+      "ch_trip_and_magic:explode/explode_nova_shock",
+      "ch_trip_and_magic:explode/explode_catastrophe",
+      "ch_trip_and_magic:explode/explode_catastrophe_shock",
+      "ch_trip_and_magic:explode/explode_catastrophe_sound",
+      "ch_trip_and_magic:magic/fire_lv2",
+      "ch_trip_and_magic:magic/fire_lv2_hit",
+      "ch_trip_and_magic:magic/fire_lv3"
     ]
 }

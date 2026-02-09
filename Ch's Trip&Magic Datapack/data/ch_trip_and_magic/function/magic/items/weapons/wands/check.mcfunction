@@ -1,0 +1,2 @@
+execute if predicate ch_trip_and_magic:magic/fangs_wand run return run function ch_trip_and_magic:magic/items/weapons/wands/fangs_staff/select
+execute if predicate ch_trip_and_magic:magic/spell_book/_has run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/select

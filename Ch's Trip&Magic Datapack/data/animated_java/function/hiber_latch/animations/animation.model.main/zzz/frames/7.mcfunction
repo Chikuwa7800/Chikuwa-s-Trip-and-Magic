@@ -15,4 +15,4 @@ $data merge entity $(bone_bone10) {transformation: [0.073f,-1.451f,1.7723f,-1.19
 $data merge entity $(bone_bone18) {transformation: [0.1263f,1.6423f,1.5933f,0.1562f,0.4339f,1.5496f,-1.6316f,0.1562f,-2.2467f,0.3917f,-0.2256f,0.2604f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_bone5) {transformation: [-1.0294f,0.9591f,1.8089f,1.0937f,-0.2676f,1.9443f,-1.1832f,0.1562f,-2.0299f,-0.7428f,-0.7613f,-0.8333f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_bone3) {transformation: [-2.2373f,0.1696f,-0.4661f,0.1562f,0f,2.1535f,0.7838f,0.1562f,0.496f,0.7652f,-2.1024f,1.1458f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-function ls_trip_and_magic:magic/magic_temp/hit
+function ch_trip_and_magic:magic/magic_temp/hit

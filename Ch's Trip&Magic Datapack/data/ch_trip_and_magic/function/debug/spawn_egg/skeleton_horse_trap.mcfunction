@@ -1,0 +1,1 @@
+give @s skeleton_horse_spawn_egg[item_name={text:"Skeleton Horse Trap Spawn Egg"},entity_data={id:skeleton,Tags:["ch_tm_spawned","ch_tm_spawned_sh"]}]

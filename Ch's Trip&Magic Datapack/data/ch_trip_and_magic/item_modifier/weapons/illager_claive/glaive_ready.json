@@ -1,0 +1,54 @@
+{
+    "function": "set_components",
+    "components": {
+        "item_model": "trip_magic:illagers_weapons/illagers_craive/craive_glaive_ready",
+        "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "craive",
+                  "glaive": true,
+                  "ready":true
+                },
+        "attribute_modifiers": [
+        {
+          "id": "minecraft:temp",
+          "type": "attack_damage",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+                  "text": "7 ",
+                  "extra": [
+                    {
+                      "translate": "attribute.name.attack_damage"
+                    }
+                ],
+          "color": "dark_green",
+          "italic": false
+            }
+          }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "attack_speed",
+          "amount": -2.7,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+                  "text": "1.3 ",
+                  "extra": [
+                    {
+                      "translate": "attribute.name.attack_speed"
+                    }
+                ],
+          "color": "dark_green",
+          "italic": false
+            }
+          }
+        }
+      ]
+    }
+}

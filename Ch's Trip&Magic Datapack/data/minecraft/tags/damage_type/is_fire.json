@@ -1,5 +1,6 @@
 {
     "values": [
-      "ls_trip_and_magic:effect/flame"
+      "ch_trip_and_magic:effect/flame",
+      "ch_trip_and_magic:magic/fire_lv3"
     ]
 }

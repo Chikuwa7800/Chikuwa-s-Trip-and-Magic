@@ -1,3 +1,0 @@
-$summon text_display ~ ~ ~ {shadow_radius:0f,shadow_strength:0f,glow_color_override:1b,width:1f,height:1f,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[6f,6f,6f]},billboard:"fixed",default_background:0b,shadow:0b,see_through:0b,alignment:"center",brightness:{sky:15,block:15},text:'{"text":"\\uE984","color":"$(color)"}',background:16711680,Tags:["ls_tm_custom_particle","ls_tm_custom_particle_ring","$(color)"]}
-execute rotated ~ ~ as @e[tag=ls_tm_custom_particle_ring,limit=1,sort=nearest] run tp @s ~ ~ ~ ~ ~
-$data merge storage particle_color_light_ring {color:"$(color)"}

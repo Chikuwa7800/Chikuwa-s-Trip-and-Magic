@@ -1,0 +1,1 @@
+give @s zombie_spawn_egg[item_name={text:"Farmer Zombie Spawn Egg"},entity_data={id:zombie,Tags:["ch_tm_spawned","ch_tm_spawned_fz"]}]

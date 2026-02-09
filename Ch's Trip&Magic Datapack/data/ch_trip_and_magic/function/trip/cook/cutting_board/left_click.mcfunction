@@ -1,0 +1,5 @@
+execute as @e[tag=ls_cutboard,sort=nearest,limit=1] at @s run particle block{block_state:spruce_planks} ~ ~ ~ 0.25 0.05 0.25 0.1 20
+execute as @e[tag=ls_cutboard,sort=nearest,limit=1] at @s run playsound block.wood.break player @a ~ ~ ~ 2 0.75
+execute as @e[tag=ls_cutboard,sort=nearest,limit=1] at @s run summon item ~ ~0.1 ~ {Item:{components:{"minecraft:custom_data":{detapack_type:"ls_trip_magic",item_type:"magic_core"},"minecraft:custom_model_data":{strings:[""]},"minecraft:custom_name":'{"text":"まな板","color":"white","italic":false}',"minecraft:entity_data":{Invisible:1b,Tags:["ls_cutting_board"],id:"minecraft:item_frame"},"minecraft:lore":['{"text":"   ","color":"white","italic":false}','{"text":"料理を始める第一歩に使う道具。","color":"white","italic":false}','{"text":"これがないと何も始まらない。","color":"white","italic":false}','{"text":"   "}','[{"text":"Rarity:","color":"gray","italic":false},{"text":"Common","color":"white","italic":false}]']},count:1,id:"minecraft:item_frame"},Motion:[0.0d,0.1d,0.0d]}
+kill @e[tag=ls_cutboard,sort=nearest,limit=2]
+advancement revoke @s only ch_trip_and_magic:acshident/cut_board/left_click

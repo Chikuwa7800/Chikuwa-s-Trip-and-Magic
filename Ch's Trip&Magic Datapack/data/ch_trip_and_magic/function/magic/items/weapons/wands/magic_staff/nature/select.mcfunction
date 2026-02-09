@@ -1,0 +1,3 @@
+execute if entity @s[predicate=ch_trip_and_magic:magic/spell_book/level/1,predicate=!ch_trip_and_magic:acshident/sneaks,tag=!ch_tm_spell_charged_lv3] run return run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/nature/lv_1
+execute if entity @s[predicate=ch_trip_and_magic:magic/spell_book/level/2,predicate=ch_trip_and_magic:acshident/sneaks,tag=!ch_tm_spell_charged_lv3] run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/nature/lv_2
+execute if entity @s[predicate=ch_trip_and_magic:magic/spell_book/level/3,tag=ch_tm_spell_charged_lv3] run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/nature/lv_3

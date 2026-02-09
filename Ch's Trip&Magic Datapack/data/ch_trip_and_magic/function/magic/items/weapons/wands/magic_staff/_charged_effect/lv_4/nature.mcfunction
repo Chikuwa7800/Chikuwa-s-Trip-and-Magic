@@ -1,0 +1,1 @@
+particle falling_spore_blossom ^ ^ ^0.1 0.25 0.25 0.25 0.025 5 force

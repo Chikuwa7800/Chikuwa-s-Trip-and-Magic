@@ -1,0 +1,11 @@
+{
+  "values": [
+    "ch_trip_and_magic:bolt_magic_protection",
+    "ch_trip_and_magic:fire_magic_protection",
+    "ch_trip_and_magic:ice_magic_protection",
+    "ch_trip_and_magic:magic_protection",
+    "ch_trip_and_magic:nature_magic_protection",
+    "ch_trip_and_magic:void_magic_protection",
+    "ch_trip_and_magic:water_magic_protection"
+  ]
+}

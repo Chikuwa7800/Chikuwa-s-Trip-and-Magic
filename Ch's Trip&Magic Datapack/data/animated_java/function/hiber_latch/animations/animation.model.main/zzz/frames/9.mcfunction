@@ -4,4 +4,4 @@ $data merge entity $(bone_bone7) {transformation: [-2.6848f,-0.2515f,-0.5394f,0.
 $data merge entity $(bone_bone) {transformation: [-2.4923f,-0.4448f,-1.0737f,-0.3125f,0f,2.5407f,-1.0524f,0.1875f,1.1622f,-0.9538f,-2.3026f,-1.1875f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_bone12) {transformation: [-2.0104f,0.8684f,-1.6633f,1.25f,0.0772f,2.474f,1.1984f,0.1875f,1.8748f,0.8294f,-1.833f,1.375f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_bone15) {transformation: [-2.4137f,-1.0865f,0.7458f,-0.5f,-0.2146f,1.8595f,2.0146f,0.1875f,-1.3003f,1.71f,-1.7169f,1.1875f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-function ls_trip_and_magic:magic/magic_temp/hit
+function ch_trip_and_magic:magic/magic_temp/hit

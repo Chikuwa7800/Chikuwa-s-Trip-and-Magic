@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nautilus_shell"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ch_trip_and_magic:magic/frenzied_core"
+    ]
+  },
+  "sends_telemetry_event": false
+}

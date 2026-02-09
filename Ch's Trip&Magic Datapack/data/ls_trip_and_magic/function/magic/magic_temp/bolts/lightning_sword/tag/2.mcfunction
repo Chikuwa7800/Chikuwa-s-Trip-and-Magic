@@ -1,2 +1,0 @@
-function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/init
-tag @s add ch_tm_magic_lightning_sword_2

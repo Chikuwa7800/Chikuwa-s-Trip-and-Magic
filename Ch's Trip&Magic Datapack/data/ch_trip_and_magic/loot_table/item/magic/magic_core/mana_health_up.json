@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+        "translate": "item.magic_core",
+        "with": [
+          ""
+        ],
+        "extra": [
+          {
+            "translate": "item.magic_core.mana_add_up",
+            "italic": false
+          }
+        ],
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item_lore.magic_core",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item_lore.magic_core.mana_add_up",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model":"trip_magic:magic_core/mana_health_up",
+      "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type": "equipment",
+        "equipment_type": "magic_core",
+        "item_condition": "mana_health_up",
+        "item_magic": "true"
+      },
+      
+      "minecraft:rarity": "common"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

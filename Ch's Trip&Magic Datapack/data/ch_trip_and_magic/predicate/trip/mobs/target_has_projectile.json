@@ -1,0 +1,322 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "items": "bow"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "any_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "inventory.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "hotbar.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "weapon.offhand": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "items": "crossbow"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "any_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "inventory.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "hotbar.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "weapon.offhand": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "components": {
+                                    "custom_data": {
+                                        "item_type": "craive",
+                                        "glaive": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "any_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "inventory.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "hotbar.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "weapon.offhand": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "components": {
+                                    "custom_data": {
+                                        "item_type": "weapon",
+                                        "item_magic": "true"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "weapon.offhand": {
+                                "items": "bow"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "any_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "inventory.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "hotbar.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "weapon.offhand": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "weapon.offhand": {
+                                "items": "crossbow"
+                            }
+                        }
+                    }
+                },
+                {
+                    "condition": "any_of",
+                    "terms": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "inventory.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "hotbar.*": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "weapon.offhand": {
+                                        "items": "#arrows"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "weapon.offhand": {
+                                "components": {
+                                    "custom_data": {
+                                        "item_type": "weapon",
+                                        "item_magic": "true"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

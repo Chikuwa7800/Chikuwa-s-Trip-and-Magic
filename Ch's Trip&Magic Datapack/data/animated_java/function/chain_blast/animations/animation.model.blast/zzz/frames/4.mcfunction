@@ -29,5 +29,5 @@ playsound block.chain.break hostile @a ~-1.25 ~ ~ 1 1
 playsound block.chain.break hostile @a ~ ~ ~1.25 1 1
 playsound block.chain.break hostile @a ~ ~ ~-1.25 1 1
 
-execute as @n[tag=aj.chain_blast.root] at @s as @e[distance=..3] at @s run damage @s 0.5 ls_trip_and_magic:entity/ginunga/chain_blast
+execute as @n[tag=aj.chain_blast.root] at @s as @e[distance=..3] at @s run damage @s 0.5 ch_trip_and_magic:entity/ginunga/chain_blast
 execute as @n[tag=aj.chain_blast.root] at @s run effect give @e[distance=..2] slowness 1 2 true

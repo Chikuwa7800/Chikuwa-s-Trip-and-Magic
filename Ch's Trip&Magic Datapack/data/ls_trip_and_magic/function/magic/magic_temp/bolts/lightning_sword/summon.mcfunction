@@ -1,1 +1,0 @@
-execute summon item_display run function ls_trip_and_magic:magic/magic_temp/bolts/lightning_sword/init

@@ -1,0 +1,14 @@
+{
+    "function": "set_components",
+    "components": {
+        "custom_data": {
+            "datapack_type": "ls_trip_magic",
+            "item_type": "equipment",
+            "equipment_type": "scroll",
+            "item_condition": "rewritten_teleportation_scroll",
+            "has_location":true,
+            "saved_location":0,
+            "item_magic": "true"
+        }
+    }
+}

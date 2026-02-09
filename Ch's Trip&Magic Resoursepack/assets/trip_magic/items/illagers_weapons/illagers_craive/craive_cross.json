@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "trip_magic:item/illagers_weapons/illager_craive/cross_craive_standby"
+    },
+    "hand_animation_on_swap": true
+}

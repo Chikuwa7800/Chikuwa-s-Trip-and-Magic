@@ -1,0 +1,3 @@
+execute if entity @s[scores={ch_tm_magic_mana=50..}] anchored eyes positioned ^ ^ ^0.1 run function ch_trip_and_magic:magic/items/artifacts/scroll/teleportation_scroll/has_location/main
+execute if entity @s[scores={ch_tm_magic_mana=..49}] run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/no
+execute if entity @s[scores={ch_tm_magic_mana=..49}] run tellraw @s {"translate":"notice.notenough_mana","color":"dark_red","bold":true,"italic":false,"underlined":true}

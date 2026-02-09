@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "#planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ch_trip_and_magic:trip/glaive/wood",
+      "ch_trip_and_magic:trip/knife/wood"
+    ]
+  },
+  "sends_telemetry_event": false
+}

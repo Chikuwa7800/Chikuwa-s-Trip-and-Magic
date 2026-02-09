@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "advancements.trip.bone_spawner.title"
+    },
+    "description": {
+      "translate": "advancements.trip.bone_spawner"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ch_trip_and_magic:roots/trip/root",
+  "criteria": {
+    "root": {
+        "trigger": "minecraft:impossible"
+    }
+  }
+}

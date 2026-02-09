@@ -1,0 +1,1 @@
+execute summon stray run function ch_trip_and_magic:trip/mobs/firld_boss/summon/init/assassin_stray

@@ -1,0 +1,134 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "items": "#swords"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "items": "#axes"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "items": "#spears"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "components": {
+                                    "custom_data": {
+                                        "weapon_type": "glaive"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "components": {
+                                    "custom_data": {
+                                        "weapon_type": "knife"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "components": {
+                                    "custom_data": {
+                                        "weapon_type": "spear"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "components": {
+                                    "custom_data": {
+                                        "item_type": "craive",
+                                        "glaive": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

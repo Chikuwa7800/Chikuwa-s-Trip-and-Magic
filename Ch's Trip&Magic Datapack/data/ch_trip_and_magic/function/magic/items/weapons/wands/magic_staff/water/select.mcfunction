@@ -1,0 +1,2 @@
+execute if entity @s[predicate=ch_trip_and_magic:magic/spell_book/level/1,predicate=!ch_trip_and_magic:acshident/sneaks] run return run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/water/lv_1
+execute if entity @s[predicate=ch_trip_and_magic:magic/spell_book/level/2,predicate=ch_trip_and_magic:acshident/sneaks] run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/water/lv_2

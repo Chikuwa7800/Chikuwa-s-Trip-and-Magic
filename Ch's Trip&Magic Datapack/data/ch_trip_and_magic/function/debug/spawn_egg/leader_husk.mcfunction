@@ -1,0 +1,1 @@
+give @s husk_spawn_egg[item_name={text:"Leader Husk Spawn Egg"},entity_data={id:husk,Tags:["ch_tm_spawned","ch_tm_spawned_lh"]}]

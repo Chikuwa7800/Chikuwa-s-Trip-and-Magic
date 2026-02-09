@@ -5,7 +5,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"ls_tm_bosses_ginunga_summon\"]}"
+          "nbt": "{Tags:[\"ch_tm_bosses_ginunga_summon\"]}"
         }
       }
     }

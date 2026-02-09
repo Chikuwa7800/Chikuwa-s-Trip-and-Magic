@@ -1,0 +1,5 @@
+execute unless predicate ch_trip_and_magic:acshident/sneaks if predicate ch_trip_and_magic:magic/craft/item_core as @n[tag=ch_tm_magic_crafting_table_core,tag=!ch_tm_magic_crafting_table_cannot_contact,tag=!ch_tm_magic_crafting_table_prep] at @s run function ch_trip_and_magic:magic/block/magic_crafting_table/craft/right_click/prep
+execute unless predicate ch_trip_and_magic:acshident/sneaks as @n[tag=ch_tm_magic_crafting_table_core,tag=!ch_tm_magic_crafting_table_cannot_contact,tag=ch_tm_magic_crafting_table_prep] at @s run function ch_trip_and_magic:magic/block/magic_crafting_table/craft/right_click/material
+execute if predicate ch_trip_and_magic:acshident/sneaks as @n[tag=ch_tm_magic_crafting_table_core,tag=!ch_tm_magic_crafting_table_cannot_contact] at @s run function ch_trip_and_magic:magic/block/magic_crafting_table/craft/cancel
+playsound block.basalt.place
+advancement revoke @s only ch_trip_and_magic:interaction_magic_table

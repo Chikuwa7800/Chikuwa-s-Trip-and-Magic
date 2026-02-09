@@ -1,0 +1,13 @@
+{
+    "function": "set_components",
+    "components": {
+        "item_model": "trip_magic:illagers_weapons/illagers_craive/craive_cross",
+        "!attribute_modifiers": {},
+        "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "craive",
+                  "glaive": false,
+                  "ready":false
+                }
+    }
+}

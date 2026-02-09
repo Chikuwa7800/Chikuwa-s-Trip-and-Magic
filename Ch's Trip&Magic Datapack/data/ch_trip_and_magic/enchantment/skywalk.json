@@ -1,0 +1,73 @@
+{
+    "description": {
+        "translate": "enchantment.trip_magic.skywalk"
+    },
+    "anvil_cost": 4,
+    "supported_items": "#foot_armor",
+    "slots": [
+        "feet"
+    ],
+    "weight": 3,
+    "min_cost": {
+        "base": 6,
+        "per_level_above_first": 7
+    },
+    "max_cost": {
+        "base": 27,
+        "per_level_above_first": 7
+    },
+    "exclusive_set": [
+        "blast_protection"
+    ],
+    "max_level": 3,
+    "effects": {
+        "tick": [
+            {
+                "requirements": [
+                    {
+                        "entity": "this",
+                        "condition": "entity_properties",
+                        "predicate": {
+                            "type": "player",
+                            "type_specific": {
+                                "type": "player",
+                                "input": {
+                                    "jump": true
+                                }
+                            },
+                            "nbt":{
+                              "Tags": ["ch_tm_can_skywalk"]
+                            }
+                        }
+                    }
+                ],
+                "effect": {
+                    "type": "all_of",
+                    "effects": [
+                        {
+                        "type": "run_function",
+                        "function": "ch_trip_and_magic:skywalk"
+                        },
+                        {
+                        "type": "explode",
+                        "knockback_multiplier": {
+                            "type": "linear",
+                            "base": 0.45,
+                            "per_level_above_first": 0.25
+                        },
+                        "block_interaction": "none",
+                        "radius": 0.1,
+                        "large_particle": {
+                            "type": "poof"
+                        },
+                        "small_particle": {
+                            "type": "small_gust"
+                        },
+                        "sound": "entity.player.attack.sweep"
+                        }
+                    ]
+                   }
+            }
+        ]
+    }
+}

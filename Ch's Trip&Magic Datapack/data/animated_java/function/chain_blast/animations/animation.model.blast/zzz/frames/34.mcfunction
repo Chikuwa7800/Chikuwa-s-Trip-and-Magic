@@ -43,4 +43,4 @@ execute as @n[tag=aj.chain_blast.root] at @s positioned ~ ~1.25 ~ run function c
 execute as @n[tag=aj.chain_blast.root] at @s run playsound entity.zombie.break_wooden_door hostile @a ~ ~ ~ 1 0
 execute as @n[tag=aj.chain_blast.root] at @s run playsound trip_magic:entity.ginunga.chain_blast hostile @a ~ ~ ~ 1 1
 
-execute as @n[tag=aj.chain_blast.root] at @s as @e[distance=..3] at @s run damage @s 15 ls_trip_and_magic:entity/ginunga/chain_blast.blast at ~ ~-0.25 ~
+execute as @n[tag=aj.chain_blast.root] at @s as @e[distance=..3] at @s run damage @s 15 ch_trip_and_magic:entity/ginunga/chain_blast.blast at ~ ~-0.25 ~

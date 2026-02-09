@@ -4,7 +4,7 @@
 		"animated_java:global/on_load",
 		"ch_effect_temp:load",
 		"ch_trip_and_magic_boss:load",
-		"ls_trip_and_magic:load",
+		"ch_trip_and_magic:load",
 		"ch_debug:load"
 	]
 }

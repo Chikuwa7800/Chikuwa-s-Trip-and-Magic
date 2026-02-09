@@ -1,0 +1,2 @@
+tag @s remove ch_tm_trip_firld_boss_husk_hammer
+tag @s remove ch_tm_trip_firld_boss_husk_hammer_success

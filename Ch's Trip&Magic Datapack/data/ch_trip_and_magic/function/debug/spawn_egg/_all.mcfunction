@@ -1,0 +1,13 @@
+function ch_trip_and_magic:debug/spawn_egg/assassin_stray
+function ch_trip_and_magic:debug/spawn_egg/bone_clusher
+function ch_trip_and_magic:debug/spawn_egg/farmer_zombie
+function ch_trip_and_magic:debug/spawn_egg/glaivemaster_bogged
+function ch_trip_and_magic:debug/spawn_egg/lanceman_skeleton
+function ch_trip_and_magic:debug/spawn_egg/leader_husk
+function ch_trip_and_magic:debug/spawn_egg/leader_zombie
+function ch_trip_and_magic:debug/spawn_egg/skeleton_horse_trap
+function ch_trip_and_magic:debug/spawn_egg/warrior_husk
+function ch_trip_and_magic:debug/spawn_egg/magic_bogged
+function ch_trip_and_magic:debug/spawn_egg/magic_parched
+function ch_trip_and_magic:debug/spawn_egg/magic_skeleton
+function ch_trip_and_magic:debug/spawn_egg/magic_stray

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+              "obsidian"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ch_trip_and_magic:trip/glaive/obsidian",
+      "ch_trip_and_magic:trip/knife/obsidian"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,165 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:bundle_contents": [],
+                "minecraft:item_name": {
+                  "translate": "item.craive"
+                },
+                "custom_name": {
+                  "translate": "item.craive",
+                  "color": "white",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item_lore.craive",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {"text": " "},
+                  {
+                    "translate": "attribute.name.added_attack",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.keyboard.left.control",
+                    "color": "gray",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "+",
+                        "extra": [
+                          {
+                            "translate": "key.keyboard.left.shift",
+                            "extra": [
+                              {
+                                "text": ": ",
+                                "extra": [
+                                  {
+                                    "translate": "item_skill.craive.glaive.step"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "key.swapOffhand",
+                    "color": "gray",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": ": ",
+                        "extra": [
+                          {
+                            "translate": "item_skill.craive.change"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "enchantments": {
+                "ch_trip_and_magic:craive": 1
+                },
+                "enchantment_glint_override":false,
+                "item_model": "trip_magic:illagers_weapons/craive/craive_glaive",
+                "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "craive",
+                  "glaive": true,
+                  "ready":false
+                },
+                "minecraft:rarity": "common",
+                "minecraft:weapon": {
+                  "item_damage_per_attack": 1,
+                  "disable_blocking_for_seconds": 0
+                },
+                "minecraft:max_damage": 462,
+                "minecraft:tool": {
+                  "rules": [],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 2,
+                  "can_destroy_blocks_in_creative": false
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "enchantments"
+                  ]
+                },
+                "repairable":{
+                  "items": "iron_ingot"
+                },
+                "repair_cost":4,
+                "attack_range": {
+                  "hitbox_margin": 0,
+                  "max_reach": 4,
+                  "min_reach": 0,
+                  "mob_factor": 0.75,
+                  "max_creative_reach": 6,
+                  "min_creative_reach": 0
+                },
+                "attribute_modifiers": [
+                  {
+                    "id": "minecraft:temp",
+                    "type": "attack_damage",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "override",
+                      "value": {
+                            "text": "7 ",
+                            "extra": [
+                              {
+                                "translate": "attribute.name.attack_damage"
+                              }
+                          ],
+                    "color": "dark_green",
+                    "italic": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "minecraft:temp",
+                    "type": "attack_speed",
+                    "amount": -3,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "override",
+                      "value": {
+                            "text": "1.3 ",
+                            "extra": [
+                              {
+                                "translate": "attribute.name.attack_speed"
+                              }
+                          ],
+                    "color": "dark_green",
+                    "italic": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

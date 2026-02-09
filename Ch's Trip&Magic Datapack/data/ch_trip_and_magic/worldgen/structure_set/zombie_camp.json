@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 9347381894,
+    "separation": 1,
+    "spacing": 16
+  },
+  "structures": [
+    {
+      "structure": "ch_trip_and_magic:zombie_camp",
+      "weight": 2
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+tag @s add ch_tm_trip_mobs_craive_illager_vs_others
+
+tag @s remove ch_tm_trip_mobs_craive_illager_vs_mellee
+tag @s remove ch_tm_trip_mobs_craive_illager_vs_projectile
+tag @s remove ch_tm_trip_mobs_craive_illager_vs_both

@@ -1,0 +1,1 @@
+give @s parched_spawn_egg[item_name={text:"Wizard Parched Spawn Egg"},entity_data={id:parched,Tags:["ch_tm_spawned","ch_tm_spawned_mp"]}]

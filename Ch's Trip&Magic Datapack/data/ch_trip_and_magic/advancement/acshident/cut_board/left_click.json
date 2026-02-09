@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[\"ls_cutboard\",\"ls_cutboard_interact\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ch_trip_and_magic:trip/cook/cutting_board/left_click"
+  }
+}

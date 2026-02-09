@@ -1,0 +1,5 @@
+##ch_trip_and_magic_wakame_sword_jump_attack_2
+
+tag @s add ch_trip_and_magic_wakame_sword_jump_attack_2_main
+
+tag @s remove ch_trip_and_magic_wakame_sword_jump_attack_2

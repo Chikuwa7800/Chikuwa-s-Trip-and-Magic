@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "X": "minecraft:ghast_tear",
+    "#": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "item.magic_core",
+        "with": [
+          ""
+        ],
+        "extra": [
+          {
+            "translate": "item.magic_core.mana_add_up",
+            "italic": false
+          }
+        ],
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item_lore.magic_core",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item_lore.magic_core.mana_add_up",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model":"trip_magic:magic_core/mana_health_up",
+      "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type": "equipment",
+        "equipment_type": "magic_core",
+        "item_condition": "mana_health_up",
+        "item_magic": "true"
+      },
+      
+      "minecraft:rarity": "common",
+      "minecraft:tool": {
+        "rules": [],
+        "default_mining_speed": 1,
+        "damage_per_block": 0,
+        "can_destroy_blocks_in_creative": true
+      }
+    }
+  }
+}

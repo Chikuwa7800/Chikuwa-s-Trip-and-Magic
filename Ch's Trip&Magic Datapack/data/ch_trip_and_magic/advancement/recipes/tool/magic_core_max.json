@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "emerald"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ch_trip_and_magic:magic/magic_core/mana_up"
+    ]
+  },
+  "sends_telemetry_event": false
+}

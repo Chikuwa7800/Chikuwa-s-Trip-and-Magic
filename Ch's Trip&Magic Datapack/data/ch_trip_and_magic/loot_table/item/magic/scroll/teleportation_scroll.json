@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                    "translate": "item.teleportation_scroll"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item_lore.scroll",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model":"trip_magic:scroll/teleportation_scroll",
+                "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "equipment",
+                  "equipment_type": "scroll",
+                  "item_condition": "teleportation_scroll",
+                  "item_magic": "true"
+                },
+                "minecraft:rarity": "common"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

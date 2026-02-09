@@ -1,0 +1,15 @@
+data merge entity @s {drop_chances:{mainhand:0,offhand:0,head:0},DeathLootTable:"ch_trip_and_magic:entities/magic_bogged"}
+item replace entity @s armor.head with acacia_button
+item replace entity @s weapon.mainhand with acacia_button
+item replace entity @s weapon.offhand with acacia_button
+item modify entity @s weapon.mainhand ch_trip_and_magic:bow
+item modify entity @s weapon.offhand ch_trip_and_magic:w_stick
+item modify entity @s armor.head ch_trip_and_magic:command_block
+item modify entity @s weapon.mainhand ch_trip_and_magic:weapons/magic_staff
+item modify entity @s weapon.offhand ch_trip_and_magic:weapons/water_spell_book
+item modify entity @s armor.head ch_trip_and_magic:ice_magic_hat
+tag @s add ch_tm_trip_mobs_magic_bogged
+function ch_trip_and_magic:set_entity_id
+tag @s add ch_tm_trip_firld_boss
+
+tag @s add ch_tm_trip_mobs

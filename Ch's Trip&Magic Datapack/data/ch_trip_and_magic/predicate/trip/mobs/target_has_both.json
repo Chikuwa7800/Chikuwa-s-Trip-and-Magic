@@ -1,0 +1,61 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "items": "trident"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "components": {
+                                    "custom_data": {
+                                        "weapon_type": "wakame_sword"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "all_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                            "hotbar.*": {
+                                "components": {
+                                    "custom_data": {
+                                        "weapon_type": "lightning_rapier"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

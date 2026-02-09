@@ -1,0 +1,1 @@
+tag @a[tag=ch_tm_magic_pl_freeze] remove ch_tm_magic_pl_freeze

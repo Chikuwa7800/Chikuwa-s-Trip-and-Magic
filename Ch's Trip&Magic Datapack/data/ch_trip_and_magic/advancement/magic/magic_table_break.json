@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"ch_tm_magic_crafting_table\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ch_trip_and_magic:magic/block/magic_crafting_table/break"
+  },
+  "sends_telemetry_event": false
+}

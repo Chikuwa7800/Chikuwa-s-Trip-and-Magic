@@ -35,6 +35,6 @@
  execute if entity @s[scores={ch_tm_bosses_summon_tick=252}] as @n[type=item_display,tag=aj.ginunga.root] at @s run tag @s add ch_tm.boss.ginunga.has_target
   execute if entity @s[scores={ch_tm_bosses_summon_tick=252}] as @n[type=item_display,tag=aj.ginunga.root] at @s run tag @s add ch_tm_bosses_in_combat
   execute if entity @s[scores={ch_tm_bosses_summon_tick=252}] as @n[type=item_display,tag=aj.ginunga.root] at @s run scoreboard players set @s ch_tm_bosses_health 166400
-  execute if entity @s[scores={ch_tm_bosses_summon_tick=252}] run tag @s remove ls_tm_bosses_ginunga_summon_during_summon
-  execute if entity @s[scores={ch_tm_bosses_summon_tick=252}] run tag @s remove ls_tm_bosses_ginunga_summon_after_summon
+  execute if entity @s[scores={ch_tm_bosses_summon_tick=252}] run tag @s remove ch_tm_bosses_ginunga_summon_during_summon
+  execute if entity @s[scores={ch_tm_bosses_summon_tick=252}] run tag @s remove ch_tm_bosses_ginunga_summon_after_summon
   execute if entity @s[scores={ch_tm_bosses_summon_tick=252}] run scoreboard players reset @s ch_tm_bosses_summon_tick

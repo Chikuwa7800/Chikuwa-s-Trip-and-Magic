@@ -1,0 +1,2 @@
+execute unless predicate ch_trip_and_magic:magic/scroll/rewritten_teleportation_scroll_has_location run return run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/set_location/main
+execute if predicate ch_trip_and_magic:magic/scroll/rewritten_teleportation_scroll_has_location run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/has_location/main

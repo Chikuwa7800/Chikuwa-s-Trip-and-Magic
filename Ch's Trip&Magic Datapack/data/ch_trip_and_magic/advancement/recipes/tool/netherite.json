@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "netherite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ch_trip_and_magic:trip/glaive/netherite",
+      "ch_trip_and_magic:trip/knife/netherite"
+    ]
+  },
+  "sends_telemetry_event": false
+}

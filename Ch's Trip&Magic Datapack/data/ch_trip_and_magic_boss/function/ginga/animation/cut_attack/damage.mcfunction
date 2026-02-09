@@ -1,1 +1,1 @@
-execute positioned ~-0.5 ~ ~-0.5 as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,dx=0,dz=0,dy=1] run damage @s 3 ls_trip_and_magic:entity/ginunga/cut_attack
+execute positioned ~-0.5 ~ ~-0.5 as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,dx=0,dz=0,dy=1] run damage @s 3 ch_trip_and_magic:entity/ginunga/cut_attack

@@ -1,5 +1,0 @@
-##ls_trip_and_magic_wakame_sword_jump_attack_2
-
-tag @s add ls_trip_and_magic_wakame_sword_jump_attack_2_main
-
-tag @s remove ls_trip_and_magic_wakame_sword_jump_attack_2

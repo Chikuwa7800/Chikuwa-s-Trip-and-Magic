@@ -1,0 +1,1 @@
+give @s bogged_spawn_egg[item_name={text:"Glaivemaster Bogged Spawn Egg"},entity_data={id:bogged,Tags:["ch_tm_spawned","ch_tm_spawned_gb"]}]

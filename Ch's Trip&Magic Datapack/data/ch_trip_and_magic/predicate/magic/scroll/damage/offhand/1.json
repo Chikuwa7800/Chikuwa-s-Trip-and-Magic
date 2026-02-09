@@ -1,0 +1,15 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "weapon.offhand": {
+                "predicates": {
+                    "damage": {
+                        "damage": 1
+                    }
+                }
+            }
+        }
+    }
+}

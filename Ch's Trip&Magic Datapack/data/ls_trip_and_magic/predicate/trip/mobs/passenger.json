@@ -1,9 +1,0 @@
-{
-    "condition": "entity_properties",
-    "entity": "this",
-    "predicate": {
-        "passenger": {
-            "type": "#ls_trip_and_magic:vehicle"
-        }
-    }
-}

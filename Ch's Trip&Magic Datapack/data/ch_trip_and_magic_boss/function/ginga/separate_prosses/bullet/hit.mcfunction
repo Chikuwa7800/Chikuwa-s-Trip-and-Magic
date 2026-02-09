@@ -7,6 +7,6 @@ particle enchant ~ ~ ~ 0.45 0.45 0.45 0 10
 particle crit ~ ~ ~ 0.25 0.25 0.25 0 10
 
 
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @n[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ls_trip_and_magic:mobs,tag=!ch_tm_bosses_void_bullet,dx=0] at @s positioned ~0.5 ~0.5 ~0.5 run damage @s 7 ls_trip_and_magic:entity/ginunga/bullet by @n[tag=ch_tm_bosses_void_bullet] from @n[tag=ch_trip_and_magic_bosses_intaract_ginga]
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @n[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:mobs,tag=!ch_tm_bosses_void_bullet,dx=0] at @s positioned ~0.5 ~0.5 ~0.5 run damage @s 7 ch_trip_and_magic:entity/ginunga/bullet by @n[tag=ch_tm_bosses_void_bullet] from @n[tag=ch_trip_and_magic_bosses_intaract_ginga]
 
 kill @s

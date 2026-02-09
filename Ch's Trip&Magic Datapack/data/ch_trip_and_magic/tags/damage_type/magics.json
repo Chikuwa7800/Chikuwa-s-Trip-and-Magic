@@ -1,0 +1,12 @@
+{
+    "values": [
+        "minecraft:magic",
+        "minecraft:indirect_magic",
+        "#ch_trip_and_magic:bolt",
+        "#ch_trip_and_magic:flame",
+        "#ch_trip_and_magic:ice",
+        "#ch_trip_and_magic:nature",
+        "#ch_trip_and_magic:void",
+        "#ch_trip_and_magic:water"
+    ]
+}

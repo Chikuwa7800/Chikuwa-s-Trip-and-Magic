@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "model",
+        "model": "trip_magic:item/scroll/rewritten_teleport"
+    },
+    "hand_animation_on_swap": true
+}

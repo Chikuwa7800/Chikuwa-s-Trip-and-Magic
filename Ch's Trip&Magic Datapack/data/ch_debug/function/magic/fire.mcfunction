@@ -1,4 +1,4 @@
-loot replace entity @s weapon.offhand loot ls_trip_and_magic:item/weapons/magic/book/lv_2/fire
+loot replace entity @s weapon.offhand loot ch_trip_and_magic:item/weapons/magic/book/lv_2/fire
 playsound item.armor.equip_leather player @a ^ ^ ^ 1 1
 execute positioned ~ ~1 ~ run particle minecraft:flame ~ ~0.25 ~ 0.25 0.25 0.25 0. 25
 execute positioned ~ ~1 ~ run particle minecraft:flash{color:-36096}

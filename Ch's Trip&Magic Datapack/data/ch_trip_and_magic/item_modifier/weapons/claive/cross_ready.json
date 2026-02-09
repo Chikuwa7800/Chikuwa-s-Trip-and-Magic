@@ -1,0 +1,61 @@
+{
+    "function": "set_components",
+    "components": {
+        "item_model": "trip_magic:illagers_weapons/craive/craive_cross_ready",
+        "!attribute_modifiers": {},
+        "minecraft:custom_data": {
+                  "datapack_type": "ls_trip_magic",
+                  "item_type": "craive",
+                  "glaive": false,
+                  "ready":true
+                },
+        "minecraft:lore": [
+                  {
+                    "translate": "item_lore.craive",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {"text": " "},
+                  {
+                    "translate": "attribute.name.added_attack",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.mouse.right",
+                    "color": "gray",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": ": ",
+                        "extra": [
+                          {
+                            "translate": "item_skill.craive.cross.shot"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "key.swapOffhand",
+                    "color": "gray",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": ": ",
+                        "extra": [
+                          {
+                            "translate": "item_skill.craive.change"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+        "charged_projectiles": [
+            {
+                "id": "arrow"
+            }
+        ] 
+    }
+}

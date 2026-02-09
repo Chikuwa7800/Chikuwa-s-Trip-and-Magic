@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "amethyst_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ch_trip_and_magic:magic/element_core/bolt",
+      "ch_trip_and_magic:magic/element_core/fire",
+      "ch_trip_and_magic:magic/element_core/ice",
+      "ch_trip_and_magic:magic/element_core/water",
+      "ch_trip_and_magic:magic/element_core/nature",
+      "ch_trip_and_magic:magic/element_core/void"
+    ]
+  },
+  "sends_telemetry_event": false
+}

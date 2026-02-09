@@ -18,7 +18,7 @@
         "entries": [
           {
             "type": "loot_table",
-            "value": "ls_trip_and_magic:item/weapons/undead_killer"
+            "value": "ch_trip_and_magic:item/weapons/undead_killer"
           }
         ]
       },

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cobblestone",
+              "blackstone",
+              "cobbled_deepslate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ch_trip_and_magic:trip/glaive/stone",
+      "ch_trip_and_magic:trip/knife/stone"
+    ]
+  },
+  "sends_telemetry_event": false
+}

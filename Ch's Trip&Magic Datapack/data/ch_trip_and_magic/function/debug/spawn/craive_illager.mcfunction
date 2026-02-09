@@ -1,0 +1,1 @@
+execute summon vindicator run function ch_trip_and_magic:trip/mobs/firld_boss/summon/init/craive_illager

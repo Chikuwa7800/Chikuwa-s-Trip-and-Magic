@@ -1,8 +1,8 @@
 scoreboard players remove @s ch_tm_bosses_timer 1
 execute if score @s ch_effect_temp_timer matches 99 run function animated_java:ginunga/animations/animation.model.move/play
 execute if score @s ch_effect_temp_timer matches 99 run tag @s[tag=aj.ginunga.root] add ch_tm.boss.ginunga.change.axis
-execute if score @s ch_effect_temp_timer matches 0..99 if block ^ ^ ^0.25 #ls_trip_and_magic:no_collision run tp @s ^ ^ ^0.25
-execute if score @s ch_effect_temp_timer matches 0..99 if block ^ ^ ^0.25 #ls_trip_and_magic:no_collision run tp @s ^ ^ ^0.25
+execute if score @s ch_effect_temp_timer matches 0..99 if block ^ ^ ^0.25 #ch_trip_and_magic:no_collision run tp @s ^ ^ ^0.25
+execute if score @s ch_effect_temp_timer matches 0..99 if block ^ ^ ^0.25 #ch_trip_and_magic:no_collision run tp @s ^ ^ ^0.25
 execute if score @s ch_effect_temp_timer matches 0 run function animated_java:ginunga/animations/pause_all
 execute if score @s ch_effect_temp_timer matches 0 run function animated_java:ginunga/animations/animation.model.move_attack/play
 execute if score @s ch_effect_temp_timer matches 0 run tag @s remove ch_tm.boss.ginunga.action.move

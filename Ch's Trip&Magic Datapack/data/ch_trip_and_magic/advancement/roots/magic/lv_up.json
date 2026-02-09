@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "item_model":"trip_magic:upgrade_core/lapis"
+      }
+    },
+    "title": {
+      "translate": "advancements.magic.lv_up.title"
+    },
+    "description": {
+      "translate": "advancements.magic.lv_up"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ch_trip_and_magic:roots/magic/spell_book",
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+      "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type": "item_core",
+        "core_type": "element_core_upgrade_lv1"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

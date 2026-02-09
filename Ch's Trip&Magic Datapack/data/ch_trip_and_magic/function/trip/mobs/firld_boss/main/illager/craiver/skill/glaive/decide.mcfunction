@@ -1,0 +1,1 @@
+execute if entity @s[tag=ch_tm_trip_mobs_craive_illager_vs_mellee] run function ch_trip_and_magic:trip/mobs/firld_boss/main/illager/craiver/skill/glaive/vs_mellee/decide

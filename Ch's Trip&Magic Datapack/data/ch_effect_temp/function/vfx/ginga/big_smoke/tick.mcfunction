@@ -19,7 +19,7 @@
   execute if entity @s[scores={ch_effect_vfx_timer=110}] run data modify entity @s text set value {"text":"\uE011",font:"trip_magic:vfx/ginga/big_smoke",color:white}
 
 #煙の上昇
-execute if entity @s[scores={ch_effect_vfx_timer=1..119}] if block ~ ~0.0125 ~ #ls_trip_and_magic:no_collision run tp @s ~ ~0.025 ~
+execute if entity @s[scores={ch_effect_vfx_timer=1..119}] if block ~ ~0.0125 ~ #ch_trip_and_magic:no_collision run tp @s ~ ~0.025 ~
 
  #消去
   execute if entity @s[scores={ch_effect_vfx_timer=120..}] run kill @s

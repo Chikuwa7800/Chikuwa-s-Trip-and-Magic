@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.25,
+            "per_level_above_first": 0.1
+          },
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.125
+        }
+      ],
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "ch_trip_and_magic:item/magic/scroll/teleportation_scroll"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls":1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "entities/illusioner"
+        }
+      ]
+    }
+    ]
+}

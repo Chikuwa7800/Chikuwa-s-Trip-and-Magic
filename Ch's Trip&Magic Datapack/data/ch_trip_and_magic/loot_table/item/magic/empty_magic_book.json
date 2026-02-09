@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+      "minecraft:item_name": {
+        "translate": "item.spell_book.empty",
+        "with": [
+          ""
+        ],
+        "extra": [
+          {
+            "translate": "item.spell_book",
+            "italic": false
+          }
+        ],
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item_lore.spell_book.empty",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item_lore.magic_crafting_table.core",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "item_model":"trip_magic:empty_spell_book",
+      "minecraft:custom_data": {
+        "datapack_type": "ls_trip_magic",
+        "item_type":"item_core",
+        "core_type": "magic_book"
+      },
+      "minecraft:rarity": "common"
+    }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

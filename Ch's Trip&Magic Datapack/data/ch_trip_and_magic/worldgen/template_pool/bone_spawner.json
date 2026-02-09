@@ -1,0 +1,15 @@
+{
+    "name": "ch_trip_and_magic:bone_spawner",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "ch_trip_and_magic:bone_spawner",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }

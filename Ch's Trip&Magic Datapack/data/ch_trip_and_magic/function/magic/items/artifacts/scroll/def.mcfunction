@@ -1,0 +1,3 @@
+execute if predicate ch_trip_and_magic:magic/scroll/teleportation_scroll run function ch_trip_and_magic:magic/items/artifacts/scroll/teleportation_scroll/def
+
+execute if predicate ch_trip_and_magic:magic/scroll/rewritten_teleportation_scroll run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/def
