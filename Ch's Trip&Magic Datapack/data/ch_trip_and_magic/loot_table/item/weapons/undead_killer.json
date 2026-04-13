@@ -12,9 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model":"trip_magic:trip_weapons/undead_killer",
-                "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
-        "item_type": "weapon",
+                "minecraft:custom_data": {"item_type": "weapon",
         "weapon_type": "undead_killer"
       },
                 "minecraft:item_name": {

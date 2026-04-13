@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": "gui",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/lance/iron_lance"
+                }
+            },
+            {
+                "when": "ground",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "trip_magic:item/lance/iron_lance"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "trip_magic:item/lance/handed/iron_lance"
+        }
+    },
+    "hand_animation_on_swap": true
+}

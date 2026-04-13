@@ -78,7 +78,7 @@
       ],
       "minecraft:item_model":"trip_magic:magic_weapons/magic_staff/evoker",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "weapon",
         "item_condition": [
           "fang"
@@ -122,9 +122,7 @@
           "display": {
             "type": "override",
             "value": {
-              "text": "0 ",
-              "extra": [
-                {
+              
                   "text": "100 ",
           "extra": [
             {
@@ -133,8 +131,6 @@
           ],
           "color": "dark_green",
           "italic": false
-                }
-              ]
             }
           }
         },
@@ -147,9 +143,6 @@
           "display": {
             "type": "override",
             "value": {
-              "text": "0 ",
-              "extra": [
-                {
                   "text": "1 ",
           "extra": [
             {
@@ -158,8 +151,6 @@
           ],
           "color": "dark_green",
           "italic": false
-                }
-              ]
             }
           }
         },
@@ -172,9 +163,6 @@
           "display": {
             "type": "override",
             "value": {
-              "text": "0 ",
-              "extra": [
-                {
                   "translate": "attribute.name.skill",
           "extra": [
             {
@@ -183,8 +171,6 @@
           ],
           "color": "dark_green",
           "italic": false
-                }
-              ]
             }
           }
         }

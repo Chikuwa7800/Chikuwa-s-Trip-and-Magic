@@ -111,7 +111,7 @@
                 ],
                 "item_model":"trip_magic:spell_book/lv_2/bolt_spell_book",
                 "minecraft:custom_data": {
-                  "datapack_type": "ls_trip_magic",
+                  
                   "item_type": "weapon",
                   "item_condition": "bolt",
                   "weapon_type": "magic_book",

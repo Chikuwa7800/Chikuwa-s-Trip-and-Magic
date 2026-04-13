@@ -60,7 +60,7 @@
       ],
       "minecraft:item_model":"trip_magic:magic_weapons/magic_staff/normal",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "weapon",
         "item_condition": [
           "none",

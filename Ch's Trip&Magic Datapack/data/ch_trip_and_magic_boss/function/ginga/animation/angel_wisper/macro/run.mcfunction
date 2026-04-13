@@ -15,11 +15,11 @@
 
   #ダメージ処理
    #おら、くらえ
-    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=0..2.999999] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"24"}
-    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=3..4.999999] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"17"}
-    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=5..7.999999] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"14"}
-    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=8..10.999999] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"10"}
-    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=10..20] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"5"}
+    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=0..2.999999] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"48"}
+    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=3..4.999999] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"34"}
+    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=5..7.999999] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"28"}
+    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=8..10.999999] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"20"}
+    execute as @e[tag=!ch_trip_and_magic_bosses_intaract_ginga,type=!#ch_trip_and_magic:cannot_hurt_entities,distance=10..20] run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/damage {"damage":"10"}
 
  #リセット
   #scoreboard players reset @s ch_tm_bosses_distance

@@ -2,6 +2,6 @@
     "condition": "entity_properties",
     "entity": "this",
     "predicate": {
-        "nbt": "{Facing: 1}"
+        "nbt": "{Facing: 1b}"
     }
 }

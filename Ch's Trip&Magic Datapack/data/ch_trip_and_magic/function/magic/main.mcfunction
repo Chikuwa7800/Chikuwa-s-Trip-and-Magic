@@ -22,6 +22,9 @@ function ch_trip_and_magic:magic/effect/tick
 execute as @a[predicate=ch_trip_and_magic:magic/magic_wand,tag=!ch_tm_having_magic_staff] at @s run function ch_trip_and_magic:magic/items/weapons/magic_staff/start
 execute as @a[predicate=!ch_trip_and_magic:magic/magic_wand,tag=ch_tm_having_magic_staff] at @s run function ch_trip_and_magic:magic/items/weapons/magic_staff/end
 
+execute as @a[predicate=ch_trip_and_magic:magic/elder_wand,tag=!ch_tm_having_elder_wand] at @s run function ch_trip_and_magic:magic/items/weapons/elder_wand/start
+execute as @a[predicate=!ch_trip_and_magic:magic/elder_wand,tag=ch_tm_having_elder_wand] at @s run function ch_trip_and_magic:magic/items/weapons/elder_wand/end
+
 #マナ表示
 execute as @a if score @s ch_tm_magic_mana < @s ch_tm_magic_mana_max run scoreboard players add @a[scores={ch_tm_magic_mana_add=..20}] ch_tm_magic_mana_add 1
 execute as @a[scores={ch_tm_magic_mana_add=20..}] if score @s ch_tm_magic_mana < @s ch_tm_magic_mana_max run scoreboard players operation @s ch_tm_magic_mana += @s ch_tm_magic_mana_up
@@ -52,6 +55,8 @@ execute as @e[tag=ls_magic_lightning_sword_pl] at @s run function ch_trip_and_ma
 execute as @e[tag=ch_tm_gust_pl] at @s run function ch_trip_and_magic:magic/magic_temp/nature/gust_burst/main
 execute as @e[tag=ch_tm_bolea_pl] at @s run function ch_trip_and_magic:magic/magic_temp/ices/bolea_breath/main
 execute as @e[tag=ch_tm.magic_entity] at @s run function ch_trip_and_magic:magic/magic_entities
+execute as @e[tag=ch_tm_vel_tulnna] at @s run function ch_trip_and_magic:magic/magic_temp/waters/vel_tulnna/main_pl
+
 
 execute as @a at @s if score @s ch_tm_magic_xp_level > @s ch_tm_magic_xp_level_dummy run function ch_trip_and_magic:magic/magic_strength
 
@@ -60,6 +65,10 @@ execute as @a if score @s ch_tm_death_count matches 1.. run function ch_trip_and
 execute as @a[tag=ch_tm_teleportation_scroll_tick] at @s run function ch_trip_and_magic:magic/items/artifacts/scroll/teleportation_scroll/has_location/tick
 
 execute as @a[tag=ch_tm_re_teleportation_scroll_tick] at @s run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/has_location/tick
+
+execute as @e[predicate=ch_trip_and_magic:magic/lightning_rapier_any] at @s run function ch_trip_and_magic:magic/items/weapons/lightning_rapier/main
+
+execute as @e[tag=ch_tm_magic_lightning_rapier_tick] at @s run function ch_trip_and_magic:magic/items/weapons/lightning_rapier/add_damage_tick
 
 #ダイアログからの出力(未使用)
 #execute as @a[scores={ch_tm_used_teleportation_scroll=1..}] at @s if predicate ch_trip_and_magic:magic/scroll/teleportation_scroll run function ch_trip_and_magic:magic/items/artifacts/scroll/teleportation_scroll/staying/set_location

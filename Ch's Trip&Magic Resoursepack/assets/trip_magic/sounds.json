@@ -99,6 +99,11 @@
       "trip_magic:magic/magic_crafting_table/craft_prep"
     ]
   },
+  "block.magic_crafting_table.collect_item": {
+    "sounds": [
+      "trip_magic:magic/magic_crafting_table/collected_item"
+    ]
+  },
   "block.magic_crafting_table.craft": {
     "sounds": [
       "trip_magic:magic/magic_crafting_table/craft"
@@ -172,6 +177,148 @@
       "trip_magic:magic/spell/ice/frost_bullet_hit1",
       "trip_magic:magic/spell/ice/frost_bullet_hit2",
       "trip_magic:magic/spell/ice/frost_bullet_hit3"
+    ]
+  },
+  "magic.fire.pyro_wave.start":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/fire/pyro_wave/start"
+      }
+    ]
+  },
+  "magic.fire.pyro_wave.loop":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/fire/pyro_wave/loop"
+      }
+    ]
+  },
+  "magic.fire.pyro_wave.end":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/fire/pyro_wave/end"
+      }
+    ]
+  },
+  "magic.bolt.keraut_llone.elec_prep":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/bolt/lightning_sword/elec_prep"
+      }
+    ]
+  },
+  "magic.bolt.keraut_llone.electro":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/bolt/lightning_sword/electro"
+      }
+    ]
+  },
+  "magic.bolt.keraut_llone.hit":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/bolt/lightning_sword/hit"
+      }
+    ]
+  },
+  "magic.bolt.keraut_llone.prep":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/bolt/lightning_sword/prep"
+      }
+    ]
+  },
+  "magic.bolt.keraut_llone.remove":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/bolt/lightning_sword/remove"
+      }
+    ]
+  },
+  "magic.bolt.keraut_llone.shot":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/bolt/lightning_sword/shot"
+      }
+    ]
+  },
+  "magic.bolt.keraut_llone.summon":{
+    "sounds": [
+      "trip_magic:magic/spell/bolt/lightning_sword/summon1",
+      "trip_magic:magic/spell/bolt/lightning_sword/summon2",
+      "trip_magic:magic/spell/bolt/lightning_sword/summon3"
+    ]
+  },
+  "magic.hit":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/hit"
+      }
+    ]
+  },
+  "magic.ice.bolea_breath.start":{
+    "sounds": [
+      "trip_magic:magic/spell/ice/bolea_breath_start1",
+      "trip_magic:magic/spell/ice/bolea_breath_start2"
+    ]
+  },
+  "magic.ice.bolea_breath.loop":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/ice/bolea_breath_loop"
+      }
+    ]
+  },
+  "magic.ice.bolea_breath.end":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/ice/bolea_breath_end"
+      }
+    ]
+  },
+  "magic.water.chalch_veil.start":{
+    "sounds": [
+      "trip_magic:magic/spell/water/chalch_veil"
+    ]
+  },
+  "magic.water.chalch_veil.end":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/water/chalch_veil_end"
+      }
+    ]
+  },
+  "magic.nature.atter_ragio":{
+    "sounds": [
+      "trip_magic:magic/spell/nature/atter_ragio"
+    ]
+  },
+  "magic.void.void_strike":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/void/void_strike"
+      }
+    ]
+  },
+  "magic.water.vel_tulnna.near":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/water/vel_tulnna_near"
+      }
+    ]
+  },
+  "magic.water.vel_tulnna.prep":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/water/vel_tulnna_prep"
+      }
+    ]
+  },
+  "magic.water.vel_tulnna.shot":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/water/vel_tulnna_shot"
+      }
     ]
   },
   "music.audexm.start": {

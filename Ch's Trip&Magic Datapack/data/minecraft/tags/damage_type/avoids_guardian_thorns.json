@@ -7,7 +7,9 @@
       "ch_trip_and_magic:effect/wet",
       "ch_trip_and_magic:effect/flame",
       "ch_trip_and_magic:effect/frost",
+      "ch_trip_and_magic:magic/bolts_lv3",
       "ch_trip_and_magic:magic/fire_lv2",
-      "ch_trip_and_magic:magic/fire_lv3"
+      "ch_trip_and_magic:magic/fire_lv3",
+      "ch_trip_and_magic:magic/void_lv3"
     ]
 }

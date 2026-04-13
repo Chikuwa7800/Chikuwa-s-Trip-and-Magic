@@ -17,12 +17,15 @@
  scoreboard objectives add ch_tm_bosses_attacked dummy
  scoreboard objectives add ch_tm_bosses_attacked_to_target dummy
  scoreboard objectives add ch_tm_bosses_timer dummy
+ scoreboard objectives add ch_tm_bosses_music_start dummy
  scoreboard objectives add ch_tm_bosses_music_tick dummy
+ scoreboard objectives add ch_tm_bosses_music_sec dummy
  scoreboard objectives add ch_tm_bosses_distance dummy
  scoreboard objectives add ch_tm_bosses_flash_fade dummy
  scoreboard objectives add ch_tm_bosses_flash_fade_max dummy
  scoreboard objectives add ch_tm_bosses_damage dummy
  scoreboard objectives add ch_tm_bosses_damage_max dummy
+ scoreboard objectives add ch_tm_bosses_action dummy
  team add ch_tm_bosses_item_color_purple
  team modify ch_tm_bosses_item_color_purple color dark_purple
 

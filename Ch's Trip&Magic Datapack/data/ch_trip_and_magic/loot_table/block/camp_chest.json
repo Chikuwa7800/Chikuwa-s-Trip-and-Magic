@@ -42,7 +42,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "ch_trip_and_magic:item/weapons/spear/flint",
+          "value": "ch_trip_and_magic:item/weapons/knife/flint",
           "functions": [
             {
               "function": "minecraft:set_damage",

@@ -3,7 +3,8 @@
     {
       "type": "bitmap",
       "file": "trip_magic:font/gui/mana.png",
-      "ascent": 1,
+      "height": 8,
+      "ascent": 8,
       "chars": [
         "\uE000"
       ]

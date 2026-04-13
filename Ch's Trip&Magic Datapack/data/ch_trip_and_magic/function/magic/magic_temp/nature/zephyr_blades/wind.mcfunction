@@ -13,8 +13,6 @@ tag @s[tag=ls_wind_lecavary_1,tag=!ls_wind_lecavary_unable] add ls_wind_lecavary
 tag @s[tag=!ls_wind_lecavary_1] add ls_wind_lecavary_unable
 tag @s[tag=!ls_wind_lecavary_1] add ls_wind_lecavary_1
 
-execute if entity @s[tag=ls_wind_lecavary_2,tag=!ls_wind_lecavary_unable] run kill @n[type=area_effect_cloud]
 kill @s[tag=ls_wind_lecavary_2,tag=!ls_wind_lecavary_unable]
 
-execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[dx=0,tag=!ch_tm_zepher_pl,tag=ch_tm_using_shield] positioned ~0.5 ~0.5 ~0.5 run kill @n[type=area_effect_cloud]
 execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[dx=0,tag=!ch_tm_zepher_pl,tag=ch_tm_using_shield] positioned ~0.5 ~0.5 ~0.5 run kill @s

@@ -27,7 +27,7 @@
       ],
       "minecraft:item_model":"trip_magic:element_core/void",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "item_material",
         "material_type": "element_core",
         "item_condition": "void"

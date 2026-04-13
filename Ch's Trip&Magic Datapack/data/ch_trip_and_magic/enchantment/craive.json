@@ -1,5 +1,5 @@
 {
-  "description": "c step",
+  "description": "craive step",
   "supported_items": "minecraft:warped_fungus_on_a_stick",
   "weight": 1,
   "max_level": 1,
@@ -43,8 +43,7 @@
               "slots": {
               "weapon.mainhand": {
                   "predicates": {
-                      "minecraft:custom_data": {
-                          "datapack_type": "ls_trip_magic",
+                      "minecraft:custom_data": {                  
                           "item_type": "craive",
                         "glaive": true
                       }
@@ -180,8 +179,7 @@
               "slots": {
               "weapon.mainhand": {
                   "predicates": {
-                      "minecraft:custom_data": {
-                          "datapack_type": "ls_trip_magic",
+                      "minecraft:custom_data": {                  
                           "item_type": "craive",
                         "glaive": true
                       }
@@ -317,8 +315,7 @@
               "slots": {
               "weapon.mainhand": {
                   "predicates": {
-                      "minecraft:custom_data": {
-                          "datapack_type": "ls_trip_magic",
+                      "minecraft:custom_data": {                  
                           "item_type": "craive",
                         "glaive": true
                       }
@@ -454,8 +451,7 @@
               "slots": {
               "weapon.mainhand": {
                   "predicates": {
-                      "minecraft:custom_data": {
-                          "datapack_type": "ls_trip_magic",
+                      "minecraft:custom_data": {                  
                           "item_type": "craive",
                         "glaive": true
                       }
@@ -590,8 +586,7 @@
               "slots": {
               "weapon.mainhand": {
                   "predicates": {
-                      "minecraft:custom_data": {
-                          "datapack_type": "ls_trip_magic",
+                      "minecraft:custom_data": {                  
                           "item_type": "craive",
                         "glaive": true
                       }

@@ -99,7 +99,6 @@
                   }
                 ],
                 "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
         "item_type": "weapon",
         "weapon_type": "bash_shield"
       },

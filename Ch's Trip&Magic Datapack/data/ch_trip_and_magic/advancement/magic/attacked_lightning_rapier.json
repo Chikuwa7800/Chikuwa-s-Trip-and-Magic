@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "using":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "clock",
+                            "predicates": {
+                                "custom_data": {
+                                    "item_type": "weapon",
+                                    "item_condition": "normal",
+                                    "weapon_type": "lightning_rapier",
+                                    "item_magic": "true",
+                                    "over_heated":false
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ch_trip_and_magic:magic/items/weapons/lightning_rapier/attack_count"
+    }
+}

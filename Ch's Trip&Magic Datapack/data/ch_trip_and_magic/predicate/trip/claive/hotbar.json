@@ -6,7 +6,7 @@
             "hotbar.*": {
                 "predicates": {
                     "minecraft:custom_data": {
-                        "datapack_type": "ls_trip_magic",
+                        
                         "item_type": "craive"
                     }
                 }

@@ -60,17 +60,8 @@
           ]
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "ch_trip_and_magic:item/weapons/spear/flint",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "min": 21,
-                "max": 67
-              }
-            }
-          ],
+          "type": "loot_table",
+          "value": "ch_trip_and_magic:item/weapons/lance/flint",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

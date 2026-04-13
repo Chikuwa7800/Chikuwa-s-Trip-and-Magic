@@ -84,50 +84,8 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:item",
-            "name": "minecraft:command_block",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:951,detapack_type:ls_trip_magic,item_type:rise_heart}"
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "墓場の心",
-                  "color": "aqua",
-                  "bold": false,
-                  "italic": false,
-                  "underlined": false,
-                  "strikethrough": false,
-                  "obfuscated": false
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  "  ",
-                  {
-                    "text": "墓場のボスの召喚アイテム",
-                    "color": "white",
-                    "bold": false,
-                    "italic": false,
-                    "underlined": false,
-                    "strikethrough": false,
-                    "obfuscated": false
-                  },
-                  {
-                    "text": "祭壇の上に置くと...?",
-                    "color": "white",
-                    "bold": false,
-                    "italic": false,
-                    "underlined": false,
-                    "strikethrough": false,
-                    "obfuscated": false
-                  }
-                ]
-              }
-            ]
+            "type": "minecraft:loot_table",
+            "value": "ch_trip_and_magic_boss:item/rise/grave_heart"
           }
         ]
       }

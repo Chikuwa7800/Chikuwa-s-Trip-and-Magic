@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:clock",
           "conditions": [],
           "functions": [
             {
@@ -15,26 +15,41 @@
                 "minecraft:item_name": {
                   "translate": "item.lightning_rapier"
                 },
+                "minimum_attack_charge":0.5,
+                "max_stack_size":1,
                 "minecraft:swing_animation": {
                   "type": "stab",
                   "duration": 12
                 },
                 "minecraft:item_model": "trip_magic:magic_weapons/lightning_rapier",
-                
-      "minecraft:rarity": "uncommon",
+                "minecraft:rarity": "uncommon",
                 "minecraft:weapon": {
-                  "item_damage_per_attack": 1
+                  "item_damage_per_attack": 0
                 },
                 "minecraft:tool": {
-                  "rules": [],
-                  "damage_per_block": 2
+                  "rules":[],
+                  "damage_per_block": 0,
+                  "can_destroy_blocks_in_creative": false
+                },
+                "piercing_weapon":{
+                  "deals_knockback": true,
+                  "dismounts": false,
+                  "hit_sound": "entity.player.attack.strong"
+                },
+                "minecraft:max_damage": 100,
+                "consumable":{
+                  "animation": "bow",
+                  "consume_seconds": 1000000000
+                },
+                "use_effects":{
+                  "speed_multiplier": 0.5
                 },
                 "minecraft:custom_data": {
-                  "datapack_type": "ls_trip_magic",
                   "item_type": "weapon",
                   "item_condition": "normal",
                   "weapon_type": "lightning_rapier",
-                  "item_magic": "true"
+                  "item_magic": "true",
+                  "over_heated": false
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -99,8 +114,7 @@
             }
           ]
         }
-      ],
-      "functions": []
+      ]
     }
   ]
 }

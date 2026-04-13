@@ -17,6 +17,33 @@
       "chars": [
         "\uE001"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/chalch_veil.png",
+      "height":64,
+      "ascent": 32,
+      "chars": [
+        "\uE002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/atter_shock_vertic.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/atter_shock_horizon.png",
+      "height":250,
+      "ascent": 125,
+      "chars": [
+        "\uE004"
+      ]
     }
   ]
 }

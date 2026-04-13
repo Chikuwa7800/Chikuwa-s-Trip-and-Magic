@@ -81,7 +81,7 @@
                 ],
                 "item_model":"trip_magic:spell_book/fire_spell_book",
                 "minecraft:custom_data": {
-                  "datapack_type": "ls_trip_magic",
+                  
                   "item_type": "weapon",
                   "item_condition": "fire",
                   "weapon_type": "magic_book",

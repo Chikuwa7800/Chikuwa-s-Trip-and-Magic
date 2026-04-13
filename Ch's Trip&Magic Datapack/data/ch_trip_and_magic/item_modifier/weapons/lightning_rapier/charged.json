@@ -1,0 +1,76 @@
+{
+    "function": "set_components",
+    "components": {
+        "custom_data": {
+            "item_type": "weapon",
+            "item_condition": "normal",
+            "weapon_type": "lightning_rapier",
+            "item_magic": "true",
+            "over_heated": false
+        },
+        "item_model": "trip_magic:magic_weapons/lightning_rapier",
+        "consumable":{
+                  "animation": "bow",
+                  "consume_seconds": 1000000000
+                },
+        "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:temp",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": "4 ",
+                        "extra": [
+                          {
+                            "translate": "attribute.name.attack_damage"
+                          }
+                        ],
+                        "color": "dark_green"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:temp",
+                    "amount": -1,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": "3 ",
+                        "extra": [
+                          {
+                            "translate": "attribute.name.attack_speed"
+                          }
+                        ],
+                        "color": "dark_green"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:attack_knockback",
+                    "id": "minecraft:temp",
+                    "amount": -0.25,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": "0.75 ",
+                        "extra": [
+                          {
+                            "translate": "attribute.name.attack_knockback"
+                          }
+                        ],
+                        "color": "dark_green"
+                      }
+                    }
+                  }
+                ]
+    }
+}

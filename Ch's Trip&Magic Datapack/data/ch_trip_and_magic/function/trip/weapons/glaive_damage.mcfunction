@@ -1,0 +1,1 @@
+damage @s 1 ch_trip_and_magic:add_damage by @p[tag=ch_tm_used_glaive]

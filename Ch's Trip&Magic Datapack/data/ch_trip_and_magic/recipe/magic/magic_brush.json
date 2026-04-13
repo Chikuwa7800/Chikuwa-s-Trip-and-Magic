@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "@X",
+    "#@"
+  ],
+  "key": {
+    "X": "minecraft:brush",
+    "@": "minecraft:amethyst_shard",
+    "#": "minecraft:stick"
+  },
+  "result": {
+    "id": "command_block",
+    "components": {
+      "item_name": {
+        "translate": "item.magic_brush"
+      },
+      "lore": [
+        {
+          "translate": "item_lore.item_core.magic_brush",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item_lore.magic_crafting_table.core",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "item_type": "item_core",
+        "core_type": "magic_brush"
+      },
+      "item_model":"trip_magic:magic_brush",
+      "rarity":"common"
+    }
+  }
+}

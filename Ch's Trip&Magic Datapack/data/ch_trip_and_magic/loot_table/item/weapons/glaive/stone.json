@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -40,7 +40,7 @@
           "italic": false
         },
         {
-          "text": "1.2 ",
+          "text": "1.3 ",
           "extra": [
             {
               "translate": "attribute.name.attack_speed"
@@ -52,7 +52,7 @@
       ],
       "item_model":"trip_magic:trip_weapons/glaive/stone_glaive",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "weapon",
         "material": "stone",
         "weapon_type": "glaive"

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#arrows",
+    "fireball",
+    "small_fireball",
+    "egg",
+    "snowball"
+  ]
+}

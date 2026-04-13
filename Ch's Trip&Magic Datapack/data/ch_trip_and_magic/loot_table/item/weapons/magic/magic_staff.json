@@ -33,9 +33,7 @@
         }
       ],
       "minecraft:item_model":"trip_magic:magic_weapons/magic_staff/normal",
-      "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
-        "item_type": "weapon",
+      "minecraft:custom_data": {"item_type": "weapon",
         "item_condition": [
           "normal"
         ],
@@ -52,8 +50,7 @@
       "minecraft:max_damage": 1250,
       "minecraft:tooltip_display": {
         "hidden_components": [
-          "minecraft:unbreakable",
-          "attribute_modifiers"
+          "minecraft:unbreakable"
         ]
       },
       "minecraft:tool": {
@@ -79,10 +76,7 @@
           "display": {
             "type": "override",
             "value": {
-              "text": "0 ",
-              "extra": [
-                {
-                  "text": "100 ",
+                  "text": "150 ",
           "extra": [
             {
               "translate": "attribute.name.mana"
@@ -90,8 +84,6 @@
           ],
           "color": "dark_green",
           "italic": false
-                }
-              ]
             }
           }
         },
@@ -104,10 +96,7 @@
           "display": {
             "type": "override",
             "value": {
-              "text": "0 ",
-              "extra": [
-                {
-                  "text": "1 ",
+                  "text": "2 ",
           "extra": [
             {
               "translate": "attribute.name.mana.recovery"
@@ -115,33 +104,6 @@
           ],
           "color": "dark_green",
           "italic": false
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": "minecraft:temp",
-          "type": "armor_toughness",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "hand",
-          "display": {
-            "type": "override",
-            "value": {
-              "text": "0 ",
-              "extra": [
-                {
-                  "translate": "attribute.name.skill",
-          "extra": [
-            {
-              "translate": "item_skill.magic"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
-                }
-              ]
             }
           }
         }

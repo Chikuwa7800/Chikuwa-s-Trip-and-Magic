@@ -5,6 +5,4 @@ data merge entity @s {Tags:["ch_tm_magic_lightning_sword","ch_tm.magic_entity"],
 
 particle end_rod ~ ~ ~ 0.5 0.5 0.5 0.1 100 force
 particle dust{color:[0.506,0.973,0.988],scale:1} ^ ^ ^1 0.2 0.2 0.2 0.5 10
-playsound item.trident.return player @a ~ ~ ~ 2 0.5
-playsound entity.zombie_villager.converted player @a ~ ~ ~ 1 1
-playsound entity.elder_guardian.ambient player @a ~ ~ ~ 1 1
+playsound trip_magic:magic.bolt.keraut_llone.summon player @a ~ ~ ~ 2 1

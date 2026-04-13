@@ -28,36 +28,6 @@ tag @a[tag=!ch_tm_is_jumping,tag=ch_tm_did_skywalk] remove ch_tm_did_skywalk
 tag @a[scores={ch_tm_foodlevel=..6}] add ch_tm_hunger
 tag @a[scores={ch_tm_foodlevel=7..}] remove ch_tm_hunger
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 execute as @a[scores={ls_trip_magic_death=1..}] at @s run function ch_trip_and_magic:death_reset
 
 #execute at @a[tag=ch_tm_using_shield] run particle minecraft:heart ~ ~ ~ 0 0 0 0 10
-

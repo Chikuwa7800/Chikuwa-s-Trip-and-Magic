@@ -1,0 +1,42 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "clock",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": {
+                                    "translate": "item.lightning_rapier_hilt"
+                                },
+                                "lore": [
+                                    {
+                                        "translate": "item_lore.item_core.lightning_rapier_hilt",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "item_lore.magic_crafting_table.core",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "item_type": "item_core",
+                                    "core_type": "lightning_rapier_hilt"
+                                },
+                                "item_model":"trip_magic:lightning_rapier_hilt",
+                                "rarity":"common"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

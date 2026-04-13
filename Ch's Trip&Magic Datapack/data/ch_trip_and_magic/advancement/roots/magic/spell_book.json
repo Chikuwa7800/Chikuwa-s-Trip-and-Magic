@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:stick",
       "components": {
-        "item_model":"trip_magic:advancement/elements"
+        "item_model":"trip_magic:spell_book/bolt_spell_book"
       }
     },
     "title": {
@@ -23,9 +23,7 @@
         "items": [
           {
             "components": {
-      "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
-        "item_type":"item_core",
+      "minecraft:custom_data": {"item_type":"item_core",
         "core_type": "magic_book",
         "spell_level":["1"]
               }

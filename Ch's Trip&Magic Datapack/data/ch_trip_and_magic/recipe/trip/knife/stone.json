@@ -10,7 +10,7 @@
     ]
   ],
   "result": {
-    "id": "minecraft:warped_fungus_on_a_stick",
+    "id": "minecraft:diamond_pickaxe",
     "components": {
       "minecraft:custom_name": {
         "translate": "item.material.stone",
@@ -77,7 +77,7 @@
       ],
       "item_model":"trip_magic:trip_weapons/knife/stone_knife",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "weapon",
         "item_condition": [
           "none",

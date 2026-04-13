@@ -24,7 +24,7 @@
       ],
       "minecraft:item_model":"trip_magic:prismarine_seagrass",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "item_material",
         "material_type": "prismarine_seagrass"
       },

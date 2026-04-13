@@ -1,0 +1,1 @@
+particle enchanted_hit ~ ~ ~ 0.5 0.5 0.5 0.25 10 force

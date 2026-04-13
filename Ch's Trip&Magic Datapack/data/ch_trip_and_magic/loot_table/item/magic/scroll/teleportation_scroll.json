@@ -23,7 +23,7 @@
                 ],
                 "minecraft:item_model":"trip_magic:scroll/teleportation_scroll",
                 "minecraft:custom_data": {
-                  "datapack_type": "ls_trip_magic",
+                  
                   "item_type": "equipment",
                   "equipment_type": "scroll",
                   "item_condition": "teleportation_scroll",

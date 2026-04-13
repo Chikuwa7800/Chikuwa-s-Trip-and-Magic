@@ -7,7 +7,7 @@
         "with": [""],
         "extra": [
           {
-            "translate": "item.spear",
+            "translate": "item.lance",
             "italic": false
           }
         ],
@@ -65,7 +65,7 @@
       ],
       "item_model":"trip_magic:trip_weapons/spear/iron_spear",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "weapon",
         "item_condition": [
           "none",

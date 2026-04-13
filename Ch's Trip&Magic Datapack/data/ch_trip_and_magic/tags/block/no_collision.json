@@ -93,6 +93,8 @@
         "tall_dry_grass",
         "bush",
         "firefly_bush",
-        "leaf_litter"
+        "leaf_litter",
+        "copper_torch",
+        "copper_wall_torch"
     ]
 }

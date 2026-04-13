@@ -29,7 +29,7 @@
                 "minecraft:max_damage":5,
                 "minecraft:item_model":"trip_magic:scroll/rewritten_teleportation_scroll",
                 "minecraft:custom_data": {
-                  "datapack_type": "ls_trip_magic",
+                  
                   "item_type": "equipment",
                   "equipment_type": "scroll",
                   "item_condition": "rewritten_teleportation_scroll",

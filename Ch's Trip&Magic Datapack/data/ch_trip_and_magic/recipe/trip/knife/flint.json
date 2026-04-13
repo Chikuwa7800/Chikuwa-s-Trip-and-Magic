@@ -6,7 +6,7 @@
     "flint"
   ],
   "result": {
-    "id": "minecraft:warped_fungus_on_a_stick",
+    "id": "minecraft:diamond_pickaxe",
     "components": {
             "minecraft:enchantments": {
                   "minecraft:fire_aspect": 1
@@ -96,7 +96,7 @@
       ],
       "item_model":"trip_magic:trip_weapons/knife/flint_knife",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "weapon",
         "item_condition": [
           "none",

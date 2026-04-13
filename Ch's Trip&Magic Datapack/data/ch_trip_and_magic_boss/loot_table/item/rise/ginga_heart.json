@@ -29,7 +29,7 @@
                 ],
                 "minecraft:item_model":"trip_magic:boss_item/ginunga/ginga_heart",
                 "minecraft:custom_data": {
-                  "datapack_type": "ls_trip_magic",
+                  
                   "item_type": "item_material",
                   "equipment_type": "ginga_heart"
                 },

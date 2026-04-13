@@ -1,0 +1,20 @@
+{
+    "condition": "entity_properties",
+    "entity":"this",
+    "predicate": {
+        "slots": {
+            "armor.*": {
+                "predicates": {
+                    "enchantments": [
+                        {
+                            "enchantments": "ch_trip_and_magic:bolt_magic_protection",
+                            "levels": {
+                                "min": 5
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

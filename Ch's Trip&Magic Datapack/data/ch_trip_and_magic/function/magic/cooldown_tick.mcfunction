@@ -1,8 +1,13 @@
+## ゴリ押せどうぶつの森
 execute as @a[tag=ch_tm_magic_volt_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/volt
 
 execute as @a[tag=ch_tm_magic_screen_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/screen
 
+execute as @a[tag=ch_tm_magic_dash_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/dash
+
 execute as @a[tag=ch_tm_magic_lightsword_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/lightsword
+
+execute as @a[tag=ch_tm_magic_asgars_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/asgars
 
 execute as @a[tag=ch_tm_fangs_attack_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/fang
 
@@ -16,9 +21,11 @@ execute as @a[tag=ch_tm_magic_frost_cooldown] at @s run function ch_trip_and_mag
 
 execute as @a[tag=ch_tm_magic_fleeze_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/fleeze
 
+execute as @a[tag=ch_tm_magic_bolea_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/bolea
+
 execute as @a[tag=ch_tm_magic_zephyr_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/zephyr
 
-execute as @a[tag=ch_tm_magic_atte_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/atte
+execute as @a[tag=ch_tm_magic_atte_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/atter
 
 execute as @a[tag=ch_tm_magic_gust_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/gust
 
@@ -26,8 +33,14 @@ execute as @a[tag=ch_tm_magic_abyss_cooldown] at @s run function ch_trip_and_mag
 
 execute as @a[tag=ch_tm_than_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/than
 
+execute as @a[tag=ch_tm_strike_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/strike
+
 execute as @a[tag=ch_tm_magic_aqua_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/aqua
 
 execute as @a[tag=ch_tm_magic_surfing_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/surfing
+
+execute as @a[tag=ch_tm_magic_veil_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/veil
+
+execute as @a[tag=ch_tm_magic_tulnna_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/tulnna
 
 #execute as @a[tag=ch_tm_magic_temp_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/_temp

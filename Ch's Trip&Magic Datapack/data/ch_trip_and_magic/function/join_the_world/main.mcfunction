@@ -1,4 +1,5 @@
 execute unless entity @e[type=marker,tag=ls_trip_magic_install] run summon marker ~ ~ ~ {Tags:["ls_trip_magic_install"]}
+stopwatch create ch_tm:boss_music
 
 tellraw @s ["\n---------------\n\n",{"translate":"notice.installed.success",fallback:"§4The resource pack has not been installed!"},{text:"\n"},{"translate":"notice.created","color":"yellow",fallback:"Please install [Ch's Trip&Magic Resourse Pack α0.7.0]!"},"\n\n---------------\n"]
 

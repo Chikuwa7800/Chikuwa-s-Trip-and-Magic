@@ -1,0 +1,1 @@
+execute if predicate ch_trip_and_magic:magic/lightning_rapier run function ch_trip_and_magic:magic/items/weapons/lightning_rapier/charged_effect

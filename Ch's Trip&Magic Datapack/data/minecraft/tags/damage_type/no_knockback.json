@@ -9,8 +9,11 @@
       "ch_trip_and_magic:effect/flame",
       "ch_trip_and_magic:effect/frost",
       "ch_trip_and_magic:cut",
+      "ch_trip_and_magic:magic/bolts_lv3",
       "ch_trip_and_magic:magic/ice_lv2",
-      "ch_trip_and_magic:magic/fire_lv2_hit",
+      "ch_trip_and_magic:magic/ice_lv3",
+      "ch_trip_and_magic:magic/fire_lv3_hit",
+      "ch_trip_and_magic:magic/void_lv3_hit",
       "ch_trip_and_magic:entity/ginunga/chain_blast"
     ]
 }

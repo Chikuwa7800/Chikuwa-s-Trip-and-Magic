@@ -25,7 +25,7 @@
             "components": {
       "item_model":"trip_magic:empty_spell_book",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type":"item_core",
         "core_type": "magic_book"
               }

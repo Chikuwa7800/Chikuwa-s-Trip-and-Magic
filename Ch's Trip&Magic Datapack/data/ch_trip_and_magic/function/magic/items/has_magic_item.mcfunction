@@ -1,4 +1,5 @@
 execute if entity @s[predicate=ch_trip_and_magic:magic/wakame] run function ch_trip_and_magic:magic/items/weapons/others/troll/wakame_sword/tick
+execute if entity @s[predicate=ch_trip_and_magic:magic/lightning_rapier_any] run function ch_trip_and_magic:magic/items/weapons/lightning_rapier/main
 execute if predicate ch_trip_and_magic:score/used_stick run function ch_trip_and_magic:magic/items/weapons/wands/check
 execute if predicate ch_trip_and_magic:magic/spell_book/_has if predicate ch_trip_and_magic:acshident/sneaks run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charge/main
 execute if entity @s[tag=ch_tm_spell_charging,tag=!ch_tm_spell_charged_lv3,tag=!ch_tm_spell_charged_lv4,tag=!ch_tm_spell_charged_lv5] if predicate ch_trip_and_magic:magic/spell_book/_has unless predicate ch_trip_and_magic:acshident/sneaks run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charge/remove_tag_no_effect

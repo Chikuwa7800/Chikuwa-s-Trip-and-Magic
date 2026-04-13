@@ -67,7 +67,7 @@
       ],
       "item_model":"trip_magic:trip_weapons/knife/iron_knife",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "weapon",
         "item_condition": [
           "none",

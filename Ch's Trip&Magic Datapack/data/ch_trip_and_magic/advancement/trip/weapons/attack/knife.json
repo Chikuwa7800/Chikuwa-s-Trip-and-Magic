@@ -6,7 +6,13 @@
         "player": {
           "slots": {
             "weapon.mainhand": {
-              "items": "warped_fungus_on_a_stick"
+              "items": "#pickaxes",
+              "predicates": {
+                "custom_data": {
+                  "item_type": "weapon",
+                  "weapon_type": "knife"
+                }
+              }
             }
           }
         },
@@ -18,7 +24,8 @@
                 "expected": true
               }
             ]
-          }
+          },
+          "blocked": false
         }
       }
       }

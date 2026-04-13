@@ -1,0 +1,18 @@
+{
+	
+	"textures": {
+		"0": "trip_magic:item/_vfx/thanatholos",
+		"particle": "trip_magic:item/_vfx/thanatholos"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"up": {"uv": [0, 16, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

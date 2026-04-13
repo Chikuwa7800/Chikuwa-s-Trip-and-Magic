@@ -43,7 +43,7 @@
       ],
       "item_model":"trip_magic:trip_weapons/glaive/iron_glaive",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "weapon",
         "material": "iron",
         "weapon_type": "glaive"

@@ -2,7 +2,7 @@
     "function": "set_components",
     "components": {
         "custom_data": {
-            "datapack_type": "ls_trip_magic",
+            
             "item_type": "equipment",
             "equipment_type": "scroll",
             "item_condition": "rewritten_teleportation_scroll",

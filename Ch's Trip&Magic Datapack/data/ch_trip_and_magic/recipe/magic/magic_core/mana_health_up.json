@@ -40,7 +40,7 @@
       ],
       "minecraft:item_model":"trip_magic:magic_core/mana_health_up",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "equipment",
         "equipment_type": "magic_core",
         "item_condition": "mana_health_up",

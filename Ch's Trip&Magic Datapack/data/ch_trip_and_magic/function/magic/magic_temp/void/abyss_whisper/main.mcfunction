@@ -7,6 +7,7 @@ particle dragon_breath ~ ~ ~ 0.1 0.1 0.1 0. 10 force
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[dx=0,tag=!ch_tm_magic_pl,type=!#ch_trip_and_magic:mobs,tag=!ch_tm_abyss_display] positioned ~0.5 ~0.5 ~0.5 run function ch_trip_and_magic:magic/magic_temp/void/abyss_whisper/hit
 execute if entity @s[scores={ch_tm_tick=300..}] run function ch_trip_and_magic:magic/magic_temp/void/abyss_whisper/abyss
+execute unless loaded ^ ^ ^1 run kill @s
 execute unless block ^ ^ ^ #ch_trip_and_magic:no_collision run function ch_trip_and_magic:magic/magic_temp/void/abyss_whisper/abyss
 
-tp @s ^ ^ ^0.45
+tp @s ^ ^ ^0.5

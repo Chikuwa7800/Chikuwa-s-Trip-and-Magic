@@ -29,7 +29,7 @@
       ],
       "minecraft:item_model":"trip_magic:upgrade_core/lapis",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "item_core",
         "core_type": "element_core_upgrade_lv1"
       },

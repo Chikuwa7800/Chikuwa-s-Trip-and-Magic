@@ -189,7 +189,7 @@
                 ],
                 "minecraft:item_model":"trip_magic:magic_weapons/wakame_sword/normal",
                 "minecraft:custom_data": {
-                  "datapack_type": "ls_trip_magic",
+                  
                   "item_type": "weapon",
                   "item_condition": "normal",
                   "weapon_type": "wakame_sword",

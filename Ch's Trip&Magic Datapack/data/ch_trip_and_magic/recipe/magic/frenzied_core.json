@@ -34,11 +34,10 @@
       ],
       "minecraft:item_model":"trip_magic:frenzied_core",
       "minecraft:custom_data": {
-        "datapack_type": "ls_trip_magic",
+        
         "item_type": "item_core",
         "core_type": "frenzied_core"
       },
-      
       "minecraft:rarity": "rare"
     },
     "count": 1

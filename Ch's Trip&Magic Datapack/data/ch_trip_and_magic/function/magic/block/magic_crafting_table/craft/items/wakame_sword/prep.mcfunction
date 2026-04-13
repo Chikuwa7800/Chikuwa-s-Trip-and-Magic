@@ -1,5 +1,5 @@
 tag @s add ch_tm_magic_crafting_table_prep_wakame_sword
-clear @p[nbt={SelectedItem:{components:{"minecraft:custom_data":{"item_type": "item_core","core_type": "frenzied_core"}}}},gamemode=!creative,gamemode=!spectator] command_block[custom_data={"datapack_type":"ls_trip_magic","item_type":"item_core","core_type":"frenzied_core"}] 1
+clear @p[nbt={SelectedItem:{components:{"minecraft:custom_data":{"item_type": "item_core","core_type": "frenzied_core"}}}},gamemode=!creative,gamemode=!spectator] command_block[custom_data={"item_type":"item_core","core_type":"frenzied_core"}] 1
 #コア表示
 execute at @n[tag=aj.global.node.core] run summon item_display ~ ~0.1 ~ {shadow_radius:0.25,brightness:{sky:15,block:10},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.25f,0.25f,0.25f]},teleport_duration:1,item:{id:command_block,components:{"minecraft:item_model":"trip_magic:frenzied_core"}},Tags:["ch_tm_magic_crafting_table_item_display","ch_tm_magic_crafting_table_core_item_display_wakame","ch_tm_magic_crafting_table_core_item_display","ch_tm_magic_crafting_table_core_item_display_wakame_core"]}
 #材料表示

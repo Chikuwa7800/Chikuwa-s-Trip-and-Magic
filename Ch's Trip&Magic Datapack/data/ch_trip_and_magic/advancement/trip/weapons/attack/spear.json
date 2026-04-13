@@ -6,7 +6,13 @@
         "player": {
           "slots": {
             "weapon.mainhand": {
-              "items": "warped_fungus_on_a_stick"
+              "items": "#pickaxes",
+              "predicates": {
+                "custom_data": {
+                  "item_type": "weapon",
+                  "weapon_type": "spear"
+                }
+              }
             }
           }
         },
@@ -18,12 +24,13 @@
                 "expected": true
               }
             ]
-          }
+          },
+          "blocked": false
         }
       }
-      }
+    }
   },
     "rewards": {
-      "function": "ch_trip_and_magic:trip/weapons/spear"
+      "function": "ch_trip_and_magic:trip/weapons/lance"
     }
   }

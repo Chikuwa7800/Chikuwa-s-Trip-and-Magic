@@ -14,4 +14,4 @@
   execute as @e[tag=ch_tm_bosses_boss] at @s if block ~ ~-0.125 ~ #ch_trip_and_magic:no_collision if block ~ ~ ~ #ch_trip_and_magic:no_collision if block ~ ~1 ~ #ch_trip_and_magic:no_collision run tp @s ~ ~-0.125 ~
   
  #戦闘曲
-  function ch_trip_and_magic_boss:music/tick
+  execute as @a[tag=ch_tm.boss.music] at @s run function ch_trip_and_magic_boss:music/tick

@@ -8,5 +8,4 @@ playsound entity.elder_guardian.hurt player @a ~ ~ ~ 1 1
 
 function ch_trip_and_magic:magic/magic_temp/hit
 
-kill @n[type=area_effect_cloud]
 kill @s

@@ -1,0 +1,29 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "trip_magic:item/magic_staff/elder_wizard_wand_in_hand"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [6.5, 90, 0],
+			"translation": [0, 2.75, -1.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-6.5, -90, 0],
+			"translation": [0, 2.75, -1.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [-20, 90, 36],
+			"translation": [3.13, 6.5, 0.13],
+			"scale": [1.36, 1.36, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20, -90, -36],
+			"translation": [3.13, 6.5, 0.13],
+			"scale": [1.36, 1.36, 0.68]
+		}
+	}
+}

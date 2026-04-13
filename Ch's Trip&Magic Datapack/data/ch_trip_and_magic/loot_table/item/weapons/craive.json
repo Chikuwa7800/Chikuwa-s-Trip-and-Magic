@@ -79,7 +79,6 @@
                 "enchantment_glint_override":false,
                 "item_model": "trip_magic:illagers_weapons/craive/craive_glaive",
                 "minecraft:custom_data": {
-                  "datapack_type": "ls_trip_magic",
                   "item_type": "craive",
                   "glaive": true,
                   "ready":false
@@ -143,7 +142,7 @@
                     "display": {
                       "type": "override",
                       "value": {
-                            "text": "1.3 ",
+                            "text": "1 ",
                             "extra": [
                               {
                                 "translate": "attribute.name.attack_speed"

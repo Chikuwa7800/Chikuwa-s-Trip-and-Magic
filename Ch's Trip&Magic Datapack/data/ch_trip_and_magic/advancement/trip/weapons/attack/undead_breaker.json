@@ -6,7 +6,13 @@
         "player": {
           "slots": {
             "weapon.mainhand": {
-              "items": "iron_axe"
+              "items": "iron_axe",
+              "predicates":{
+                "custom_data": {
+                  "item_type": "weapon",
+                  "weapon_type": "undead_killer"
+                }
+              }
             }
           }
         },
@@ -19,6 +25,9 @@
               }
             ]
           }
+        },
+        "entity": {
+          "type": "#minecraft:undead"
         }
       }
       }

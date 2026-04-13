@@ -1,0 +1,85 @@
+{
+    "providers":[
+        {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/asgars_lightning_bolt_0.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/asgars_lightning_bolt_1.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/asgars_lightning_bolt_3.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/asgars_lightning_bolt_4.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/asgars_lightning_bolt_5.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/asgars_lightning_bolt_6.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/asgars_lightning_bolt_7.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/asgars_lightning_bolt_8.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/asgars_lightning_bolt_9.png",
+      "height":500,
+      "ascent": 500,
+      "chars": [
+        "\uE009"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,2 @@
 particle electric_spark ^ ^ ^0.1 0.25 0.25 0.25 0.1 5 force
+execute anchored eyes positioned ^ ^ ^0.001 run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charged_effect/lv_5/bolt_prep

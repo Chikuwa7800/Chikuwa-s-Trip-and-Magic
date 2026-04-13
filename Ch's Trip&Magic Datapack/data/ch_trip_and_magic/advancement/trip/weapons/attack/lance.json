@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "glaive": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": "#pickaxes",
+              "predicates": {
+                "custom_data": {
+                  "item_type": "weapon",
+                  "weapon_type": "lance"
+                }
+              }
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+    "rewards": {
+      "function": "ch_trip_and_magic:trip/weapons/lance"
+    }
+  }

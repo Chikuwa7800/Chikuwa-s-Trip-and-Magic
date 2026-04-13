@@ -22,10 +22,12 @@
  scoreboard objectives add ch_tm_5 dummy
  scoreboard objectives add ch_tm_10 dummy
  scoreboard objectives add ch_tm_20 dummy
+ scoreboard objectives add ch_tm_bloolean dummy
  scoreboard players add #ch_trip_amount ch_tm_2 2
  scoreboard players add #ch_trip_amount ch_tm_5 5
  scoreboard players add #ch_trip_amount ch_tm_10 10
  scoreboard players add #ch_trip_amount ch_tm_20 20
+ scoreboard players add #ch_trip_amount ch_tm_bloolean 1
  scoreboard objectives add ch_tm_foodlevel food
  scoreboard objectives add ch_tm_sec_entity_id dummy
 
@@ -103,6 +105,28 @@
  scoreboard objectives add ch_tm_magic_pyro_cooldown dummy
  scoreboard objectives add ch_tm_magic_bolea_tick dummy
  scoreboard objectives add ch_tm_magic_bolea_cooldown dummy
+ scoreboard objectives add ch_tm_magic_strike_cooldown dummy
+ scoreboard objectives add ch_tm_magic_veil_cooldown dummy
+ scoreboard objectives add ch_tm_magic_tulnna_tick dummy
+ scoreboard objectives add ch_tm_magic_tulnna_cooldown dummy
+ scoreboard objectives add ch_tm_magic_tulnna_success dummy
+ scoreboard objectives add ch_tm_magic_cooldown_speed_up dummy
+ scoreboard objectives add ch_tm_magic_asgars_cooldown dummy
+ scoreboard objectives add ch_tm_magic_lightning_random dummy
+ scoreboard objectives add ch_tm_magic_lightning_random_count dummy
+ scoreboard objectives add ch_tm_magic_lightning_random_1 dummy
+ scoreboard objectives add ch_tm_magic_lightning_random_count_1 dummy
+ scoreboard objectives add ch_tm_magic_lightning_random_2 dummy
+ scoreboard objectives add ch_tm_magic_lightning_random_count_2 dummy
+ scoreboard objectives add ch_tm_magic_lightning_tp_count dummy
+ scoreboard objectives add ch_tm_magic_dash_cooldown dummy
+ scoreboard objectives add ch_tm_magic_lightning_rapier dummy
+ scoreboard objectives add ch_tm_magic_lightning_rapier_add dummy
+ scoreboard objectives add ch_tm_magic_lightning_rapier_bolt dummy
+ scoreboard objectives add ch_tm_magic_lightning_rapier_bolt_1 dummy
+ scoreboard objectives add ch_tm_magic_lightning_rapier_bolt_2 dummy
+ scoreboard objectives add ch_tm_magic_lightning_rapier_energy dummy
+ scoreboard objectives add ch_tm_magic_lightning_rapier_attack dummy
 
 # trip
  scoreboard objectives add ch_tm_weapons_flint_knife_hit_fire_tick dummy
