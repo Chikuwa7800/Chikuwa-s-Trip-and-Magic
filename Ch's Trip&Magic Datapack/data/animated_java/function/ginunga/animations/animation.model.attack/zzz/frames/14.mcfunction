@@ -9,4 +9,4 @@ $data merge entity $(bone_left_arm1) {transformation: [-0.8675f,-0.4974f,0.0007f
 $data merge entity $(bone_right_arm1) {transformation: [-0.8675f,0.4973f,-0.0069f,-0.25f,-0.2595f,-0.4644f,-0.8468f,1.2517f,-0.4243f,-0.7328f,0.5319f,-0.1124f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 data modify entity @s data merge value {"cameras":{},"locators":{"mouse":{"posx":-1.224593206416659e-17,"posy":1.4183092943280715,"posz":0.0999956238214372,"roty":0,"rotx":-4.195000000000004},"left_arm":{"posx":0.6461559092659216,"posy":1.5474483558831824,"posz":0.36938909813948495,"roty":179.92589239644175,"rotx":-58.48656035462887},"right_arm":{"posx":-0.6461233403116442,"posy":1.5547557486630352,"posz":0.3648540261594706,"roty":180.7429577087927,"rotx":-57.86258715077087}}}
 
-execute as @n[tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.action.cut_attack] at @s positioned ^ ^ ^0.5 run function ch_trip_and_magic_boss:ginga/animation/cut_attack/damage
+execute as @n[tag=aj.ginunga.root] at @s positioned ^ ^ ^0.5 run function ch_trip_and_magic_boss:ginga/animation/cut_attack/damage

@@ -14,8 +14,5 @@
 
 
 #Tag消去
-  tag @e[tag=aj.ginunga.root] remove ch_tm_bosses_ginga_during_animation
-  tag @e[tag=aj.ginunga.root] remove ch_tm.boss.ginunga.bypass.jam
-  tag @e[tag=aj.ginunga.root] remove ch_tm.boss.ginunga.action.angel_wisper.prep
-  tag @e[tag=aj.ginunga.root] remove ch_tm.boss.ginunga.action.angel_wisper
-  scoreboard players reset @e[tag=aj.ginunga.root] ch_tm_bosses_ginga_angel_wisper
+  scoreboard players set @n[tag=aj.ginunga.root] ch_tm_bosses_action 700
+  scoreboard players reset @n[tag=aj.ginunga.root] ch_tm_bosses_ginga_angel_wisper

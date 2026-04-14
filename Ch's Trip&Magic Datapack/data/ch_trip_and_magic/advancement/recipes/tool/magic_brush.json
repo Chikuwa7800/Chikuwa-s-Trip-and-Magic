@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "bolt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "item_type": "equipment",
+                "equipment_type": "scroll"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ch_trip_and_magic:magic/magic_brush"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "lv_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "spell_level":["1","2","3"]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ch_trip_and_magic:magic/element_upgrade/diamond"
+    ]
+  },
+  "sends_telemetry_event": false
+}

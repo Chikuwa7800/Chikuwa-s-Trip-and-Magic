@@ -28,6 +28,7 @@
  scoreboard objectives add ch_tm_bosses_action dummy
  team add ch_tm_bosses_item_color_purple
  team modify ch_tm_bosses_item_color_purple color dark_purple
+ stopwatch create ch_tm:boss_music
 
 #ginga
  scoreboard objectives add ch_tm_bosses_ginga_chain_blast dummy

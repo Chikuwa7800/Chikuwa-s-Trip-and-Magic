@@ -30,7 +30,7 @@
   execute if entity @s[scores={ch_tm_bosses_summon_tick=160}] run bossbar set ch_tm_bosses:ginunga_health max 166400
   execute if entity @s[scores={ch_tm_bosses_summon_tick=160}] run bossbar set ch_tm_bosses:ginunga_health players @a
   execute if entity @s[scores={ch_tm_bosses_summon_tick=160}] run bossbar set ch_tm_bosses:ginunga_health value 166400
-  execute if entity @s[scores={ch_tm_bosses_summon_tick=160}] as @n[type=item_display,tag=aj.ginunga.root] at @s run function ch_trip_and_magic_boss:music/ginga/play
+  execute if entity @s[scores={ch_tm_bosses_summon_tick=160}] as @a[distance=..40] run function ch_trip_and_magic_boss:music/ginga/play
 
  #12.6秒経過(叫びアニメーション終了後)で戦闘態勢へ移行、同時にtag消しとスコアリセット
  execute if entity @s[scores={ch_tm_bosses_summon_tick=252}] run tag @n[type=item_display,tag=aj.ginunga.root] add ch_tm.boss.ginunga.has_target

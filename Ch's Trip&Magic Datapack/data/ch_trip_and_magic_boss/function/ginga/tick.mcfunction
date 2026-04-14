@@ -14,12 +14,14 @@
   execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm_bosses_in_combat,tag=!ch_tm_bosses_ginga_death] at @s run function ch_trip_and_magic_boss:ginga/behavior/tick
 
  #死亡
-  execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm_bosses_ginga_death] at @s run function ch_trip_and_magic_boss:ginga/death/main
-  execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm_bosses_in_combat] at @s unless entity @e[tag=ch_trip_and_magic_bosses_intaract_ginga,sort=nearest,limit=2] run function ch_trip_and_magic_boss:ginga/death/main
+  execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm_bosses_ginga_death] at @s unless score @s ch_tm_bosses_action matches 400..499 run function ch_trip_and_magic_boss:ginga/death/main
+  execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm_bosses_in_combat] at @s unless entity @e[tag=ch_trip_and_magic_bosses_intaract_ginga,sort=nearest,limit=2] unless score @s ch_tm_bosses_action matches 400..499 run function ch_trip_and_magic_boss:ginga/death/main
  #本体と分離した処理
   function ch_trip_and_magic_boss:ginga/separate_prosses/tick
 
  #軸合わせ
   execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.change.axis] at @s run function ch_trip_and_magic_boss:prosses/set_axis/set_axis
-  
-  
+  execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.change.axis] at @s run function ch_trip_and_magic_boss:prosses/set_axis/set_axis
+  execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.change.axis] at @s run function ch_trip_and_magic_boss:prosses/set_axis/set_axis
+  execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.change.axis] at @s run function ch_trip_and_magic_boss:prosses/set_axis/set_axis
+  execute as @e[type=item_display,tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.change.axis] at @s run function ch_trip_and_magic_boss:prosses/set_axis/set_axis

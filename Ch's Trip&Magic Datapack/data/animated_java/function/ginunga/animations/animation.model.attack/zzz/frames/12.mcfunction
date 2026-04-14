@@ -8,4 +8,4 @@ $data merge entity $(bone_bone) {transformation: [-1f,0f,0f,0f,0f,0.9983f,-0.057
 $data merge entity $(bone_left_arm1) {transformation: [-0.766f,-0.6209f,0.1664f,0.25f,0.2224f,-0.4988f,-0.8377f,1.2524f,0.6031f,-0.6047f,0.5202f,-0.1116f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right_arm1) {transformation: [-0.766f,0.6209f,-0.1664f,-0.25f,-0.2224f,-0.4988f,-0.8377f,1.2524f,-0.6031f,-0.6047f,0.5202f,-0.1116f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 data modify entity @s data merge value {"cameras":{},"locators":{"mouse":{"posx":-1.0752842615873913e-17,"posy":1.4442388919022722,"posz":0.08780362324353813,"roty":0,"rotx":-10.280000000000008},"left_arm":{"posx":0.7247363203926425,"posy":1.5814849511882074,"posz":0.26639695090641125,"roty":162.2648166721381,"rotx":-56.897038790794205},"right_arm":{"posx":-0.7247363203926425,"posy":1.5814849511882074,"posz":0.266396950906411,"roty":197.73518332786193,"rotx":-56.8970387907942}}}
-tag @n[tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.action.cut_attack] remove ch_tm.boss.ginunga.change.axis
+tag @n[tag=aj.ginunga.root] remove ch_tm.boss.ginunga.change.axis

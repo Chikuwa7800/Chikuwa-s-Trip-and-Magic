@@ -20,8 +20,14 @@
 #気絶: 520
 #死亡: 600
 
- #敵確認不可かつ行動中でない場合アイドリング状態移行
-  execute if score @s ch_tm_bosses_action matches 102..103 run function ch_trip_and_magic_boss:ginga/animation/idle/play
+
+ #32ブロック以内の敵となりうるエンティティにtag付与
+  tag @e[type=#ch_trip_and_magic_boss:ginga_target,tag=!ch_tm.player.target.ginunga,tag=!ch_tm.player.will_target.ginunga,distance=..32] add ch_tm.player.will_target.ginunga
+  tag @a[tag=!ch_tm.player.target.ginunga,tag=!ch_tm.player.will_target.ginunga,distance=..32,gamemode=!creative,gamemode=!spectator] add ch_tm.player.will_target.ginunga
+
+ #敵となりうるエンティティが40ブロック以上離れた場合tag消去
+  tag @e[type=#ch_trip_and_magic_boss:ginga_target,tag=ch_tm.player.will_target.ginunga,distance=40..] remove ch_tm.player.will_target.ginunga
+  tag @a[tag=ch_tm.player.will_target.ginunga,gamemode=!survival,gamemode=!adventure] remove ch_tm.player.will_target.ginunga
 
  #敵確認
   execute if score @s ch_tm_bosses_action matches 101 if entity @e[tag=ch_tm.player.will_target.ginunga,distance=..32,gamemode=!creative,gamemode=!spectator] run function ch_trip_and_magic_boss:ginga/behavior/discover/main
@@ -33,19 +39,14 @@
   execute if score @s ch_tm_bosses_action matches 103 unless entity @e[type=#ch_trip_and_magic_boss:ginga_priority_target,tag=ch_tm.player.target.ginunga.illager,distance=..32] run function ch_trip_and_magic_boss:ginga/behavior/discover/lost_illager
 
  #敵から40ブロック以上離れたか、プレイヤーのゲームモードがクリエイティブorスペクテイターに変更された場合ターゲット変更
-  execute if score @s ch_tm_bosses_action matches 102..103 unless entity @s if entity @s[tag=ch_tm.boss.ginunga.has_target] if entity @e[type=#ch_trip_and_magic_boss:ginga_target,tag=ch_tm.player.target.ginunga,distance=40..] run function ch_trip_and_magic_boss:ginga/behavior/discover/main
-  execute if score @s ch_tm_bosses_action matches 102 unless entity @s if entity @s[tag=ch_tm.boss.ginunga.has_target] if entity @a[tag=ch_tm.player.target.ginunga,gamemode=!survival,gamemode=!adventure] run function ch_trip_and_magic_boss:ginga/behavior/discover/main
+  execute if score @s ch_tm_bosses_action matches 102..103 if entity @s[tag=ch_tm.boss.ginunga.has_target] if entity @e[type=#ch_trip_and_magic_boss:ginga_target,tag=ch_tm.player.target.ginunga,distance=40..] run function ch_trip_and_magic_boss:ginga/behavior/discover/main
+  execute if score @s ch_tm_bosses_action matches 102 if entity @s[tag=ch_tm.boss.ginunga.has_target] if entity @a[tag=ch_tm.player.target.ginunga,gamemode=!survival,gamemode=!adventure] run function ch_trip_and_magic_boss:ginga/behavior/discover/main
 
  #イレジャー以外のターゲットに4回以上攻撃した場合ターゲット変更
-  execute if score @s ch_tm_bosses_action matches 102 unless entity @s if score @s ch_tm_bosses_attacked_to_target matches 4.. if entity @e[tag=ch_tm.player.will_target.ginunga] run function ch_trip_and_magic_boss:ginga/behavior/discover/main
+  execute if score @s ch_tm_bosses_action matches 102 if score @s ch_tm_bosses_attacked_to_target matches 4.. if entity @e[tag=ch_tm.player.will_target.ginunga] run function ch_trip_and_magic_boss:ginga/behavior/discover/main
 
- #32ブロック以内の敵となりうるエンティティにtag付与
-  tag @e[type=#ch_trip_and_magic_boss:ginga_target,tag=!ch_tm.player.target.ginunga,tag=!ch_tm.player.will_target.ginunga,distance=..32] add ch_tm.player.will_target.ginunga
-  tag @a[tag=!ch_tm.player.target.ginunga,tag=!ch_tm.player.will_target.ginunga,distance=..32,gamemode=!creative,gamemode=!spectator] add ch_tm.player.will_target.ginunga
-
- #敵となりうるエンティティが40ブロック以上離れた場合tag消去
-  tag @e[type=#ch_trip_and_magic_boss:ginga_target,tag=ch_tm.player.will_target.ginunga,distance=40..] remove ch_tm.player.will_target.ginunga
-  tag @a[tag=ch_tm.player.will_target.ginunga,gamemode=!survival,gamemode=!adventure] remove ch_tm.player.will_target.ginunga
+ #敵確認不可かつ行動中でない場合アイドリング状態移行
+  execute if score @s ch_tm_bosses_action matches 102..103 unless entity @e[type=#ch_trip_and_magic_boss:ginga_target,tag=ch_tm.player.target.ginunga,distance=..40] unless entity @a[tag=ch_tm.player.target.ginunga,distance=..40,gamemode=!creative,gamemode=!spectator] run function ch_trip_and_magic_boss:ginga/animation/idle/play
 
  #攻撃系処理
   function ch_trip_and_magic_boss:ginga/behavior/combat
@@ -66,7 +67,7 @@
 
  #ワープ処理までのタイマー
   scoreboard players add @s[scores={ch_tm_bosses_action=322}] ch_tm_bosses_tp_tick 1
-  execute if entity @s[scores={ch_tm_bosses_tp_tick=20..}] if score @s ch_tm_bosses_action matches 322 run function ch_trip_and_magic_boss:ginga/animation/warp/out_play
+  execute if entity @s[scores={ch_tm_bosses_tp_tick=5..}] if score @s ch_tm_bosses_action matches 322 run function ch_trip_and_magic_boss:ginga/animation/warp/out_play
 
 #爆破: 302
 #ワープ入: 321
@@ -81,10 +82,10 @@
   execute if score @s ch_tm_bosses_action matches 302 run function ch_trip_and_magic_boss:ginga/animation/explode/main
 
  #チェーンブラスト
-  execute if score @s ch_tm_bosses_action matches 412 run function ch_trip_and_magic_boss:ginga/animation/chain_blast/prep_tick
+  execute if score @s ch_tm_bosses_action matches 411..412 run function ch_trip_and_magic_boss:ginga/animation/chain_blast/prep_tick
 
  #天使の呟き
-  execute if score @s ch_tm_bosses_action matches 422 run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/prep_tick
+  execute if score @s ch_tm_bosses_action matches 421..422 run function ch_trip_and_magic_boss:ginga/animation/angel_wisper/prep_tick
 
  #地雷設置
   #execute if entity @s[tag=ch_tm.boss.ginunga.action.set_nerve] run function ch_trip_and_magic_boss:ginga/animation/set_nerve/main

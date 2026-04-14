@@ -1,3 +1,3 @@
-execute if entity @s[tag=!ch_tm_bosses_ginga_during_vertigo,tag=!ch_tm_bosses_ginunga_during_afraid] run scoreboard players operation @s ch_tm_bosses_afraid -= #ch_tm_bosses_hitbox_health ch_tm_bosses_dummy
-
-execute if entity @s[scores={ch_tm_bosses_afraid=19400..},tag=!ch_tm_bosses_ginga_during_vertigo,tag=!ch_tm_bosses_ginunga_during_afraid,tag=!ch_tm.boss.ginunga.bypass.jam] run function ch_trip_and_magic_boss:ginga/prosses/afraid/play
+execute unless score @n[tag=aj.ginunga.root] ch_tm_bosses_action matches 500..599 run scoreboard players operation @s ch_tm_bosses_afraid -= #ch_tm_bosses_hitbox_health ch_tm_bosses_dummy
+execute if entity @s[scores={ch_tm_bosses_afraid=19400..}] unless score @n[tag=aj.ginunga.root] ch_tm_bosses_action matches 400..499 run scoreboard players set @s ch_tm_bosses_afraid 19399
+execute if entity @s[scores={ch_tm_bosses_afraid=19400..}] unless score @n[tag=aj.ginunga.root] ch_tm_bosses_action matches 400..600 run function ch_trip_and_magic_boss:ginga/prosses/afraid/play

@@ -6,7 +6,7 @@
     " # "
   ],
   "key": {
-    "#": "minecraft:lapis_block",
+    "#": "minecraft:diamond_block",
     "X": "minecraft:amethyst_shard"
   },
   "result": {
@@ -16,7 +16,7 @@
         "translate": "item.magic_upgrade_core",
         "extra": [
           {
-            "text": " Tier.1"
+            "text": " Tier.3"
           }
         ],
         "italic": false
@@ -28,11 +28,11 @@
           "italic": false
         }
       ],
-      "minecraft:item_model":"trip_magic:upgrade_core/lapis",
+      "minecraft:item_model":"trip_magic:upgrade_core/diamond",
       "minecraft:custom_data": {
         
         "item_type": "item_core",
-        "core_type": "element_core_upgrade_lv1"
+        "core_type": "element_core_upgrade_lv3"
       },
       
       "minecraft:rarity": "uncommon"

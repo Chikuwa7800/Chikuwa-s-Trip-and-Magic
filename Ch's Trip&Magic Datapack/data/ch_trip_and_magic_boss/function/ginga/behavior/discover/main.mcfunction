@@ -1,4 +1,5 @@
 tag @n[tag=ch_tm.player.target.ginunga] remove ch_tm.player.target.ginunga
+tag @n[tag=ch_tm.player.target.ginunga.ago] add ch_tm.player.target.ginunga.ago
 scoreboard players reset @s ch_tm_bosses_attacked_to_target
 
 execute unless entity @e[tag=ch_tm.player.will_target.ginunga,distance=..32] run return run scoreboard players set @s ch_tm_bosses_action 101

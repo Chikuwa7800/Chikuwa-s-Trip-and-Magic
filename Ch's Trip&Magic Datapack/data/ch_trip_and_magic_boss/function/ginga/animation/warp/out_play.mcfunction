@@ -2,7 +2,7 @@
 
  #スコアリセット
   scoreboard players reset @s ch_tm_bosses_tp_tick
-  tag @s[tag=aj.ginunga.root] add ch_tm.boss.ginunga.action.warp_out
+  scoreboard players set @s ch_tm_bosses_action 323
   tag @s remove ch_tm.boss.ginunga.action.warp.transport
 
  #アニメーション再生

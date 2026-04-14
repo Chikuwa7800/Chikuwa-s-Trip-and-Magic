@@ -8,7 +8,6 @@ $data merge entity $(bone_bone) {transformation: [-1f,0f,0f,0f,0f,1f,0f,1.375f,0
 $data merge entity $(bone_left_arm1) {transformation: [-1f,0f,0f,0.25f,0f,1f,0f,1.3125f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right_arm1) {transformation: [-1f,0f,0f,-0.25f,0f,1f,0f,1.3125f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 data modify entity @s data merge value {"cameras":{},"locators":{"mouse":{"posx":-3.061616997868383e-17,"posy":1.46875,"posz":0.25,"roty":0,"rotx":0},"left_arm":{"posx":0.3125,"posy":0.625,"posz":3.827021247335479e-17,"roty":0,"rotx":0},"right_arm":{"posx":-0.3125,"posy":0.625,"posz":-3.827021247335479e-17,"roty":0,"rotx":0},"intaract2":{"posx":0,"posy":1.2,"posz":0,"roty":0,"rotx":0},"intaract":{"posx":0,"posy":0.19999999999999996,"posz":0,"roty":0,"rotx":0},"shadow":{"posx":0,"posy":0,"posz":0,"roty":0,"rotx":0}}}
-tag @n[tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.action.cut_attack] add ch_tm.boss.ginunga.action.cut_attack.particle
+tag @n[tag=aj.ginunga.root] add ch_tm.boss.ginunga.action.cut_attack.particle
 #軸合わせ用
-  tag @n[tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.action.cut_attack] add ch_tm.boss.ginunga.change.axis
-  execute at @n[tag=aj.ginunga.root,tag=ch_tm.boss.ginunga.action.cut_attack] run summon marker ~ ~ ~ {Tags:["ch_tm.boss.marker.ginunga.set_axis"]}
+  tag @n[tag=aj.ginunga.root] add ch_tm.boss.ginunga.change.axis
