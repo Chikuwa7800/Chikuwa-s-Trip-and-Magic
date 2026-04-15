@@ -25,3 +25,4 @@ execute if score @s ch_tm_tick matches 90 run playsound trip_magic:magic.fire.py
 execute if score @s ch_tm_tick matches 95 run playsound trip_magic:magic.fire.pyro_wave.loop player @a ~ ~ ~ 1 1
 execute if score @s ch_tm_tick matches 100 run playsound trip_magic:magic.fire.pyro_wave.end player @a ~ ~ ~ 1 1
 execute if score @s ch_tm_tick matches 100.. run kill @s
+execute unless score @s ch_tm_entity_id = @n[tag=ch_tm_pyro_pl] ch_tm_entity_id run kill @s

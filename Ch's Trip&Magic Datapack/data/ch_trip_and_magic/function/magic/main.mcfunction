@@ -13,8 +13,6 @@ execute as @e[tag=ch_tm_magic_crafting_table_start,type=item_frame,predicate=ch_
 execute as @e[tag=ch_tm_magic_crafting_table_start,type=item_frame,predicate=!ch_trip_and_magic:facing] at @s run function ch_trip_and_magic:magic/block/magic_crafting_table/start_wall
 execute as @e[tag=ch_tm_magic_crafting_table_core,type=interaction] at @s run function ch_trip_and_magic:magic/block/magic_crafting_table/tick
 
-execute as @e[type=block_display,tag=ch_tm_magic_ball] at @s run function ch_trip_and_magic:magic/magic_temp/tick
-
 #エフェクト
 function ch_trip_and_magic:magic/effect/tick
 
@@ -54,9 +52,11 @@ execute if entity @s[tag=ch_tm_spell_charged_lv3] unless predicate ch_trip_and_m
 execute as @e[tag=ls_magic_lightning_sword_pl] at @s run function ch_trip_and_magic:magic/magic_temp/bolts/lightning_sword/main_pl
 execute as @e[tag=ch_tm_gust_pl] at @s run function ch_trip_and_magic:magic/magic_temp/nature/gust_burst/main
 execute as @e[tag=ch_tm_bolea_pl] at @s run function ch_trip_and_magic:magic/magic_temp/ices/bolea_breath/main
+execute as @e[tag=ch_tm_cryo_pl] at @s run function ch_trip_and_magic:magic/magic_temp/ices/cryo_stasis/main
 execute as @e[tag=ch_tm.magic_entity] at @s run function ch_trip_and_magic:magic/magic_entities
 execute as @e[tag=ch_tm_vel_tulnna] at @s run function ch_trip_and_magic:magic/magic_temp/waters/vel_tulnna/main_pl
 
+execute as @e[tag=ch_tm.magic_bullet] at @s run function ch_trip_and_magic:magic/entities/bullet/main
 
 execute as @a at @s if score @s ch_tm_magic_xp_level > @s ch_tm_magic_xp_level_dummy run function ch_trip_and_magic:magic/magic_strength
 

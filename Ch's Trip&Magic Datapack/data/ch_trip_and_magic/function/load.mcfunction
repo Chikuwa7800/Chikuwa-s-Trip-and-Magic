@@ -127,6 +127,12 @@
  scoreboard objectives add ch_tm_magic_lightning_rapier_bolt_2 dummy
  scoreboard objectives add ch_tm_magic_lightning_rapier_energy dummy
  scoreboard objectives add ch_tm_magic_lightning_rapier_attack dummy
+ scoreboard objectives add ch_tm.bullet.tick dummy
+ scoreboard objectives add ch_tm.bullet.rerun dummy
+ scoreboard objectives add ch_tm_magic_cryo_tick dummy
+ scoreboard objectives add ch_tm_magic_cryo_start dummy
+ scoreboard objectives add ch_tm_magic_cryo_circle dummy
+ scoreboard objectives add ch_tm_magic_cryo_cooldown dummy
 
 # trip
  scoreboard objectives add ch_tm_weapons_flint_knife_hit_fire_tick dummy

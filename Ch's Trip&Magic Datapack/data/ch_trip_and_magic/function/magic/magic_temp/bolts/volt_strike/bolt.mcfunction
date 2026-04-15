@@ -11,7 +11,3 @@ playsound entity.lightning_bolt.thunder player @a ~ ~ ~ 1 2
 #execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ch_tm_magic_pl,type=!#ch_trip_and_magic:cannot_hurt_entities,tag=!ch_tm_volt_display] positioned ~0.5 ~0.5 ~0.5 run function ch_trip_and_magic:magic/magic_temp/bolts/volt_strike/damage
 
 #execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0,tag=!ch_tm_magic_pl,type=!#ch_trip_and_magic:cannot_hurt_entities,tag=!ch_tm_volt_display,predicate=ch_trip_and_magic:trip/mobs/nomal/75] at @s positioned ^ ^ ^4 run function ch_trip_and_magic:magic/magic_temp/bolts/volt_strike/summon
-
-function ch_trip_and_magic:magic/magic_temp/hit
-
-kill @s

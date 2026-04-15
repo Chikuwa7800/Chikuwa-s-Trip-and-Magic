@@ -1,10 +1,4 @@
-tag @s add ch_tm_magic_pl
-
-#ch_tm_volt_display
-execute anchored eyes run summon block_display ^ ^ ^0.5 {teleport_duration:3,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.2f,0.2f,0.2f]},Tags:["ch_tm_volt_display","ch_tm_magic_ball"]}
-execute store result score @n[type=block_display,tag=ch_tm_magic_ball] ch_tm_entity_id run scoreboard players get @s ch_tm_entity_id
-execute anchored eyes run rotate @e[tag=ch_tm_volt_display,sort=nearest,limit=1] facing ^ ^ ^1000
+execute anchored eyes positioned ^ ^ ^0.001 run function ch_trip_and_magic:magic/entities/bullet/summon {"speed": 1.5,"damage": 5,"damage_type":"bolts_lv1","gravity": 2147483647,"rerun":6,"hit_ground": "ch_trip_and_magic:magic/magic_temp/bolts/volt_strike/bolt","hit": "ch_trip_and_magic:magic/magic_temp/bolts/volt_strike/hit","tick": "ch_trip_and_magic:magic/magic_temp/bolts/volt_strike/main","addition_effect":"ch_trip_and_magic:magic/effect/electro/start"}
 
 playsound block.respawn_anchor.deplete player @a ~ ~ ~ 1 1
 particle end_rod ~ ~1.5 ~ 0 0 0 0.1 5 force
-

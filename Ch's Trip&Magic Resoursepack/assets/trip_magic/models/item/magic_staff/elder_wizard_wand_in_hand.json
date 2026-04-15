@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
 		"layer0": "trip_magic:item/magic_staff/elder_wizard_wand_in_hand"
@@ -11,7 +13,7 @@
 			"scale": [1.7, 1.7, 0.85]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [-6.5, -90, 0],
+			"rotation": [6.5, -90, 0],
 			"translation": [0, 2.75, -1.5],
 			"scale": [1.7, 1.7, 0.85]
 		},

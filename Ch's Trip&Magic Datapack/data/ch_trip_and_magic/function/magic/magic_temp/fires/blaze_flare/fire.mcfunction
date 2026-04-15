@@ -6,7 +6,3 @@ particle large_smoke ^ ^ ^-0.5 0 0 0 0.05 20 force
 
 playsound entity.firework_rocket.blast player @a ~ ~ ~ 1 1
 playsound entity.firework_rocket.large_blast player @a ~ ~ ~ 1 1
-
-function ch_trip_and_magic:magic/magic_temp/hit
-
-kill @s

@@ -5,8 +5,3 @@ particle enchant ^ ^ ^-0.5 0 0 0 1 20 force
 
 playsound entity.player.hurt_freeze player @a ~ ~ ~ 1 1
 playsound trip_magic:magic.ice.frost_bullet.hit block @a ~ ~ ~ 1 1
-
-function ch_trip_and_magic:magic/magic_temp/hit
-
-kill @s
-

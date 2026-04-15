@@ -7,7 +7,3 @@ playsound entity.ender_eye.death player @a ~ ~ ~ 2 1
 playsound entity.ender_eye.launch player @a ~ ~ ~ 1 1
 playsound block.sculk_sensor.clicking_stop player @a ~ ~ ~ 2 0.5
 playsound entity.enderman.teleport player @a ~ ~ ~ 1 1
-
-function ch_trip_and_magic:magic/magic_temp/hit
-
-kill @s

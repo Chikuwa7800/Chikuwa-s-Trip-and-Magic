@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ #ch_trip_and_magic:no_collision run function ch_trip_and_magic:magic/entities/bullet/hit_to_ground with entity @s data
+execute positioned ~-0.001 ~-0.001 ~-0.001 as @e[dx=0,dy=0,dz=0,type=!#ch_trip_and_magic:mobs,tag=!ch_tm.magic_bullet] positioned ~-0.998 ~-0.998 ~-0.998 if entity @s[dx=0,dy=0,dz=0] unless score @s ch_tm_entity_id = @n[tag=ch_tm.magic_bullet] ch_tm_entity_id positioned ~0.999 ~0.999 ~0.999 run function ch_trip_and_magic:magic/entities/bullet/hit with entity @n[tag=ch_tm.magic_bullet] data

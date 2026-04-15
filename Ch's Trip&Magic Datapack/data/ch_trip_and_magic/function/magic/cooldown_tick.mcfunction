@@ -23,6 +23,8 @@ execute as @a[tag=ch_tm_magic_fleeze_cooldown] at @s run function ch_trip_and_ma
 
 execute as @a[tag=ch_tm_magic_bolea_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/bolea
 
+execute as @a[tag=ch_tm_magic_cryo_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/cryo
+
 execute as @a[tag=ch_tm_magic_zephyr_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/zephyr
 
 execute as @a[tag=ch_tm_magic_atte_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/atter

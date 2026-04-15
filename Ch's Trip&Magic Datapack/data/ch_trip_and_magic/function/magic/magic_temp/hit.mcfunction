@@ -1,1 +1,0 @@
-kill @n[type=#ch_trip_and_magic:can_kill_projectile,distance=..1]

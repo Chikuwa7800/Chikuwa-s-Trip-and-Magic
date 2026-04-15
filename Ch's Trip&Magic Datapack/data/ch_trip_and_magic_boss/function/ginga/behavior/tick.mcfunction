@@ -69,15 +69,6 @@
   scoreboard players add @s[scores={ch_tm_bosses_action=322}] ch_tm_bosses_tp_tick 1
   execute if entity @s[scores={ch_tm_bosses_tp_tick=5..}] if score @s ch_tm_bosses_action matches 322 run function ch_trip_and_magic_boss:ginga/animation/warp/out_play
 
-#爆破: 302
-#ワープ入: 321
-#ワープ中: 322
-#ワープ出: 323
-#叫び(強): 411
-#チェーンブラスト: 412
-#叫び(特殊): 421
-#天使の呟き: 422
-
  #爆散
   execute if score @s ch_tm_bosses_action matches 302 run function ch_trip_and_magic_boss:ginga/animation/explode/main
 
