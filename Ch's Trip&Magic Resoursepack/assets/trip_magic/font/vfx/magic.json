@@ -44,6 +44,15 @@
       "chars": [
         "\uE004"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "trip_magic:font/vfx/spike.png",
+      "height":128,
+      "ascent": 64,
+      "chars": [
+        "\uE005"
+      ]
     }
   ]
 }

@@ -14,11 +14,6 @@ particle rain ~ ~2 ~ 2 0 2 0.6 100 force
 scoreboard players reset @s ch_tm_shift
 tag @s remove ch_trip_and_magic_wakame_sword_jump_attack_one
 
-execute as @e[distance=..4,tag=!ch_trip_and_magic_wakame_sword_boom] at @s run damage @s 8 sonic_boom by @a[tag=ch_trip_and_magic_wakame_sword_boom,limit=1,sort=nearest]
-
-effect give @e[distance=..4,tag=!ch_trip_and_magic_wakame_sword_boom] darkness 2 3 true
-effect give @e[distance=..4,tag=!ch_trip_and_magic_wakame_sword_boom] blindness 2 3 true
-effect give @e[distance=..4,tag=!ch_trip_and_magic_wakame_sword_boom] night_vision 2 3 true
-effect give @e[distance=..4,tag=!ch_trip_and_magic_wakame_sword_boom] slowness 1 3 true
+execute as @e[distance=..4,tag=!ch_trip_and_magic_wakame_sword_boom] at @s run damage @s 8 sonic_boom by @p[tag=ch_trip_and_magic_wakame_sword_boom]
 
 tag @s remove ch_trip_and_magic_wakame_sword_boom

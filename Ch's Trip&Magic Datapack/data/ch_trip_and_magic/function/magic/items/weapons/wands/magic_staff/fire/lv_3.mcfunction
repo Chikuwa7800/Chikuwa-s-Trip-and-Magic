@@ -1,4 +1,4 @@
-execute if entity @s[tag=ch_tm_magic_blast_cooldown] run function ch_trip_and_magic:magic/cooldown {"name":"item_skill.magic.fire.lv3","cooltime":"17"}
+execute if entity @s[tag=ch_tm_magic_blast_cooldown] run function ch_trip_and_magic:magic/cooldown {"name":"item_skill.magic.fire.lv3","cooltime":"20"}
 execute if entity @s[tag=ch_tm_magic_blast_cooldown] run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/no
 execute if entity @s[tag=ch_tm_magic_blast_cooldown] run return fail
 execute if entity @s[scores={ch_tm_magic_mana=20..}] anchored eyes positioned ^ ^ ^0.1 run function ch_trip_and_magic:magic/magic_temp/fires/flame_blast/summon

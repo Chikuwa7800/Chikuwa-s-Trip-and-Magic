@@ -2,6 +2,7 @@
     "values": [
         "ch_trip_and_magic:magic/waters_lv1",
         "ch_trip_and_magic:magic/waters_lv2",
+        "ch_trip_and_magic:magic/waters_lv4",
         "ch_trip_and_magic:magic/waters_lv5"
     ]
 }

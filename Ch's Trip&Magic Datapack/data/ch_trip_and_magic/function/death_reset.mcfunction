@@ -19,5 +19,10 @@ execute if entity @s[tag=ch_tm_pyro_pl] run function ch_trip_and_magic:magic/mag
 execute if entity @s[tag=ch_tm_bolea_pl] run function ch_trip_and_magic:magic/magic_temp/ices/bolea_breath/reset
 execute if entity @s[tag=ch_tm_gust_pl] run function ch_trip_and_magic:magic/magic_temp/nature/gust_burst/reset
 execute if entity @s[tag=ch_tm_vel_tulnna] run function ch_trip_and_magic:magic/magic_temp/waters/vel_tulnna/reset
+execute if entity @s[tag=ch_tm_cryo_pl] run function ch_trip_and_magic:magic/magic_temp/ices/cryo_stasis/end
+execute if entity @s[tag=ch_tm_llyr_pl] run function ch_trip_and_magic:magic/magic_temp/waters/llyr_deluge/end
+execute if entity @s[tag=ch_tm_wave_surfing_pl] run function ch_trip_and_magic:magic/magic_temp/waters/wave_surfing/reset
+
+function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charge/remove_tag_no_effect
 
 scoreboard players reset @s ls_trip_magic_death

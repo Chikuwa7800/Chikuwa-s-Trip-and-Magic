@@ -1,6 +1,9 @@
 scoreboard players add @s ch_tm_magic_cryo_tick 1
 scoreboard players add @s ch_tm_magic_cryo_start 1
 scoreboard players add @s ch_tm_magic_cryo_circle 1
+
+execute if score @s ch_tm_magic_cryo_start matches 1 run effect give @s absorption 10 4
+execute if score @s ch_tm_magic_cryo_start matches 1 run attribute @s fall_damage_multiplier base set 0.75
 execute if score @s ch_tm_magic_cryo_start matches 1 positioned ~ ~ ~ rotated 0.0 0.0 run function ch_trip_and_magic:magic/magic_temp/ices/cryo_stasis/particle_start
 
 execute if score @s ch_tm_magic_cryo_start matches 2 positioned ~ ~0.125 ~ rotated 10.0 0.0 run function ch_trip_and_magic:magic/magic_temp/ices/cryo_stasis/particle_start

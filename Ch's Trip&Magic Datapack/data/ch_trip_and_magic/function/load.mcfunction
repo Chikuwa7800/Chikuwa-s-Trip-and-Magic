@@ -133,6 +133,12 @@
  scoreboard objectives add ch_tm_magic_cryo_start dummy
  scoreboard objectives add ch_tm_magic_cryo_circle dummy
  scoreboard objectives add ch_tm_magic_cryo_cooldown dummy
+ scoreboard objectives add ch_tm_magic_llyr_tick dummy
+ scoreboard objectives add ch_tm_magic_llyr_cooldown dummy
+ scoreboard objectives add ch_tm_magic_verbel_random_yaw dummy
+ scoreboard objectives add ch_tm_magic_verbel_random_pitch dummy
+ scoreboard objectives add ch_tm_magic_verbel_cooldown dummy
+ scoreboard objectives add ch_tm_magic_casting dummy
 
 # trip
  scoreboard objectives add ch_tm_weapons_flint_knife_hit_fire_tick dummy

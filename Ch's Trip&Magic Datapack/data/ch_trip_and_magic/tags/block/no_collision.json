@@ -95,6 +95,7 @@
         "firefly_bush",
         "leaf_litter",
         "copper_torch",
-        "copper_wall_torch"
+        "copper_wall_torch",
+        "sculk_vein"
     ]
 }

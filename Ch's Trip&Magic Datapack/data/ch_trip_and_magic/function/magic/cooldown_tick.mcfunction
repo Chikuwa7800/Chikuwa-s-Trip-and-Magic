@@ -25,6 +25,8 @@ execute as @a[tag=ch_tm_magic_bolea_cooldown] at @s run function ch_trip_and_mag
 
 execute as @a[tag=ch_tm_magic_cryo_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/cryo
 
+execute as @a[tag=ch_tm_magic_verbel_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/verbel
+
 execute as @a[tag=ch_tm_magic_zephyr_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/zephyr
 
 execute as @a[tag=ch_tm_magic_atte_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/atter
@@ -42,6 +44,8 @@ execute as @a[tag=ch_tm_magic_aqua_cooldown] at @s run function ch_trip_and_magi
 execute as @a[tag=ch_tm_magic_surfing_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/surfing
 
 execute as @a[tag=ch_tm_magic_veil_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/veil
+
+execute as @a[tag=ch_tm_magic_llyr_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/llyr
 
 execute as @a[tag=ch_tm_magic_tulnna_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/tulnna
 

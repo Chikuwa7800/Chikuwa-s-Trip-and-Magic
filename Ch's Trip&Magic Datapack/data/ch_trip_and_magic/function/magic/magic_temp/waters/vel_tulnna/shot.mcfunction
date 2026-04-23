@@ -14,3 +14,4 @@ execute as @e[tag=ch_tm_tulnna_hit] if score @s ch_tm_sec_entity_id = @n[tag=ch_
 scoreboard players reset @s ch_tm_magic_tulnna_tick
 tag @s remove ch_tm_vel_tulnna
 tag @s remove ch_tm_vel_tulnna_shot
+scoreboard players remove @s ch_tm_magic_casting 1

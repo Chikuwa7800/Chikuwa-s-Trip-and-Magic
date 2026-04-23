@@ -31,4 +31,4 @@ execute as @a[predicate=ch_trip_and_magic:trip/claive/inventory] at @s run funct
 execute as @a[predicate=ch_trip_and_magic:trip/claive/mainhand] at @s run function ch_trip_and_magic:trip/items/claive/craive_main
 execute as @a[predicate=ch_trip_and_magic:trip/claive/offhand] at @s run function ch_trip_and_magic:trip/items/claive/craive_main
 
-execute as @e at @s if score @s ch_tm_using_sticks matches 1.. run function ch_trip_and_magic:trip/items/claive/use_craive
+execute as @a at @s if score @s ch_tm_using_sticks matches 1.. run function ch_trip_and_magic:trip/items/claive/use_craive

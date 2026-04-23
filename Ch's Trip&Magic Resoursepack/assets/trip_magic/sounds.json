@@ -321,6 +321,16 @@
       }
     ]
   },
+  "magic.water.llyr_deluge.start": {
+    "sounds": [
+      "trip_magic:magic/spell/water/llyr_deluge_start"
+    ]
+  },
+  "magic.water.llyr_deluge.blast": {
+    "sounds": [
+      "trip_magic:magic/spell/water/llyr_deluge_blast"
+    ]
+  },
   "music.audexm.start": {
     "sounds": [
       {

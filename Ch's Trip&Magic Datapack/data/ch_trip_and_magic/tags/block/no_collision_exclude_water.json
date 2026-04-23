@@ -90,6 +90,7 @@
         "tall_dry_grass",
         "bush",
         "firefly_bush",
-        "leaf_litter"
+        "leaf_litter",
+        "sculk_vein"
     ]
 }

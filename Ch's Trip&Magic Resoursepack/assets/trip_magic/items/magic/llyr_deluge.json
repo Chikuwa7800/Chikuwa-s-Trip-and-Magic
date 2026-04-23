@@ -1,0 +1,141 @@
+{
+    "model":{
+        "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 0,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/0"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 1,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/1"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 2,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/2"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 3,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/3"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 4,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/4"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 5,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/5"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 6,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/6"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 7,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/7"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 8,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/8"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 9,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/9"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 10,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/10"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 11,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/11"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 12,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/12"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 13,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/13"
+        },
+        "on_false": {
+            "type": "minecraft:condition",
+        "property": "custom_model_data",
+        "index": 14,
+        "on_true": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/14"
+        },
+        "on_false": {
+            "type": "model",
+            "model": "trip_magic:item/magic/llyr_deluge/15"
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+        }
+    }
+}

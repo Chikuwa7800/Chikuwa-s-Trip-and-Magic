@@ -1,0 +1,20 @@
+{
+    "function": "set_components",
+    "components": {
+      "custom_model_data":{
+        "flags": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      }
+    }
+}

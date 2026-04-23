@@ -10,3 +10,4 @@ particle white_smoke ~ ~1 ~ 0.5 0.5 0.5 0.1 50 force
 particle dust{color:[0.118,0.153,0.635],scale:2} ~ ~1 ~ 0.5 0.5 0.5 0.2 25 force
 particle splash ~ ~1 ~ 0.5 0.5 0.5 0.2 25 force
 scoreboard players set @s ch_tm_wave_surfing_tick 10
+scoreboard players add @s ch_tm_magic_casting 1
