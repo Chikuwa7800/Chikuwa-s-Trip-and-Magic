@@ -1,6 +1,7 @@
 {
     "values": [
       "ch_trip_and_magic:effect/abyss",
+      "ch_trip_and_magic:effect/abyss_last",
       "ch_trip_and_magic:effect/cut",
       "ch_trip_and_magic:effect/electro",
       "ch_trip_and_magic:effect/erosion",

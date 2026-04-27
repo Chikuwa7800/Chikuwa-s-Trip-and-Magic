@@ -8,7 +8,7 @@
   "result": {
     "id": "minecraft:golden_pickaxe",
     "components": {
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.material.gold",
         "with": [
           ""

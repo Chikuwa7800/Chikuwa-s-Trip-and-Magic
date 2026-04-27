@@ -331,6 +331,12 @@
       "trip_magic:magic/spell/water/llyr_deluge_blast"
     ]
   },
+  "magic.void.thanatholos":{
+    "sounds": [
+      "trip_magic:magic/spell/void/thanatholos1",
+      "trip_magic:magic/spell/void/thanatholos2"
+    ]
+  },
   "music.audexm.start": {
     "sounds": [
       {

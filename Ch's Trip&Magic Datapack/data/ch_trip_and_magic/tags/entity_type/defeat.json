@@ -1,10 +1,8 @@
 {
   "replace": false,
   "values": [
-    "falling_block",
     "fireball",
     "dragon_fireball",
-    "wither_skull",
-    "wind_charge"
+    "wither_skull"
   ]
 }

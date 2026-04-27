@@ -15,7 +15,7 @@
                 "minecraft:item_name": {
                   "translate": "item.craive"
                 },
-                "custom_name": {
+                "item_name": {
                   "translate": "item.craive",
                   "color": "white",
                   "italic": false
@@ -83,7 +83,7 @@
                   "glaive": true,
                   "ready":false
                 },
-                "minecraft:rarity": "common",
+                "!rarity":{},
                 "minecraft:weapon": {
                   "item_damage_per_attack": 1,
                   "disable_blocking_for_seconds": 0

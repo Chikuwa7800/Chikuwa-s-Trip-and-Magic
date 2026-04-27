@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " #@",
+    "X##",
+    "#X "
+  ],
+  "key": {
+    "X": "minecraft:iron_block",
+    "#": "minecraft:stick",
+    "@": "minecraft:emerald_block"
+  },
+  "result": {
+    "id": "minecraft:diamond_spear",
+    "components": {
+      "!kinetic_weapon": {},
+                "!piercing_weapon": {},
+                "swing_animation": {
+                  "type": "whack"
+                },
+                "minecraft:item_name": {
+                  "translate": "item.elder_wizard_wand"
+                },
+                "minecraft:item_model": "trip_magic:magic_weapons/elder_wizard_wand",
+                "minecraft:rarity": "rare",
+                "minecraft:custom_data": {
+                  "item_type": "weapon",
+                  "item_condition": [
+                    "elder_wizard"
+                  ],
+                  "material": "emerald",
+                  "weapon_type": "magic_staff",
+                  "item_magic": "true"
+                },
+                "minecraft:weapon": {
+                  "item_damage_per_attack": 0,
+                  "disable_blocking_for_seconds": 0
+                },
+                "minecraft:max_damage": 5000,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:unbreakable"
+                  ]
+                },
+                "minecraft:tool": {
+                  "rules": [],
+                  "default_mining_speed": 1,
+                  "damage_per_block": 0,
+                  "can_destroy_blocks_in_creative": false
+                },
+                "attribute_modifiers": [
+        {
+          "id": "minecraft:temp",
+          "type": "attack_damage",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "5 ",
+              "extra": [
+                {
+                  "translate": "attribute.name.attack_damage"
+                }
+              ],
+              "color": "dark_green",
+              "italic": false
+            }
+          }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "attack_speed",
+          "amount": -2.2,
+          "operation": "add_value",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "1.4 ",
+              "extra": [
+                {
+                  "translate": "attribute.name.attack_speed"
+                }
+              ],
+              "color": "dark_green",
+              "italic": false
+            }
+          },
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "armor",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": {
+              
+                  "text": "200 ",
+          "extra": [
+            {
+              "translate": "attribute.name.mana"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+            }
+          }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "armor_toughness",
+          "amount": 0,
+          "operation": "add_value",
+          "slot": "hand",
+          "display": {
+            "type": "override",
+            "value": {
+                  "text": "4 ",
+          "extra": [
+            {
+              "translate": "attribute.name.mana.recovery"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+            }
+          }
+        }
+      ]
+    }
+  }
+}

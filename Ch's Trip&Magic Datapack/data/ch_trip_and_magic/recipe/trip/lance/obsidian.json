@@ -14,7 +14,7 @@
   "result": {
     "id": "minecraft:diamond_pickaxe",
     "components": {
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.material.obsidian",
         "extra": [
           {

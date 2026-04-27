@@ -1,6 +1,7 @@
 {
     "values": [
       "ch_trip_and_magic:effect/abyss",
+      "ch_trip_and_magic:effect/abyss_last",
       "ch_trip_and_magic:effect/cut",
       "ch_trip_and_magic:effect/electro",
       "ch_trip_and_magic:effect/erosion",
@@ -10,6 +11,7 @@
       "ch_trip_and_magic:magic/bolts_lv3",
       "ch_trip_and_magic:magic/fire_lv2",
       "ch_trip_and_magic:magic/fire_lv3",
+      "ch_trip_and_magic:magic/ice_lv5",
       "ch_trip_and_magic:magic/void_lv3",
       "ch_trip_and_magic:magic/waters_lv4"
     ]

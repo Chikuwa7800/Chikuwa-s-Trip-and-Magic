@@ -139,6 +139,9 @@
  scoreboard objectives add ch_tm_magic_verbel_random_pitch dummy
  scoreboard objectives add ch_tm_magic_verbel_cooldown dummy
  scoreboard objectives add ch_tm_magic_casting dummy
+ scoreboard objectives add ch_tm_magic_than_damage dummy
+ scoreboard players set $ch.tm.than_damage ch_tm_magic_than_damage 600
+ execute as @a unless score @s ch_tm_magic_casting matches -2147483648..2147483647 run scoreboard players set @s ch_tm_magic_casting 0
 
 # trip
  scoreboard objectives add ch_tm_weapons_flint_knife_hit_fire_tick dummy

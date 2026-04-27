@@ -1,0 +1,5 @@
+{
+	"exhaustion": 0.125,
+ 	"message_id": "ice_lv_5",
+	"scaling": "when_caused_by_living_non_player"
+}

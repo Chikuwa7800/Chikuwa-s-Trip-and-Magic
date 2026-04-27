@@ -22,6 +22,10 @@ execute if entity @s[tag=ch_tm_vel_tulnna] run function ch_trip_and_magic:magic/
 execute if entity @s[tag=ch_tm_cryo_pl] run function ch_trip_and_magic:magic/magic_temp/ices/cryo_stasis/end
 execute if entity @s[tag=ch_tm_llyr_pl] run function ch_trip_and_magic:magic/magic_temp/waters/llyr_deluge/end
 execute if entity @s[tag=ch_tm_wave_surfing_pl] run function ch_trip_and_magic:magic/magic_temp/waters/wave_surfing/reset
+summon marker ~ ~ ~ {Tags:["ch_tm_magic_lightning_sword_entity_id"]}
+execute store result entity @n[type=marker,tag=ch_tm_magic_lightning_sword_entity_id] data."id" int 1 run scoreboard players get @s ch_tm_entity_id
+function ch_trip_and_magic:keraut_kill with entity @n[type=marker,tag=ch_tm_magic_lightning_sword_entity_id] data
+kill @n[tag=ch_tm_magic_lightning_sword_entity_id]
 
 function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charge/remove_tag_no_effect
 

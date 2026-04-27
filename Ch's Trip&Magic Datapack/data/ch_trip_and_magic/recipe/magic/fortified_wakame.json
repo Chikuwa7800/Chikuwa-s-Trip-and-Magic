@@ -20,7 +20,7 @@
   "result": {
     "id": "minecraft:command_block",
     "components": {
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.fortified_wakame",
         "italic": false
       },

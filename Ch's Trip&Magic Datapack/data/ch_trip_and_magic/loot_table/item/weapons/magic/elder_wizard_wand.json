@@ -13,7 +13,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "!kinetic_weapon": {},
-                "!piercing_weapon": {},
+                "!piercing_weapon":{},
+                "attack_range":{
+                  "min_reach": 0,
+                  "max_reach": 2.25
+                },
                 "swing_animation": {
                   "type": "whack"
                 },
@@ -50,6 +54,46 @@
                 "attribute_modifiers": [
         {
           "id": "minecraft:temp",
+          "type": "attack_damage",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "5 ",
+              "extra": [
+                {
+                  "translate": "attribute.name.attack_damage"
+                }
+              ],
+              "color": "dark_green",
+              "italic": false
+            }
+          }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "attack_speed",
+          "amount": -2.2,
+          "operation": "add_value",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": "1.4 ",
+              "extra": [
+                {
+                  "translate": "attribute.name.attack_speed"
+                }
+              ],
+              "color": "dark_green",
+              "italic": false
+            }
+          },
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:temp",
           "type": "armor",
           "amount": 0,
           "operation": "add_value",
@@ -68,6 +112,16 @@
           "italic": false
             }
           }
+        },
+        {
+          "id": "minecraft:temp",
+          "type": "attack_knockback",
+          "amount": 0.125,
+          "operation": "add_value",
+          "display": {
+            "type": "hidden"
+          },
+          "slot": "mainhand"
         },
         {
           "id": "minecraft:temp",

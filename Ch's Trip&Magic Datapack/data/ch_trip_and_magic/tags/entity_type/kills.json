@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "minecraft:snowball",
-    "minecraft:egg",
-    "minecraft:breeze_wind_charge"
+    "minecraft:egg"
   ]
 }

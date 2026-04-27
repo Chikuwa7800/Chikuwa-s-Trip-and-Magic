@@ -1,4 +1,6 @@
 ## ヒット
+ # 当たったエンティティに実行者が乗っていたら失敗として返す
+  $execute on passengers if entity @s[scores={ch_tm_entity_id=$(owner)}] run return fail
  # 演出
   $function $(hit_ground_effect)
   $function $(hit_effect)

@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:warped_fungus_on_a_stick",
     "components": {
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.magic_core",
         "with": [
           ""

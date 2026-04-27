@@ -31,6 +31,7 @@ scoreboard players set @a[scores={ch_tm_magic_mana_add=20..}] ch_tm_magic_mana_a
 execute as @a if score @s ch_tm_magic_mana > @s ch_tm_magic_mana_max run scoreboard players operation @s ch_tm_magic_mana = @s ch_tm_magic_mana_max
 scoreboard players set @a[scores={ch_tm_magic_mana=..-1}] ch_tm_magic_mana 0
 
+
 #クールダウン
 function ch_trip_and_magic:magic/cooldown_tick
 
@@ -47,7 +48,7 @@ execute if entity @e[tag=ch_tm_magic_pl_freeze] run schedule function ch_trip_an
 
 execute as @e[tag=ch_tm_wave_surfing_pl] at @s run function ch_trip_and_magic:magic/magic_temp/waters/wave_surfing/main
 
-execute as @a at @s unless entity @s[tag=ch_tm_spell_charged_lv3,tag=ch_tm_spell_charged_lv4,tag=ch_tm_spell_charged_lv5] unless predicate ch_trip_and_magic:magic/spell_book/_has run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charge/remove_tag
+execute if entity @s[tag=ch_tm_spell_charging,tag=!ch_tm_spell_charged_lv3,tag=!ch_tm_spell_charged_lv4,tag=!ch_tm_spell_charged_lv5] unless predicate ch_trip_and_magic:magic/spell_book/_has run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charge/remove_tag
 
 execute as @e[tag=ls_magic_lightning_sword_pl] at @s run function ch_trip_and_magic:magic/magic_temp/bolts/lightning_sword/main_pl
 execute as @e[tag=ch_tm_gust_pl] at @s run function ch_trip_and_magic:magic/magic_temp/nature/gust_burst/main

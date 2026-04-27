@@ -6,7 +6,7 @@ execute if entity @s[scores={ls_trip_boss_tick=1}] run playsound block.enchantme
 execute if entity @s[scores={ls_trip_boss_tick=1}] run particle witch ~ ~0.1 ~ 0.1 0.1 0.1 0.25 20 force
 execute if entity @s[tag=ch_tm_trip_mobs_magic_skeleton_prep_cast] run particle witch ~ ~0.1 ~ 0.1 0.1 0.1 0. 1 force
 
-execute if entity @s[scores={ls_trip_boss_tick=21}] run function ch_trip_and_magic:magic/magic_temp/nature/zephyr_blades/summon with entity @s
+execute if entity @s[scores={ls_trip_boss_tick=21}] on target facing entity @s eyes as @n[tag=ch_tm_trip_mobs_magic_skeleton] run function ch_trip_and_magic:magic/magic_temp/nature/zephyr_blades/summon
 
 tag @s[scores={ls_trip_boss_tick=21..}] remove ch_tm_trip_mobs_magic_skeleton_prep_cast
 scoreboard players set @s[scores={ls_trip_boss_tick=21..}] ls_trip_boss_tick 0

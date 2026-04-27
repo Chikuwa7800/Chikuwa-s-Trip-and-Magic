@@ -1,0 +1,1 @@
+$execute as @e[tag=ch_tm_magic_lightning_sword,tag=!ch_tm_magic_lightning_sword_shot] unless score @s ch_tm_entity_id = @e[tag=ls_magic_lightning_sword_pl,scores={ch_tm_entity_id=$(id)},limti=1] ch_tm_entity_id at @s run function ch_trip_and_magic:magic/magic_temp/bolts/lightning_sword/ls_action/hit/remove

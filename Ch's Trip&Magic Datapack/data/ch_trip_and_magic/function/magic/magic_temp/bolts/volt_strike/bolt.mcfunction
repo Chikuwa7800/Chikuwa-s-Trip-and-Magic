@@ -2,7 +2,7 @@ particle end_rod ^ ^ ^-0.5 0.5 0.5 0.5 0. 15 force
 particle enchanted_hit ^ ^ ^-0.5 0 0 0 0.1 5 force
 particle crit ^ ^ ^-0.5 0.5 0.5 0.5 0.2 20 force
 particle enchant ^ ^ ^-0.5 0 0 0 1 20 force
-particle dust{color:[0.933,1.000,0.012],scale:2} ^ ^ ^-0.5 0.5 0.5 0.5 0.5 50
+particle dust{color:[0.933,1.000,0.012],scale:2} ^ ^ ^-0.5 0.5 0.5 0.5 0.5 15
 particle electric_spark ^ ^ ^-0.5 0 0 0 0.2 1 force
 
 playsound entity.firework_rocket.blast player @a ~ ~ ~ 1 1

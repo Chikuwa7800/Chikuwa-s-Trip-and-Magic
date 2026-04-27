@@ -34,7 +34,7 @@
       },
       
       "minecraft:rarity": "common",
-      "minecraft:custom_name": {
+      "minecraft:item_name": {
         "translate": "item.spell_book.water",
         "extra": [
           {
