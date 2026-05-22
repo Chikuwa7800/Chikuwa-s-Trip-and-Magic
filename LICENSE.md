@@ -4,12 +4,12 @@ Any elements/terms not stated here are governed by [Apache-2.0](https://www.apac
 
 ### Definition
 <ol>
-<li>Author: A general term referring to the person who created the work. In this license, it refers to me, <a href="https://github.com/Chikuwa7800">Chikuwa7800</a>.</li>
-<li>Production: A general term referring to content or products created by an Author. In these Terms of Use, this refers to Chikuwa's Trip and Magic.</li>
-<li>Chikuwa's Trip and Magic: The content to which these Terms of Use apply. Collectively refers to the datapack and the resourcepack.</li>
-<li>This contents: refers to Chikuwa's Trip and Magic.</li>
-<li>Chikuwa's Trip and Magic Datapack: refers only to the data pack among this contents to which these Terms of Use apply.</li>
-<li>Chikuwa's Trip and Magic Resousepack: refers only to the resource pack among this contents to which these Terms of Use apply.</li>
+<li><b>Author</b>: A general term referring to the person who created the work. In this license, it refers to me, <a href="https://github.com/Chikuwa7800">Chikuwa7800</a>.</li>
+<li><b>Production</b>: A general term referring to content or products created by an Author. In these Terms of Use, this refers to Chikuwa's Trip and Magic.</li>
+<li><b>Chikuwa's Trip and Magic</b>: The content to which these Terms of Use apply. Collectively refers to the datapack and the resourcepack.</li>
+<li><b>This contents</b>: refers to Chikuwa's Trip and Magic.</li>
+<li><b>Chikuwa's Trip and Magic Datapack</b>: refers only to the data pack among this contents to which these Terms of Use apply.</li>
+<li><b>Chikuwa's Trip and Magic Resousepack</b>: refers only to the resource pack among this contents to which these Terms of Use apply.</li>
 </ol>
 
 ### Basic Terms
