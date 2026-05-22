@@ -3,12 +3,14 @@
 Any elements/terms not stated here are governed by [Apache-2.0](https://www.apache.org/licenses/).
 
 ### Definition
-<p>Author: A general term referring to the person who created the work. In this license, it refers to me, <a href="https://github.com/Chikuwa7800">Chikuwa7800</a>.</p>
-<p>Production: A general term referring to content or products created by an Author. In these Terms of Use, this refers to Chikuwa's Trip and Magic.</p>
-<p>Chikuwa's Trip and Magic: The content to which these Terms of Use apply. Collectively refers to the datapack and the resourcepack.</p>
-<p>This contents: refers to Chikuwa's Trip and Magic.</p>
-<p>Chikuwa's Trip and Magic Datapack: refers only to the data pack among this contents to which these Terms of Use apply.</p>
-<p>Chikuwa's Trip and Magic Resousepack: refers only to the resource pack among this contents to which these Terms of Use apply.</p>
+<ol>
+<li>Author: A general term referring to the person who created the work. In this license, it refers to me, <a href="https://github.com/Chikuwa7800">Chikuwa7800</a>.</li>
+<li>Production: A general term referring to content or products created by an Author. In these Terms of Use, this refers to Chikuwa's Trip and Magic.</li>
+<li>Chikuwa's Trip and Magic: The content to which these Terms of Use apply. Collectively refers to the datapack and the resourcepack.</li>
+<li>This contents: refers to Chikuwa's Trip and Magic.</li>
+<li>Chikuwa's Trip and Magic Datapack: refers only to the data pack among this contents to which these Terms of Use apply.</li>
+<li>Chikuwa's Trip and Magic Resousepack: refers only to the resource pack among this contents to which these Terms of Use apply.</li>
+</ol>
 
 ### Basic Terms
 Claim any original contents about Chikuwa's Trip and Magic, claim copyright or ownership, make false statements by the author, or use this contents in any way that violates public order or morals.
