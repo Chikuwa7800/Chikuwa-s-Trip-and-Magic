@@ -1,4 +1,4 @@
-execute if entity @s[tag=ch_tm_magic_atte_cooldown] run function ch_trip_and_magic:magic/cooldown {"name":"item_skill.magic.nature.lv2","cooltime":"7.5"}
+execute if entity @s[tag=ch_tm_magic_atte_cooldown] run function ch_trip_and_magic:magic/cooldown {"name":"item_skill.magic.nature.lv2","cooltime":"10"}
 execute if entity @s[tag=ch_tm_magic_atte_cooldown] run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/no
 execute if entity @s[tag=ch_tm_magic_atte_cooldown] run return fail
 execute if entity @s[scores={ch_tm_magic_mana=10..}] run function ch_trip_and_magic:magic/magic_temp/nature/atter_raggio/start

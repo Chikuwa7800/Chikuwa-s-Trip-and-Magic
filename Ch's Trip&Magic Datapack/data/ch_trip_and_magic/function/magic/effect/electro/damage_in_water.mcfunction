@@ -6,4 +6,4 @@ playsound enchant.thorns.hit neutral @a ~ ~ ~ 1 1
 effect give @s weakness 2 1 false
 effect give @s slowness 2 0 false
 damage @s 2 ch_trip_and_magic:effect/electro
-execute if entity @s[scores={ls_trip_magic_health=..0}] run function ch_trip_and_magic:magic/effect/electro/last_no_particle
+execute if entity @s[scores={ch_trip_magic_health=..0}] run function ch_trip_and_magic:magic/effect/electro/last_no_particle

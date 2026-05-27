@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "using":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "nbt": {
+                        "Tags":["ch_tm_adure_counter"]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ch_trip_and_magic:magic/magic_temp/fires/adure_burn/counter"
+    }
+}

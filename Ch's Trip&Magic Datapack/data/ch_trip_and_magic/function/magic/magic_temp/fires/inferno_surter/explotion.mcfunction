@@ -1,0 +1,3 @@
+function ch_effect_temp:vfx/blast/play
+function ch_effect_temp:vfx/blast_outline/play
+execute as @e[distance=..12] run function ch_trip_and_magic:magic/magic_temp/fires/inferno_surter/damage

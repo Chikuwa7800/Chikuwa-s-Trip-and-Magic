@@ -23,13 +23,8 @@ execute as @a[predicate=!ch_trip_and_magic:magic/magic_wand,tag=ch_tm_having_mag
 execute as @a[predicate=ch_trip_and_magic:magic/elder_wand,tag=!ch_tm_having_elder_wand] at @s run function ch_trip_and_magic:magic/items/weapons/elder_wand/start
 execute as @a[predicate=!ch_trip_and_magic:magic/elder_wand,tag=ch_tm_having_elder_wand] at @s run function ch_trip_and_magic:magic/items/weapons/elder_wand/end
 
-#マナ表示
-execute as @a if score @s ch_tm_magic_mana < @s ch_tm_magic_mana_max run scoreboard players add @a[scores={ch_tm_magic_mana_add=..20}] ch_tm_magic_mana_add 1
-execute as @a[scores={ch_tm_magic_mana_add=20..}] if score @s ch_tm_magic_mana < @s ch_tm_magic_mana_max run scoreboard players operation @s ch_tm_magic_mana += @s ch_tm_magic_mana_up
-execute as @a[scores={ch_tm_magic_mana_add=20..}] at @s if score @s ch_tm_magic_mana < @s ch_tm_magic_mana_max run particle enchanted_hit ~ ~1 ~ 0.2 0.2 0.2 0.1 5 normal @s
-scoreboard players set @a[scores={ch_tm_magic_mana_add=20..}] ch_tm_magic_mana_add 0
-execute as @a if score @s ch_tm_magic_mana > @s ch_tm_magic_mana_max run scoreboard players operation @s ch_tm_magic_mana = @s ch_tm_magic_mana_max
-scoreboard players set @a[scores={ch_tm_magic_mana=..-1}] ch_tm_magic_mana 0
+#マナ
+execute as @a at @s run function ch_trip_and_magic:magic/mana
 
 
 #クールダウン

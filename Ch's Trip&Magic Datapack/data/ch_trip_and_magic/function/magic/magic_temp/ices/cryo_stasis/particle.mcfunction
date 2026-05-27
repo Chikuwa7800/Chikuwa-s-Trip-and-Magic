@@ -1,4 +1,3 @@
-particle minecraft:wax_off ^0.5 ^ ^ 0 0 0 0 1
 particle minecraft:snowflake ^0.75 ^ ^ ^ ^200000 ^ 0.0000005 0
 particle minecraft:snowflake ^-0.75 ^ ^ ^ ^200000 ^ 0.0000005 0
 particle minecraft:witch ^0.5 ^ ^ 0 0 0 0 1

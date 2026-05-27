@@ -5,4 +5,4 @@ execute if entity @s[type=slime] run particle dust{color:[0.478,1.000,0.965],sca
 effect give @s slowness 2 0 false
 playsound minecraft:entity.player.hurt_freeze neutral @a ~ ~ ~ 1 0.8
 damage @s 1 ch_trip_and_magic:effect/frost
-execute if entity @s[scores={ls_trip_magic_health=..0}] run function ch_trip_and_magic:magic/effect/frost/last_no_particle
+execute if entity @s[scores={ch_trip_magic_health=..0}] run function ch_trip_and_magic:magic/effect/frost/last_no_particle

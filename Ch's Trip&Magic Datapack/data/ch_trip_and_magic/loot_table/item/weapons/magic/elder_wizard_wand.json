@@ -116,7 +116,7 @@
         {
           "id": "minecraft:temp",
           "type": "attack_knockback",
-          "amount": 0.125,
+          "amount": 1.25,
           "operation": "add_value",
           "display": {
             "type": "hidden"

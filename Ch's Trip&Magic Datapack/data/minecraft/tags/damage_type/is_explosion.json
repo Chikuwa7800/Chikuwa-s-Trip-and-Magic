@@ -5,6 +5,7 @@
       "ch_trip_and_magic:explode/explode_nova",
       "ch_trip_and_magic:explode/explode_catastrophe",
       "ch_trip_and_magic:magic/fire_lv3",
-      "ch_trip_and_magic:magic/void_lv3"
+      "ch_trip_and_magic:magic/nature_lv4",
+      "ch_trip_and_magic:magic/void_lv4"
     ]
 }

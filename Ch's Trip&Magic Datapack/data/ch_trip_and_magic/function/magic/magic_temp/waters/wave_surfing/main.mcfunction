@@ -1,6 +1,6 @@
 execute rotated ~ 0 run tp ^ ^ ^1
-execute unless block ~ ~ ~ #ch_trip_and_magic:no_collision run tp ~ ~1 ~
-execute if block ~ ~ ~ #ch_trip_and_magic:no_collision if block ~ ~-1 ~ #ch_trip_and_magic:no_collision run tp ~ ~-1 ~
+execute unless block ~ ~ ~ #ch_trip_and_magic:no_collision_exclude_water run tp ~ ~1 ~
+execute if block ~ ~ ~ #ch_trip_and_magic:no_collision_exclude_water if block ~ ~-1 ~ #ch_trip_and_magic:no_collision_exclude_water run tp ~ ~-1 ~
 
 particle block{block_state:water} ~ ~ ~ 0 0 0 0 5 force
 particle dust{color:[0.118,0.153,0.635],scale:2} ~ ~ ~ 0.5 0.5 0.5 0.2 10 force

@@ -1,6 +1,20 @@
 {
 	"formatVersion": "1.0.0",
 	"rigs": {
+		"ch_trip_and_magic:arpens_culadas": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/ch_trip_and_magic/items/blueprint/arpens_culadas/bone.json",
+				"assets/ch_trip_and_magic/items/blueprint/arpens_culadas/bone1.json",
+				"assets/ch_trip_and_magic/items/blueprint/arpens_culadas/bone2.json",
+				"assets/ch_trip_and_magic/items/blueprint/arpens_culadas/bone3.json",
+				"assets/ch_trip_and_magic/models/blueprint/arpens_culadas/bone.json",
+				"assets/ch_trip_and_magic/models/blueprint/arpens_culadas/bone1.json",
+				"assets/ch_trip_and_magic/models/blueprint/arpens_culadas/bone2.json",
+				"assets/ch_trip_and_magic/models/blueprint/arpens_culadas/bone3.json",
+				"assets/ch_trip_and_magic/textures/blueprint/arpens_culadas/texture.png"
+			]
+		},
 		"chain_blast": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [

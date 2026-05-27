@@ -33,6 +33,8 @@ execute as @a[tag=ch_tm_magic_atte_cooldown] at @s run function ch_trip_and_magi
 
 execute as @a[tag=ch_tm_magic_gust_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/gust
 
+execute as @a[tag=ch_tm_magic_sauer_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/sauer
+
 execute as @a[tag=ch_tm_magic_abyss_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/abyss
 
 execute as @a[tag=ch_tm_than_cooldown] at @s run function ch_trip_and_magic:magic/cooldown/than

@@ -11,7 +11,7 @@ execute as @a[tag=ch_cutting_board] at @s run function ch_trip_and_magic:trip/co
 tag @e[nbt={CollarColor:14b}] add ch_tame
 tag @e[nbt={Tame:1b}] add ch_tame
 
-execute as @a store result score @s ls_trip_magic_health run data get entity @s Health
+execute as @e[type=!#ch_trip_and_magic:cannot_hurt_entities] store result score @s ch_trip_magic_health run data get entity @s Health
 
 execute as @a[tag=ch_tm_spawned,tag=!ch_tm_spawneed_initted] at @s run function ch_trip_and_magic:debug/z_egg_def
 
@@ -28,6 +28,6 @@ tag @a[tag=!ch_tm_is_jumping,tag=ch_tm_did_skywalk] remove ch_tm_did_skywalk
 tag @a[scores={ch_tm_foodlevel=..6}] add ch_tm_hunger
 tag @a[scores={ch_tm_foodlevel=7..}] remove ch_tm_hunger
 
-execute as @a[scores={ls_trip_magic_death=1..}] run function ch_trip_and_magic:death_reset
+execute as @a[scores={ch_trip_magic_death=1..}] run function ch_trip_and_magic:death_reset
 
 #execute at @a[tag=ch_tm_using_shield] run particle minecraft:heart ~ ~ ~ 0 0 0 0 10

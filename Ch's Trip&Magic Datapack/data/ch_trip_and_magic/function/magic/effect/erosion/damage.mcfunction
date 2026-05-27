@@ -5,4 +5,4 @@ execute if entity @s[type=slime] run particle dust{color:[0.443,0.639,0.043],sca
 playsound block.fire.extinguish neutral @a ~ ~ ~ 1 1.5
 effect give @s hunger 2 0 false
 damage @s 1 ch_trip_and_magic:effect/erosion
-execute if entity @s[scores={ls_trip_magic_health=..0}] run function ch_trip_and_magic:magic/effect/erosion/last_no_particle
+execute if entity @s[scores={ch_trip_magic_health=..0}] run function ch_trip_and_magic:magic/effect/erosion/last_no_particle

@@ -1,4 +1,5 @@
 {
+	"replace": false,
 	"values": [
 	"animated_java:global/on_tick", 
 	"ch_effect_temp:tick", 

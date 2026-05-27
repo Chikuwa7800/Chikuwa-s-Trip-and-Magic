@@ -2,5 +2,5 @@ execute anchored eyes positioned ^ ^ ^0.001 run function ch_trip_and_magic:magic
 
 playsound item.trident.riptide_1 player @a ~ ~ ~ 1 1
 execute anchored eyes positioned ^ ^ ^0.001 run particle poof ~ ~ ~ 0 0 0 0.5 10 force
-execute anchored eyes positioned ^ ^ ^0.001 run particle spore_blossom_air ~ ~ ~ 0 0 0 0.5 10 force
+execute anchored eyes positioned ^ ^ ^0.001 run particle falling_spore_blossom ~ ~ ~ 0.25 0.25 0.25 0.5 10 force
 

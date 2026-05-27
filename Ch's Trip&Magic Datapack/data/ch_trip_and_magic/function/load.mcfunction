@@ -5,8 +5,8 @@
  scoreboard objectives add ch_tm_entity_killed dummy
  scoreboard objectives add ch_tm_random dummy
  scoreboard objectives add ls_trip_magic_install custom:minecraft.leave_game
- scoreboard objectives add ls_trip_magic_health dummy
- scoreboard objectives add ls_trip_magic_death deathCount
+ scoreboard objectives add ch_trip_magic_health dummy
+ scoreboard objectives add ch_trip_magic_death deathCount
  scoreboard objectives add ch_tm_no_damage_tick dummy
  scoreboard objectives add ch_tm_entity_id dummy
  scoreboard objectives add ch_tm_attacker_id dummy
@@ -142,6 +142,10 @@
  scoreboard objectives add ch_tm_magic_than_damage dummy
  scoreboard players set $ch.tm.than_damage ch_tm_magic_than_damage 600
  execute as @a unless score @s ch_tm_magic_casting matches -2147483648..2147483647 run scoreboard players set @s ch_tm_magic_casting 0
+ scoreboard objectives add ch_tm_magic_sauer_cooldown dummy
+ scoreboard objectives add ch_tm_magic_adure_tick dummy
+ scoreboard objectives add ch_tm_magic_adure_count_tick dummy
+ scoreboard objectives add ch_tm_magic_adure_cooldown dummy
 
 # trip
  scoreboard objectives add ch_tm_weapons_flint_knife_hit_fire_tick dummy

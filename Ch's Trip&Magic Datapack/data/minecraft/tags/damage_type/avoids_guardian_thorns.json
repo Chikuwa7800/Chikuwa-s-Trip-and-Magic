@@ -12,7 +12,8 @@
       "ch_trip_and_magic:magic/fire_lv2",
       "ch_trip_and_magic:magic/fire_lv3",
       "ch_trip_and_magic:magic/ice_lv5",
-      "ch_trip_and_magic:magic/void_lv3",
+      "ch_trip_and_magic:magic/nature_lv4",
+      "ch_trip_and_magic:magic/void_lv4",
       "ch_trip_and_magic:magic/waters_lv4"
     ]
 }

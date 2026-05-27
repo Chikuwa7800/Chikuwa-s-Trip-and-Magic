@@ -1,8 +1,10 @@
 {
+	"replace": false,
 	"values": [
 		"animated_java:chain_blast/on_load",
 		"animated_java:ginunga/on_load",
 		"animated_java:hiber_latch/on_load",
-		"animated_java:magic_crafting_table/on_load"
+		"animated_java:magic_crafting_table/on_load",
+		"ch_trip_and_magic:arpens_culadas/on_load"
 	]
 }

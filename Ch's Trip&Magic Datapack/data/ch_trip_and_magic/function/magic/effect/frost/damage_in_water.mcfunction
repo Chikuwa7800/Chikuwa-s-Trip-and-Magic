@@ -8,4 +8,4 @@ execute if entity @s[type=slime] run particle snowflake ~ ~0.5 ~ 0.5 0.5 0.5 0. 
 playsound minecraft:entity.player.hurt_freeze neutral @a ~ ~ ~ 1 0.8
 effect give @s slowness 2 1 false
 damage @s 3 ch_trip_and_magic:effect/frost
-execute if entity @s[scores={ls_trip_magic_health=..0}] run function ch_trip_and_magic:magic/effect/frost/last_no_particle
+execute if entity @s[scores={ch_trip_magic_health=..0}] run function ch_trip_and_magic:magic/effect/frost/last_no_particle

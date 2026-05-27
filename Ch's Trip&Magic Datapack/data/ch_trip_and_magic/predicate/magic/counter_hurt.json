@@ -1,0 +1,15 @@
+{
+    "condition": "damage_source_properties",
+    "predicate": {
+        "tags": [
+            {
+                "expected": true,
+                "id": "ch_trip_and_magic:magic_element_damage"
+            },
+            {
+                "expected": true,
+                "id": "panic_environmental_causes"
+            }
+        ]
+    }
+}

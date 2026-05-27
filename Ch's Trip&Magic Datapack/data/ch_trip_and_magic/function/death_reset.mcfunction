@@ -29,4 +29,4 @@ kill @n[tag=ch_tm_magic_lightning_sword_entity_id]
 
 function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charge/remove_tag_no_effect
 
-scoreboard players reset @s ls_trip_magic_death
+scoreboard players reset @s ch_trip_magic_death
