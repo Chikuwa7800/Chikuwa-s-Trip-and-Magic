@@ -28,9 +28,8 @@
                         "entity": "this",
                         "condition": "entity_properties",
                         "predicate": {
-                            "type": "player",
-                            "type_specific": {
-                                "type": "player",
+                            "entity_type": "player",
+                            "type_specific/player": {
                                 "input": {
                                     "jump": true
                                 }
