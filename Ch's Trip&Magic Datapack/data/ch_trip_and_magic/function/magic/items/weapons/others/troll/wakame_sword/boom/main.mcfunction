@@ -1,6 +1,8 @@
 tag @s add ch_trip_and_magic_wakame_sword_boom
 tag @s add ch_trip_and_magic_wakame_sword_boom_cooldown
 
+scoreboard players remove @s ch_tm_magic_mana 5
+
 playsound entity.wither.shoot player @a ~ ~ ~ 1 1
 playsound entity.blaze.shoot player @a ~ ~ ~ 1 1
 playsound entity.generic.extinguish_fire player @a ~ ~ ~ 1 1

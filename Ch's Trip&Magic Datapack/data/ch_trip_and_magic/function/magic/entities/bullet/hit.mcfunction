@@ -4,6 +4,8 @@
  # 演出
   $function $(hit_ground_effect)
   $function $(hit_effect)
+
+  tag @s add ch_tm.bullet.hitted
  # 当たったエンティティにダメージを与える
   execute if entity @s[type=!#ch_trip_and_magic:cannot_hurt_entities] run function ch_trip_and_magic:magic/entities/bullet/damage with entity @n[tag=ch_tm.magic_bullet] data
   execute if entity @s[type=#ch_trip_and_magic:defeat] run kill @n[tag=ch_tm.magic_bullet]

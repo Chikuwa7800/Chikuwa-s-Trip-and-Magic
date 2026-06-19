@@ -6,6 +6,8 @@ effect give @s levitation 1 1 true
 
 #summon area_effect_cloud ~ ~0.5 ~ {Radius:0.0f,Duration:6,DurationOnUse:0,Age:4,Effects:[{Id:25,Amplifier:90b,Duration:3}]}
 
+scoreboard players remove @s ch_tm_magic_mana 25
+
 tp @s ~ ~5 ~
 
 playsound entity.wither.shoot player @a ~ ~ ~ 3 1

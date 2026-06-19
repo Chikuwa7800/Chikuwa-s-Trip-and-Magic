@@ -1,4 +1,3 @@
-execute if entity @s[tag=ch_effect_explotion_large_core] run function ch_effect_temp:effect/explotion/large/tick
 execute if entity @e[tag=ch_effect_explotion_breaked_block] run function ch_effect_temp:effect/breaked_block/tick
 execute if entity @s[tag=ch.effect.ginga.explode] run function ch_effect_temp:vfx/ginga/explotion/tick
 execute if entity @s[tag=ch.effect.ginga.boom] run function ch_effect_temp:vfx/ginga/boom/tick
@@ -23,3 +22,4 @@ execute if entity @s[tag=ch.effect.lightning_crush_large] run function ch_effect
 execute if entity @s[tag=ch.effect.blast] run function ch_effect_temp:vfx/blast/tick
 execute if entity @s[tag=ch.effect.blast_outline] run function ch_effect_temp:vfx/blast_outline/tick
 execute if entity @s[tag=ch.effect.spike] run function ch_effect_temp:vfx/spike/_def
+execute if entity @s[tag=ch.effect.counter] run function ch_effect_temp:vfx/counter/tick

@@ -2,9 +2,8 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "#minecraft:illager",
-    "type_specific": {
-      "type": "minecraft:raider",
+    "entity_type": "#minecraft:illager",
+    "type_specific/raider": {
       "has_raid": true
     }
   }

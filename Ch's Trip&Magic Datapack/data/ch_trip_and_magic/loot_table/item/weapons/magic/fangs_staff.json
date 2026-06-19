@@ -93,7 +93,6 @@
         "item_damage_per_attack": 0,
         "disable_blocking_for_seconds": 0
       },
-      "minecraft:max_damage": 1250,
       "minecraft:tooltip_display": {
         "hidden_components": [
           "minecraft:unbreakable"
@@ -113,47 +112,6 @@
       "minecraft:repair_cost": 2,
       "minecraft:unbreakable": {},
       "attribute_modifiers": [
-        {
-          "id": "minecraft:temp",
-          "type": "armor",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "hand",
-          "display": {
-            "type": "override",
-            "value": {
-              
-                  "text": "100 ",
-          "extra": [
-            {
-              "translate": "attribute.name.mana"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
-            }
-          }
-        },
-        {
-          "id": "minecraft:temp",
-          "type": "armor_toughness",
-          "amount": 0,
-          "operation": "add_value",
-          "slot": "hand",
-          "display": {
-            "type": "override",
-            "value": {
-                  "text": "1 ",
-          "extra": [
-            {
-              "translate": "attribute.name.mana.recovery"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
-            }
-          }
-        },
         {
           "id": "minecraft:temp",
           "type": "armor_toughness",

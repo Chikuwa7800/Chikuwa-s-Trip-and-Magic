@@ -1,5 +1,5 @@
 {
-    "entity.explode.small": {
+  "entity.explode.small": {
     "sounds": [
       "trip_magic:explode/small/explode1",
       "trip_magic:explode/small/explode2",
@@ -461,6 +461,14 @@
   "entity.ginunga.angel_wisper":{
     "sounds": [
       "trip_magic:boss/ginunga/angel_wisper"
+    ]
+  },
+  "item.lightning_rapier.bolt":{
+    "sounds": [
+      "trip_magic:magic/lightning_rapier/electro1",
+      "trip_magic:magic/lightning_rapier/electro2",
+      "trip_magic:magic/lightning_rapier/electro3",
+      "trip_magic:magic/lightning_rapier/electro4"
     ]
   },
   "music.battle.ginunga.start": {

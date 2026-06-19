@@ -1,7 +1,7 @@
 ## アイテム耐久値加算
 ## マクロ: {"amount": int}
  # 演算処理
-  # 現耐久値を取得
+  # 現ダメージを取得
    execute store result score @s ch_tm_magic_lightning_rapier run data get entity @s SelectedItem.components."minecraft:damage"
   # 追加したいダメージ取得
    $scoreboard players set @s ch_tm_magic_lightning_rapier_add $(amount)

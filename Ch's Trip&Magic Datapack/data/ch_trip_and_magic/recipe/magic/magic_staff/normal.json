@@ -40,7 +40,7 @@
           "italic": false
         },
         {
-          "text": "150 ",
+          "text": "+50 ",
           "extra": [
             {
               "translate": "attribute.name.mana"
@@ -50,20 +50,10 @@
           "italic": false
         },
         {
-          "text": "2 ",
+          "text": "+1 ",
           "extra": [
             {
               "translate": "attribute.name.mana.recovery"
-            }
-          ],
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "translate": "attribute.name.skill",
-          "extra": [
-            {
-              "translate": "item_skill.magic"
             }
           ],
           "color": "dark_green",

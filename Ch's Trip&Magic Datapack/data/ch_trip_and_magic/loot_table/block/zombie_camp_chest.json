@@ -47,8 +47,8 @@
             {
               "function": "minecraft:set_damage",
               "damage": {
-                "min": 21,
-                "max": 60
+                "min": 41,
+                "max": 65
               }
             }
           ],
@@ -62,6 +62,15 @@
         {
           "type": "loot_table",
           "value": "ch_trip_and_magic:item/weapons/lance/flint",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 37,
+                "max": 70
+              }
+            }
+          ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -77,7 +86,7 @@
               "function": "minecraft:set_damage",
               "damage": {
                 "min": 21,
-                "max": 52
+                "max": 60
               }
             }
           ],

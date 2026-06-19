@@ -28,7 +28,7 @@ execute as @a at @s run function ch_trip_and_magic:magic/mana
 
 
 #クールダウン
-function ch_trip_and_magic:magic/cooldown_tick
+execute as @a at @s run function ch_trip_and_magic:magic/cooldown_tick
 
 #その他の処理
 
@@ -52,6 +52,8 @@ execute as @e[tag=ch_tm_cryo_pl] at @s run function ch_trip_and_magic:magic/magi
 execute as @e[tag=ch_tm.magic_entity] at @s run function ch_trip_and_magic:magic/magic_entities
 execute as @e[tag=ch_tm_vel_tulnna] at @s run function ch_trip_and_magic:magic/magic_temp/waters/vel_tulnna/main_pl
 execute as @e[tag=ch_tm_llyr_pl] at @s run function ch_trip_and_magic:magic/magic_temp/waters/llyr_deluge/main
+execute as @e[tag=ch_tm_adure_pl] at @s run function ch_trip_and_magic:magic/magic_temp/fires/adure_burn/tick
+execute as @e[tag=ch_tm_adure_counter] at @s run function ch_trip_and_magic:magic/magic_temp/fires/adure_burn/count_tick
 
 execute as @e[tag=ch_tm.magic_bullet] at @s run function ch_trip_and_magic:magic/entities/bullet/main
 

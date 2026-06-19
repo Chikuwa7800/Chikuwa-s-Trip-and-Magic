@@ -6,6 +6,8 @@ particle falling_water ~ ~ ~ 0.5 0.5 0.5 1 300 force
 
 tp @s ~ ~-2.5 ~
 
+scoreboard players remove @s ch_tm_magic_mana 10
+
 tag @s add ch_trip_and_magic_wakame_sword_dive
 
 tag @s[gamemode=creative] add ch_trip_and_magic_wakame_sword_dive_c

@@ -3,4 +3,3 @@ execute positioned ~-2.5 ~ ~-2.5 as @e[tag=!ch_tm_magic_pl_freeze,dx=5,dy=4,dz=5
 execute positioned ~-2.5 ~ ~-2.5 as @e[tag=!ch_tm_magic_pl_freeze,dx=5,dy=4,dz=5,type=!#ch_trip_and_magic:cannot_hurt_entities] at @s positioned ~2.5 ~ ~2.5 run function ch_trip_and_magic:magic/effect/frost/start {"time":"5"}
 particle block{block_state:packed_ice} ~ ~1 ~ 1.25 1.0 1.25 0. 250
 playsound trip_magic:magic.ice.hiber_latch.break player @a ~ ~ ~ 2 1
-function ch_trip_and_magic:magic/magic_temp/hit

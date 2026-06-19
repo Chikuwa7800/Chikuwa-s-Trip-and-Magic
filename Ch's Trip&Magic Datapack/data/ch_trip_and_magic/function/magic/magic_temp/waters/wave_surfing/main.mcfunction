@@ -1,3 +1,4 @@
+execute rotated ~ 0 positioned ^ ^ ^1 unless block ~ ~ ~ #ch_trip_and_magic:no_collision_exclude_water unless block ~ ~1 ~ #ch_trip_and_magic:no_collision_exclude_water run return run function ch_trip_and_magic:magic/magic_temp/waters/wave_surfing/reset
 execute rotated ~ 0 run tp ^ ^ ^1
 execute unless block ~ ~ ~ #ch_trip_and_magic:no_collision_exclude_water run tp ~ ~1 ~
 execute if block ~ ~ ~ #ch_trip_and_magic:no_collision_exclude_water if block ~ ~-1 ~ #ch_trip_and_magic:no_collision_exclude_water run tp ~ ~-1 ~

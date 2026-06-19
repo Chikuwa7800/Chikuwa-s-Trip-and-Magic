@@ -87,7 +87,7 @@
         {
           "type": "minecraft:attack_speed",
           "id": "minecraft:temp",
-          "amount": -2.7,
+          "amount": -2.8,
           "operation": "add_value",
           "slot": "mainhand"
         }

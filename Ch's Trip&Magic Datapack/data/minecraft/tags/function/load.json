@@ -3,7 +3,6 @@
 	"values": [
 		"animated_java:global/internal/gu/load",
 		"animated_java:global/on_load",
-		"ch_debug:load",
 		"ch_effect_temp:load",
 		"ch_trip_and_magic_boss:load",
 		"ch_trip_and_magic:load"

@@ -1,0 +1,2 @@
+scoreboard players remove @s ch_tm_magic_mana 1
+scoreboard players reset @s ch_tm_magic_lightning_rapier_charge_reduce_mana

@@ -3,7 +3,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "type": "player",
+      "entity_type": "player",
       "slots": {
         "weapon.mainhand": {
           "items": "air"

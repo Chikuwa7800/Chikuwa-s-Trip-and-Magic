@@ -3,7 +3,7 @@ playsound block.trial_spawner.spawn_item_begin player @a ~ ~ ~ 1 0.5
 playsound block.enchantment_table.use hostile @a ~ ~ ~ 1 0.75
 playsound block.grindstone.use hostile @a ~ ~ ~ 1 2
 particle witch ~ ~0.1 ~ 0.1 0.1 0.1 0.25 20 force
-particle dust{color:[0.969,0.867,0.173],scale:1} ~ ~0.1 ~ 0.5 0.5 0.5 0.25 20 force
+particle dust{color:14598184,scale:1} ~ ~0.1 ~ 0.5 0.5 0.5 0.25 20 force
 execute anchored eyes run particle wax_off ^ ^ ^0.1 0.25 0.25 0.25 0.1 7 force
 
 execute if predicate ch_trip_and_magic:magic/spell_book/bolt run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charge/lv_3/bolt

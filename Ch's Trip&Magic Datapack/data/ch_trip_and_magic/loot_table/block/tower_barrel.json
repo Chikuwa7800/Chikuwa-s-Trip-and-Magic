@@ -12,6 +12,53 @@
         {
           "type":"loot_table",
           "value": "ch_trip_and_magic:item/weapons/glaive/stone",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 21,
+                "max": 121
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type":"loot_table",
+          "value": "ch_trip_and_magic:item/weapons/lance/stone",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 18,
+                "max": 102
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type":"loot_table",
+          "value": "ch_trip_and_magic:item/weapons/knife/stone",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 4,
+                "max": 63
+              }
+            }
+          ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",

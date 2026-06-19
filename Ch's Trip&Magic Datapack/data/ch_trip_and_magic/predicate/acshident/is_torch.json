@@ -3,7 +3,7 @@
     "condition": "entity_properties",
     "entity": "this",
     "predicate": {
-        "type": "item",
+        "entity_type": "item",
         "nbt": "{Item:{\"id\":\"minecraft:torch\"}}"
     }
 }

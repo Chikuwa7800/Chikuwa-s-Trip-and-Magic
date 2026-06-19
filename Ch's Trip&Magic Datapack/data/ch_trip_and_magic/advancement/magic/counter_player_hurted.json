@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "using":{
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"ch_tm_adure_pl\"]}"
+                },
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": false,
+                                "id": "ch_trip_and_magic:magic_element_damage"
+                            }
+                        ]
+                    },
+                    "blocked": false
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ch_trip_and_magic:magic/magic_temp/fires/adure_burn/count_charged"
+    }
+}

@@ -23,7 +23,7 @@
                   "translate": "item.elder_wizard_wand"
                 },
                 "minecraft:item_model": "trip_magic:magic_weapons/elder_wizard_wand",
-                "minecraft:rarity": "rare",
+                "minecraft:rarity": "uncommon",
                 "minecraft:custom_data": {
                   "item_type": "weapon",
                   "item_condition": [
@@ -34,15 +34,14 @@
                   "item_magic": "true"
                 },
                 "minecraft:weapon": {
-                  "item_damage_per_attack": 0,
+                  "item_damage_per_attack": 1,
                   "disable_blocking_for_seconds": 0
                 },
-                "minecraft:max_damage": 5000,
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:unbreakable"
-                  ]
+                "minecraft:max_damage": 2500,
+                "repairable":{
+                  "items": "iron_ingot"
                 },
+                "repair_cost": 2,
                 "minecraft:tool": {
                   "rules": [],
                   "default_mining_speed": 1,

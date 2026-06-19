@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  X",
+    " XX",
     " #X",
     "#  "
   ],
@@ -16,9 +16,11 @@
     "components": {
       "minecraft:item_name": {
         "translate": "item.material.obsidian",
+        "with": [""],
         "extra": [
           {
-            "translate": "item.glaive"
+            "translate": "item.lance",
+            "italic": false
           }
         ],
         "italic": false
@@ -33,7 +35,7 @@
           "italic": false
         },
         {
-          "text": "8.5 ",
+          "text": "6.5 ",
           "extra": [
             {
               "translate": "attribute.name.attack_damage"
@@ -43,7 +45,7 @@
           "italic": false
         },
         {
-          "text": "1.2 ",
+          "text": "2 ",
           "extra": [
             {
               "translate": "attribute.name.attack_speed"
@@ -51,42 +53,72 @@
           ],
           "color": "dark_green",
           "italic": false
+        },
+        {
+          "text": "1.5 ",
+          "extra": [
+            {
+              "translate": "attribute.name.attack_knockback"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": "4 ",
+          "extra": [
+            {
+              "translate": "attribute.name.entity_interaction_range"
+            }
+          ],
+          "color": "dark_green",
+          "italic": false
         }
       ],
-      "item_model":"trip_magic:trip_weapons/glaive/obsidian_glaive",
+      "item_model":"trip_magic:trip_weapons/spear/obsidian_spear",
       "minecraft:custom_data": {
         
         "item_type": "weapon",
+        "item_condition": [
+          "none",
+          {}
+        ],
         "material": "obsidian",
-        "weapon_type": "glaive"
+        "weapon_type": "spear"
       },
-      "minecraft:max_damage": 121,
-      "minecraft:tool": {
-        "rules": [],
-        "default_mining_speed": 1,
-        "damage_per_block": 2,
-        "can_destroy_blocks_in_creative": false
-      },
-      "minecraft:repair_cost": 2,
-      "minecraft:repairable": {
-        "items": "obsidian"
-      },
+      
+      "minecraft:rarity": "common",
       "minecraft:weapon": {
         "item_damage_per_attack": 1,
         "disable_blocking_for_seconds": 0
       },
+      "minecraft:max_damage": 126,
       "minecraft:attribute_modifiers": [
         {
-          "type": "minecraft:attack_damage",
+          "type": "minecraft:attack_speed",
           "id": "minecraft:temp",
-          "amount": 7.5,
+          "amount": -2,
           "operation": "add_value",
           "slot": "mainhand"
         },
         {
-          "type": "minecraft:attack_speed",
+          "type": "minecraft:attack_damage",
           "id": "minecraft:temp",
-          "amount": -2.7,
+          "amount": 5.5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_knockback",
+          "id": "minecraft:temp",
+          "amount": -0.5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "id": "minecraft:temp",
+          "amount": 1,
           "operation": "add_value",
           "slot": "mainhand"
         }
@@ -95,7 +127,19 @@
         "hidden_components": [
           "minecraft:attribute_modifiers"
         ]
-      }
+      },
+      "minecraft:tool": {
+        "rules": [],
+        "default_mining_speed": 1,
+        "damage_per_block": 2,
+        "can_destroy_blocks_in_creative": false
+      },
+      "minecraft:repairable": {
+        "items": [
+          "minecraft:obsidian"
+        ]
+      },
+      "minecraft:repair_cost": 2
     }
   }
 }
