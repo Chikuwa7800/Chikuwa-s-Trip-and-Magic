@@ -39,7 +39,7 @@
                     "translate": "key.mouse.right",
                     "extra": [
                       {
-                        "text": ": ",
+                        "translate": "colon",
                         "extra": [
                           {
                             "translate": "item_skill.magic.fangs.attack"
@@ -60,7 +60,7 @@
                             "translate": "key.mouse.right",
                             "extra": [
                               {
-                                "text": ": ",
+                                "translate": "colon",
                                 "extra": [
                                   {
                                     "translate": "item_skill.magic.fangs.wall"

@@ -54,7 +54,7 @@
                     "translate": "key.mouse.right",
                     "extra": [
                       {
-                        "text": ": ",
+                        "translate": "colon",
                         "extra": [
                           {
                             "translate": "item_skill.magic.bolt.lv1"
@@ -75,7 +75,7 @@
                             "translate": "key.mouse.right",
                             "extra": [
                           {
-                            "text": ": ",
+                            "translate": "colon",
                             "extra": [
                           {
                             "translate": "item_skill.magic.bolt.lv2"
@@ -94,7 +94,7 @@
                     "translate": "empty"
                   },
                   {
-                    "translate": "item.modifiers.any",
+                    "translate": "item.modifiers.hand",
                     "color": "gray",
                     "italic": false
                   },

@@ -21,7 +21,7 @@
                     "italic": false,
                     "extra": [
                       {
-                        "text": ": ",
+                        "translate": "colon",
                         "extra": [
                           {
                             "translate": "item_skill.craive.cross.charge"
@@ -36,7 +36,7 @@
                     "italic": false,
                     "extra": [
                       {
-                        "text": ": ",
+                        "translate": "colon",
                         "extra": [
                           {
                             "translate": "item_skill.craive.change"

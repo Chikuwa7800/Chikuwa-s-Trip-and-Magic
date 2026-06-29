@@ -44,7 +44,7 @@
                             "translate": "key.keyboard.left.shift",
                             "extra": [
                               {
-                                "text": ": ",
+                                "translate": "colon",
                                 "extra": [
                                   {
                                     "translate": "item_skill.craive.glaive.step"
@@ -63,7 +63,7 @@
                     "italic": false,
                     "extra": [
                       {
-                        "text": ": ",
+                        "translate": "colon",
                         "extra": [
                           {
                             "translate": "item_skill.craive.change"

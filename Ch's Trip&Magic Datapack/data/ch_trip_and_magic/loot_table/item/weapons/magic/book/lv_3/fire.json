@@ -54,7 +54,7 @@
                     "translate": "key.mouse.right",
                     "extra": [
                       {
-                        "text": ": ",
+                        "translate": "colon",
                         "extra": [
                           {
                             "translate": "item_skill.magic.fire.lv1"
@@ -75,7 +75,7 @@
                             "translate": "key.mouse.right",
                             "extra": [
                           {
-                            "text": ": ",
+                            "translate": "colon",
                             "extra": [
                           {
                             "translate": "item_skill.magic.fire.lv2"
@@ -91,10 +91,55 @@
                     "italic": false
                   },
                   {
+                    "translate": "key.keyboard.left.shift",
+                    "extra": [
+                      {
+                        "translate": "notice.hold",
+                        "extra": [
+                          {
+                            "text": "0.5",
+                            "extra": [
+                          {
+                            "translate": "second",
+                            "extra": [
+                          {
+                            "translate": "notice.least",
+                            "extra": [
+                              {
+                                "text": "+",
+                                "extra": [
+                                  {
+                                    "translate": "key.mouse.right",
+                                    "extra": [
+                                      {
+                                        "translate": "colon",
+                                        "extra": [
+                                          {
+                                            "translate": "item_skill.magic.fire.lv3"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                          }
+                        ]
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
                     "translate": "empty"
                   },
                   {
-                    "translate": "item.modifiers.any",
+                    "translate": "item.modifiers.hand",
                     "color": "gray",
                     "italic": false
                   },

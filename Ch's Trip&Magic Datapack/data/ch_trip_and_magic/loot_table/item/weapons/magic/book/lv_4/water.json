@@ -54,7 +54,7 @@
                     "translate": "key.mouse.right",
                     "extra": [
                       {
-                        "text": ": ",
+                        "translate": "colon",
                         "extra": [
                           {
                             "translate": "item_skill.magic.water.lv1"
@@ -75,7 +75,7 @@
                             "translate": "key.mouse.right",
                             "extra": [
                           {
-                            "text": ": ",
+                            "translate": "colon",
                             "extra": [
                           {
                             "translate": "item_skill.magic.water.lv2"
@@ -91,10 +91,118 @@
                     "italic": false
                   },
                   {
+                    "translate": "key.keyboard.left.shift",
+                    "extra": [
+                      {
+                        "translate": "notice.hold",
+                        "extra": [
+                          {
+                            "text": "0.5",
+                            "extra": [
+                          {
+                            "translate": "second",
+                            "extra": [
+                          {
+                            "translate": "notice.least",
+                            "extra": [
+                              {
+                                "translate": "notice.less_than.en",
+                                "extra": [
+                                  {
+                                    "text": "1",
+                                    "extra": [
+                                      {
+                                        "translate": "second",
+                                        "extra": [
+                                          {
+                                            "translate": "notice.less_than.jp",
+                                            "extra": [
+                                              {
+                                                "text": "+",
+                                                "extra":[
+                                                  {
+                                                    "translate": "key.mouse.right",
+                                                    "extra": [
+                                                      {
+                                                        "translate": "colon",
+                                                        "extra": [
+                                                          {
+                                                        "translate": "item_skill.magic.water.lv3"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]}]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                          }
+                        ]
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.keyboard.left.shift",
+                    "extra": [
+                      {
+                        "translate": "notice.hold",
+                        "extra": [
+                          {
+                            "text": "1",
+                            "extra": [
+                          {
+                            "translate": "second",
+                            "extra": [
+                          {
+                            "translate": "notice.least",
+                            "extra": [
+                              {
+                                "text": "+",
+                                "extra": [
+                                  {
+                                    "translate": "key.mouse.right",
+                                    "extra": [
+                                      {
+                                        "translate": "colon",
+                                        "extra": [
+                                          {
+                                            "translate": "item_skill.magic.water.lv4"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                          }
+                        ]
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
                     "translate": "empty"
                   },
                   {
-                    "translate": "item.modifiers.any",
+                    "translate": "item.modifiers.hand",
                     "color": "gray",
                     "italic": false
                   },

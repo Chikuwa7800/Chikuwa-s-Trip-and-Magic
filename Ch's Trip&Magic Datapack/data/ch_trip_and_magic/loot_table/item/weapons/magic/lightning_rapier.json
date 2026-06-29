@@ -15,6 +15,51 @@
                 "minecraft:item_name": {
                   "translate": "item.lightning_rapier"
                 },
+                "minecraft:lore": [
+                  {
+                    "translate": "attribute.name.added_attack",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.mouse.left",
+                    "extra": [
+                      {
+                        "translate": "colon",
+                        "extra": [
+                          {
+                            "translate": "item_skill.bolt_attack"
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "key.mouse.right",
+                    "extra": [
+                      {
+                        "translate": "colon",
+                        "extra": [
+                          {
+                            "translate": "item_skill.bolt_breath"
+                          }
+                        ]
+                      }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "empty"
+                  },
+                  {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
                 "minimum_attack_charge":0.5,
                 "max_stack_size":1,
                 "minecraft:swing_animation": {
@@ -104,6 +149,20 @@
                             "translate": "attribute.name.attack_knockback"
                           }
                         ],
+                        "color": "dark_green"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:temp",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "translate": "item_skill.bolt_magic",
                         "color": "dark_green"
                       }
                     }

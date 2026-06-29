@@ -44,7 +44,7 @@
                     "translate": "key.mouse.right",
                     "extra": [
                       {
-                        "text": ": ",
+                        "translate": "colon",
                         "extra": [
                           {
                             "translate": "item_skill.wakame.1"
@@ -65,7 +65,7 @@
                             "translate": "key.mouse.right",
                             "extra": [
                               {
-                                "text": ": ",
+                                "translate": "colon",
                                 "extra": [
                                   {
                                     "translate": "item_skill.wakame.2"
@@ -96,7 +96,7 @@
                                     "translate": "key.mouse.right",
                                     "extra": [
                                       {
-                                        "text": ": ",
+                                        "translate": "colon",
                                         "extra": [
                                           {
                                             "translate": "item_skill.wakame.3"

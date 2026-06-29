@@ -49,7 +49,7 @@
                             "translate": "key.sneak",
                             "extra":[
                               {
-                        "text": ": ",
+                        "translate": "colon",
                         "extra": [
                           {
                             "translate": "item_skill.shield_bash"

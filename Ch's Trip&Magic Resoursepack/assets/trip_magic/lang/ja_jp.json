@@ -314,6 +314,11 @@
     "notice.teleport.sneak_cancel.1": "",
     "notice.teleport.sneak_cancel.2": "でキャンセル",
     "notice.teleport.canceled": "テレポートはキャンセルされました",
+    "notice.hold": "長押し",
+    "notice.least": "以上",
+    "notice.less_than.jp": "未満",
+    "notice.less_than.en": "",
     "empty": " ",
-    "second": "秒"
+    "second": "秒",
+    "colon": "："
 }
