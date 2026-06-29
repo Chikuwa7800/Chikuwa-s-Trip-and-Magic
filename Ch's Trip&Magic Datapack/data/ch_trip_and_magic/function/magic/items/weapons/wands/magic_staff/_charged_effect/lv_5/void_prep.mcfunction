@@ -1,0 +1,2 @@
+particle dust{color:8731265,scale:0.25} ^ ^ ^ 2.5 2.5 2.5 0 10 force @s
+execute if block ~ ~ ~ #ch_trip_and_magic:no_collision if entity @s[distance=..5] positioned ^ ^ ^1 run return run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charged_effect/lv_5/void_prep

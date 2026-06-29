@@ -4,7 +4,7 @@
  scoreboard objectives add ch_tm_shift dummy
  scoreboard objectives add ch_tm_entity_killed dummy
  scoreboard objectives add ch_tm_random dummy
- scoreboard objectives add ls_trip_magic_install custom:minecraft.leave_game
+ scoreboard objectives add ch_trip_magic_install custom:minecraft.leave_game
  scoreboard objectives add ch_trip_magic_health dummy
  scoreboard objectives add ch_trip_magic_death deathCount
  scoreboard objectives add ch_tm_no_damage_tick dummy
@@ -147,10 +147,15 @@
  scoreboard objectives add ch_tm_magic_adure_tick dummy
  scoreboard objectives add ch_tm_magic_adure_count_tick dummy
  scoreboard objectives add ch_tm_magic_adure_cooldown dummy
+ scoreboard objectives add ch_tm_magic_inferno_cooldown dummy
+ scoreboard objectives add ch_tm_magic_oblivion_loop dummy
+ scoreboard objectives add ch_tm_magic_oblivion_cooldown dummy
+ scoreboard objectives add ch_tm_erebos_cooldown dummy
+ scoreboard objectives add ch_tm_gaia_cooldown dummy
 
 # trip
  scoreboard objectives add ch_tm_weapons_flint_knife_hit_fire_tick dummy
- scoreboard objectives add ls_trip_boss_tick_ex dummy
+ scoreboard objectives add ch_trip_boss_tick_ex dummy
  scoreboard objectives add ch_tm_bash_shield_cooldown dummy
  scoreboard objectives add ch_tm_bash_shield_return dummy
  scoreboard objectives add ch_tm_craive_cooldown dummy
@@ -159,7 +164,7 @@
  scoreboard objectives add ch_trip_boss_random_ex dummy
 
 # boss
- scoreboard objectives add ls_trip_boss_tick dummy
+ scoreboard objectives add ch_trip_boss_tick dummy
  
 # decide
  scoreboard players set #ch_trip_dummy ch_tm_magic_abyss_time_decide 10

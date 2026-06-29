@@ -18,6 +18,6 @@ execute if score @s ch_tm_bosses_death_tick matches 3 run kill @e[tag=aj.ginunga
 
 execute if score @s ch_tm_bosses_death_tick matches 25..145 positioned ^ ^ ^-0.775 run function ch_trip_and_magic_boss:ginga/death/particle
 execute if score @s ch_tm_bosses_death_tick matches 49 positioned ~ ~1.5 ~ run loot spawn ^ ^ ^-0.775 loot ch_trip_and_magic_boss:entity/rise/drop
-execute if score @s ch_tm_bosses_death_tick matches 166.. run tag @e[tag=ls_tm_bosses_ginunga_summon] remove ch_tm_bosses_ginunga_cannot_summon
+execute if score @s ch_tm_bosses_death_tick matches 166.. run tag @e[tag=ch_tm_bosses_ginunga_summon] remove ch_tm_bosses_ginunga_cannot_summon
 execute if score @s ch_tm_bosses_death_tick matches 166.. run bossbar remove ch_tm_bosses:ginunga_health
 execute if score @s ch_tm_bosses_death_tick matches 166.. run function animated_java:ginunga/remove/this

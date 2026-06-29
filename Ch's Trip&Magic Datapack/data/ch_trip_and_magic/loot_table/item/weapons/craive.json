@@ -103,7 +103,7 @@
                 "repairable":{
                   "items": "iron_ingot"
                 },
-                "repair_cost":4,
+                "repair_cost":1,
                 "attack_range": {
                   "hitbox_margin": 0,
                   "max_reach": 4,

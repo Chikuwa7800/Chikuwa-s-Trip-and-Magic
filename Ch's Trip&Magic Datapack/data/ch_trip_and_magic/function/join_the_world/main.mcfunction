@@ -1,4 +1,4 @@
-execute unless entity @e[type=marker,tag=ls_trip_magic_install] run summon marker ~ ~ ~ {Tags:["ls_trip_magic_install"]}
+execute unless entity @e[type=marker,tag=ch_trip_magic_install] run summon marker ~ ~ ~ {Tags:["ch_trip_magic_install"]}
 
 tellraw @s ["\n---------------\n\n",{"translate":"notice.installed.success_070",fallback:"§4The resource pack has not been installed!"},{text:"\n"},{"translate":"notice.created_070","color":"yellow",fallback:"Please install [Ch's Trip&Magic Resourse Pack α0.7.0]!"},"\n\n---------------\n"]
 

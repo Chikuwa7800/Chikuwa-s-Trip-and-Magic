@@ -4,8 +4,8 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "type": "interaction",
-          "nbt": "{Tags:[\"ls_cutboard\",\"ls_cutboard_interact\"]}"
+          "entity_type": "interaction",
+          "nbt": "{Tags:[\"ch_cutboard\",\"ch_cutboard_interact\"]}"
         }
       }
     }

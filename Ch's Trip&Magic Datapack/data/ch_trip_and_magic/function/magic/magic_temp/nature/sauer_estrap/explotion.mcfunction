@@ -7,4 +7,5 @@ particle flash{color:-4602507} ~ ~ ~ 0.0 0.0 0.0 1 1 force
 particle crit ~ ~ ~ 1 1 1 0.125 20
 particle gust ~ ~ ~ 1.25 1.25 1.25 0 10 force
 particle explosion ~ ~ ~ 1.25 1.25 1.25 0 10 force
+playsound trip_magic:magic.nature.sauer_estrap.explode player @a ~ ~ ~ 2 1
 kill @s

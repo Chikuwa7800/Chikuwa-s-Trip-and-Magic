@@ -7,7 +7,7 @@
   execute positioned ^ ^ ^0.5 run function ch_effect_temp:vfx/ginga/large_boom/play
   execute positioned ^ ^ ^1.5 run function ch_effect_temp:vfx/ginga/large_boom/play
   function ch_effect_temp:vfx/ginga/big_flash/play
-
+  function ch_effect_temp:vfx/large_flash/play
 
  #その他処理
   function ch_trip_and_magic_boss:ginga/animation/angel_wisper/macro/run

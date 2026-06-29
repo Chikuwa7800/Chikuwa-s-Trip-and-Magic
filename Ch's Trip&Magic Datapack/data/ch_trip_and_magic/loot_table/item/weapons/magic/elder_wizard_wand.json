@@ -16,7 +16,7 @@
                 "!piercing_weapon":{},
                 "attack_range":{
                   "min_reach": 0,
-                  "max_reach": 2.25
+                  "max_reach": 3.25
                 },
                 "swing_animation": {
                   "type": "whack"

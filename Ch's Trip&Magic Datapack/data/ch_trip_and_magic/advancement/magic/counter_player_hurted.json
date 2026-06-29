@@ -3,9 +3,6 @@
         "using":{
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
-                "player": {
-                    "nbt": "{Tags:[\"ch_tm_adure_pl\"]}"
-                },
                 "damage": {
                     "type": {
                         "tags": [

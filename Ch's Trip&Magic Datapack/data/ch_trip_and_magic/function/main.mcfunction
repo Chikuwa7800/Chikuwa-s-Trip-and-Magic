@@ -4,7 +4,7 @@ function ch_trip_and_magic:particle/main
 
 execute as @a if predicate ch_trip_and_magic:score/used_stick run function ch_trip_and_magic:reset_usestick
 
-execute as @a[scores={ls_trip_magic_install=1..}] at @s run function ch_trip_and_magic:join_the_world/check
+execute as @a[scores={ch_trip_magic_install=1..}] at @s run function ch_trip_and_magic:join_the_world/check
 
 execute as @a[tag=ch_cutting_board] at @s run function ch_trip_and_magic:trip/cook/cutting_board/set
 

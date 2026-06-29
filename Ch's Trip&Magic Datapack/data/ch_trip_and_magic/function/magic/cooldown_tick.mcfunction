@@ -17,6 +17,10 @@ execute if entity @s[tag=ch_tm_magic_blast_cooldown] run function ch_trip_and_ma
 
 execute if entity @s[tag=ch_tm_magic_pyro_cooldown] run function ch_trip_and_magic:magic/cooldown/pyro
 
+execute if entity @s[tag=ch_tm_magic_adure_cooldown] run function ch_trip_and_magic:magic/cooldown/adure
+
+execute if entity @s[tag=ch_tm_magic_inferno_cooldown] run function ch_trip_and_magic:magic/cooldown/inferno
+
 execute if entity @s[tag=ch_tm_magic_frost_cooldown] run function ch_trip_and_magic:magic/cooldown/frost
 
 execute if entity @s[tag=ch_tm_magic_fleeze_cooldown] run function ch_trip_and_magic:magic/cooldown/fleeze
@@ -35,11 +39,17 @@ execute if entity @s[tag=ch_tm_magic_gust_cooldown] run function ch_trip_and_mag
 
 execute if entity @s[tag=ch_tm_magic_sauer_cooldown] run function ch_trip_and_magic:magic/cooldown/sauer
 
+execute if entity @s[tag=ch_tm_gaia_cooldown] run function ch_trip_and_magic:magic/cooldown/gaia
+
 execute if entity @s[tag=ch_tm_magic_abyss_cooldown] run function ch_trip_and_magic:magic/cooldown/abyss
 
 execute if entity @s[tag=ch_tm_than_cooldown] run function ch_trip_and_magic:magic/cooldown/than
 
+execute if entity @s[tag=ch_tm_magic_oblivion_cooldown] run function ch_trip_and_magic:magic/cooldown/oblivion
+
 execute if entity @s[tag=ch_tm_strike_cooldown] run function ch_trip_and_magic:magic/cooldown/strike
+
+execute if entity @s[tag=ch_tm_erebos_cooldown] run function ch_trip_and_magic:magic/cooldown/erebos
 
 execute if entity @s[tag=ch_tm_magic_aqua_cooldown] run function ch_trip_and_magic:magic/cooldown/aqua
 

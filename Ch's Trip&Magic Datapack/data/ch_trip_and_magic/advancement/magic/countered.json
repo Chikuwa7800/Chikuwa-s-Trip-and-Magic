@@ -3,9 +3,6 @@
         "using":{
             "trigger": "player_hurt_entity",
             "conditions": {
-                "player": {
-                    "nbt": "{Tags:[\"ch_tm_adure_counter\"]}"
-                },
                 "damage": {
                     "type": {
                         "tags": [
@@ -13,7 +10,8 @@
                                 "id": "is_player_attack",
                                 "expected": true
                             }
-                        ]
+                        ],
+                        "is_direct": true
                     }
                 }
             }

@@ -1,7 +1,5 @@
+playsound trip_magic:magic.bolt.asgars_crush.crush player @a ~ ~ ~ 3 1
 function ch_effect_temp:vfx/lightning_crush_large/play
-playsound entity.firework_rocket.blast player @a ~ ~ ~ 1 1
-playsound entity.firework_rocket.large_blast player @a ~ ~ ~ 1 1
-playsound entity.lightning_bolt.thunder player @a ~ ~ ~ 1 2
 particle flash{color:-458824} ~ ~ ~ 0.0 0.0 0.0 0 1 force
 particle electric_spark ~ ~ ~ 0.5 0.5 0.5 0 20 force
 particle end_rod ~ ~ ~ 0.5 0.5 0.5 0 10 force

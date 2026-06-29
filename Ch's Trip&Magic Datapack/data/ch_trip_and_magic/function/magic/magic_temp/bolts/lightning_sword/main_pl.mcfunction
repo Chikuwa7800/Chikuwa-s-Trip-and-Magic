@@ -10,7 +10,7 @@ execute if score @s ch_tm_magic_lightsword_tick matches 1..38 run function ch_tr
 execute if score @s ch_tm_magic_lightsword_tick matches 1..38 run function ch_trip_and_magic:magic/magic_temp/bolts/lightning_sword/tp_to_user with entity @n[type=marker,tag=ch_tm_magic_lightning_sword_entity_id] data
 execute if score @s ch_tm_magic_lightsword_tick matches 19 run function ch_trip_and_magic:magic/magic_temp/bolts/lightning_sword/prep_shot with entity @n[type=marker,tag=ch_tm_magic_lightning_sword_entity_id] data
 execute if score @s ch_tm_magic_lightsword_tick matches 39 run function ch_trip_and_magic:magic/magic_temp/bolts/lightning_sword/shot with entity @n[type=marker,tag=ch_tm_magic_lightning_sword_entity_id] data
-execute if score @s ch_tm_magic_lightsword_tick matches 39 run tag @s remove ls_magic_lightning_sword_pl
+execute if score @s ch_tm_magic_lightsword_tick matches 39 run tag @s remove ch_magic_lightning_sword_pl
 execute if score @s ch_tm_magic_lightsword_tick matches 39 run scoreboard players remove @s ch_tm_magic_casting 1
 execute if score @s ch_tm_magic_lightsword_tick matches 39 run scoreboard players reset @s ch_tm_magic_lightsword_tick
 kill @n[tag=ch_tm_magic_lightning_sword_entity_id]

@@ -2,6 +2,8 @@ advancement revoke @s[type=player] only ch_trip_and_magic:trip/weapons/attack/ba
 execute if entity @s[tag=ch_tm_cooldown_bash_shield,type=player] run return fail
 tag @s[type=player] add ch_tm_cooldown_bash_shield
 tag @s add ch_tm_use_bash_shield
+swing @s[predicate=ch_trip_and_magic:trip/main_shield] mainhand
+swing @s[predicate=ch_trip_and_magic:trip/off_shield] offhand
 scoreboard players remove @s ch_tm_magic_mana 5
 execute positioned ^ ^ ^1.5 as @e[type=!#ch_trip_and_magic:cannot_hurt_entities,distance=..2,tag=!ch_tm_use_bash_shield] positioned ^ ^ ^-1 at @s run damage @s 6 player_attack by @n[tag=ch_tm_use_bash_shield]
 playsound item.shield.block player @a ~ ~ ~ 1 1

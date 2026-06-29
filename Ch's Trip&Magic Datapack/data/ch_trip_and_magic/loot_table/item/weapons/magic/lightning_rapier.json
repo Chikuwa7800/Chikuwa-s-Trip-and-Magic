@@ -32,7 +32,6 @@
                   "can_destroy_blocks_in_creative": false
                 },
                 "piercing_weapon":{
-                  "deals_knockback": true,
                   "dismounts": false,
                   "hit_sound": "entity.player.attack.strong"
                 },

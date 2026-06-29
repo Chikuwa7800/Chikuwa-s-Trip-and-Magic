@@ -45,16 +45,17 @@ execute as @e[tag=ch_tm_wave_surfing_pl] at @s run function ch_trip_and_magic:ma
 
 execute if entity @s[tag=ch_tm_spell_charging,tag=!ch_tm_spell_charged_lv3,tag=!ch_tm_spell_charged_lv4,tag=!ch_tm_spell_charged_lv5] unless predicate ch_trip_and_magic:magic/spell_book/_has run function ch_trip_and_magic:magic/items/weapons/wands/magic_staff/_charge/remove_tag
 
-execute as @e[tag=ls_magic_lightning_sword_pl] at @s run function ch_trip_and_magic:magic/magic_temp/bolts/lightning_sword/main_pl
+execute as @e[tag=ch_magic_lightning_sword_pl] at @s run function ch_trip_and_magic:magic/magic_temp/bolts/lightning_sword/main_pl
 execute as @e[tag=ch_tm_gust_pl] at @s run function ch_trip_and_magic:magic/magic_temp/nature/gust_burst/main
 execute as @e[tag=ch_tm_bolea_pl] at @s run function ch_trip_and_magic:magic/magic_temp/ices/bolea_breath/main
 execute as @e[tag=ch_tm_cryo_pl] at @s run function ch_trip_and_magic:magic/magic_temp/ices/cryo_stasis/main
-execute as @e[tag=ch_tm.magic_entity] at @s run function ch_trip_and_magic:magic/magic_entities
 execute as @e[tag=ch_tm_vel_tulnna] at @s run function ch_trip_and_magic:magic/magic_temp/waters/vel_tulnna/main_pl
 execute as @e[tag=ch_tm_llyr_pl] at @s run function ch_trip_and_magic:magic/magic_temp/waters/llyr_deluge/main
 execute as @e[tag=ch_tm_adure_pl] at @s run function ch_trip_and_magic:magic/magic_temp/fires/adure_burn/tick
 execute as @e[tag=ch_tm_adure_counter] at @s run function ch_trip_and_magic:magic/magic_temp/fires/adure_burn/count_tick
 
+# 魔法エンティティ
+execute as @e[tag=ch_tm.magic_entity] at @s run function ch_trip_and_magic:magic/magic_entities
 execute as @e[tag=ch_tm.magic_bullet] at @s run function ch_trip_and_magic:magic/entities/bullet/main
 
 execute as @a if score @s ch_tm_magic_xp_level > @s ch_tm_magic_xp_level_dummy run function ch_trip_and_magic:magic/magic_strength

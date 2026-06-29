@@ -17,11 +17,11 @@ function ch_trip_and_magic:trip/mobs/main
 
 #team modify no_collosion collisionRule pushOwnTeam
 
-#effect give @e[tag=ls_attack_target_] invisibility infinite 1 true
-#execute as @a[tag=ch_tm_look_pl] at @s anchored eyes run tp @e[tag=ls_attack_target_,nbt={PortalCooldown:1}] ~ ~ ~
+#effect give @e[tag=ch_attack_target_] invisibility infinite 1 true
+#execute as @a[tag=ch_tm_look_pl] at @s anchored eyes run tp @e[tag=ch_attack_target_,nbt={PortalCooldown:1}] ~ ~ ~
 
-#tp @e[tag=ls_attack_target_,nbt={PortalCooldown:0}] ~ ~-1000 ~
-#kill @e[tag=ls_attack_target_,nbt={PortalCooldown:0}]
+#tp @e[tag=ch_attack_target_,nbt={PortalCooldown:0}] ~ ~-1000 ~
+#kill @e[tag=ch_attack_target_,nbt={PortalCooldown:0}]
 
 scoreboard players add @a[tag=ch_tm_cooldown_bash_shield] ch_tm_bash_shield_cooldown 1
 execute as @a[tag=ch_tm_cooldown_bash_shield,scores={ch_tm_bash_shield_cooldown=60..}] at @s run function ch_trip_and_magic:trip/weapons/reuse_bash_shield
@@ -32,3 +32,6 @@ execute as @a[predicate=ch_trip_and_magic:trip/claive/mainhand] at @s run functi
 execute as @a[predicate=ch_trip_and_magic:trip/claive/offhand] at @s run function ch_trip_and_magic:trip/items/claive/craive_main
 
 execute as @a at @s if score @s ch_tm_using_sticks matches 1.. run function ch_trip_and_magic:trip/items/claive/use_craive
+
+execute as @a[predicate=ch_trip_and_magic:trip/hands_knife,tag=!ch_trip_and_magic_knife_hands] run function ch_trip_and_magic:trip/weapons/knife_hands_start
+execute as @a[predicate=!ch_trip_and_magic:trip/hands_knife,tag=ch_trip_and_magic_knife_hands] run function ch_trip_and_magic:trip/weapons/knife_hands_end

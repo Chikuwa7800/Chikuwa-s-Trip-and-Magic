@@ -6,3 +6,6 @@ execute if entity @s[tag=ch_tm_void_ball] run return run function ch_trip_and_ma
 execute if entity @s[tag=ch_tm_chalch_veil] run return run function ch_trip_and_magic:magic/magic_temp/waters/chalch_veil/main
 execute if entity @s[tag=ch_tm_asgars_core] run return run function ch_trip_and_magic:magic/magic_temp/bolts/asgars_crash/main
 execute if entity @s[tag=ch_tm_magic_sauer_estrap] run return run function ch_trip_and_magic:magic/magic_temp/nature/sauer_estrap/main with entity @s data
+execute if entity @s[tag=ch_tm_magic_inferno_surter] run return run function ch_trip_and_magic:magic/magic_temp/fires/inferno_surter/main
+execute if entity @s[tag=ch_tm_magic_erebos] run return run function ch_trip_and_magic:magic/magic_temp/void/erebos_nova/main with entity @s data
+execute if entity @s[tag=ch_tm_magic_gaia_eidis] run return run function ch_trip_and_magic:magic/magic_temp/nature/gaia_eidis/main

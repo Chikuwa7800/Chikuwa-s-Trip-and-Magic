@@ -1,2 +1,3 @@
 execute positioned ~-0.001 ~-0.001 ~-0.001 as @e[dx=0,dy=0,dz=0,type=!#ch_trip_and_magic:cannot_hurt_entities,tag=!ch_tm_adure_counter] positioned ~-0.998 ~-0.998 ~-0.998 if entity @s[dx=0,dy=0,dz=0] positioned ~0.999 ~0.999 ~0.999 run return run function ch_trip_and_magic:magic/magic_temp/fires/adure_burn/count_effect
-execute unless entity @s[distance=..10] positioned ^ ^ ^0.125 run function ch_trip_and_magic:magic/magic_temp/fires/adure_burn/count_effect_loop
+execute if entity @s[distance=..10] positioned ^ ^ ^0.125 run return run function ch_trip_and_magic:magic/magic_temp/fires/adure_burn/count_effect_loop
+execute at @s anchored eyes positioned ^ ^ ^1.5 run function ch_trip_and_magic:magic/magic_temp/fires/adure_burn/count_effect

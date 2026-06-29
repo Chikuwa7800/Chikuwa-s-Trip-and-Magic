@@ -3,6 +3,7 @@
         "ch_trip_and_magic:magic/fire_lv1",
         "ch_trip_and_magic:magic/fire_lv2",
         "ch_trip_and_magic:magic/fire_lv3_hit",
-        "ch_trip_and_magic:magic/fire_lv3"
+        "ch_trip_and_magic:magic/fire_lv3",
+        "ch_trip_and_magic:magic/fire_lv5"
     ]
 }

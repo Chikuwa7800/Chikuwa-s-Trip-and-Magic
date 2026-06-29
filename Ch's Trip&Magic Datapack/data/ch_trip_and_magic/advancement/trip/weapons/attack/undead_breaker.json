@@ -27,7 +27,7 @@
           }
         },
         "entity": {
-          "type": "#minecraft:undead"
+          "entity_type": "#minecraft:undead"
         }
       }
       }

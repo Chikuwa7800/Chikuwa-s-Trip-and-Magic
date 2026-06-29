@@ -50,5 +50,5 @@ execute if entity @s[tag=ch_trip_and_magic_wakame_sword_jump_attack_2_main] run 
 
 
 #準備中...
-#execute if entity @s[nbt={SelectedItem:{tag:{detapack_type:ls_trip_magic,item_type:wakame_sword,mode:red}}}] run function ch_trip_and_magic:magic/items/weapons/others/troll/wakame_sword/mode/red/tick
+#execute if entity @s[nbt={SelectedItem:{tag:{detapack_type:ch_trip_magic,item_type:wakame_sword,mode:red}}}] run function ch_trip_and_magic:magic/items/weapons/others/troll/wakame_sword/mode/red/tick
 #execute if entity @s[scores={ch_tm_wakame_player_hurt_mobs=10..}] run function ch_trip_and_magic:magic/items/weapons/others/troll/wakame_sword/mode/red/start

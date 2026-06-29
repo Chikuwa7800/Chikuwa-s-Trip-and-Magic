@@ -200,6 +200,55 @@
       }
     ]
   },
+  "magic.fire.adure_burn.start":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/fire/adure_burn/start"
+      }
+    ]
+  },
+  "magic.fire.adure_burn.hit":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/fire/adure_burn/hit"
+      }
+    ]
+  },
+  "magic.fire.inferno_surter.prep":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/fire/inferno_surter/prep"
+      }
+    ]
+  },
+  "magic.fire.inferno_surter.explode":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/fire/inferno_surter/explode"
+      }
+    ]
+  },
+  "magic.nature.sauer_estrap.explode":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/nature/estrap"
+      }
+    ]
+  },
+  "magic.nature.gaia_eidis.set":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/nature/gaia_start"
+      }
+    ]
+  },
+  "magic.nature.gaia_eidis.explode":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/nature/gaia_explode"
+      }
+    ]
+  },
   "magic.bolt.keraut_llone.elec_prep":{
     "sounds": [
       {
@@ -249,6 +298,27 @@
       "trip_magic:magic/spell/bolt/lightning_sword/summon3"
     ]
   },
+  "magic.bolt.asgars_crush.prep":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/bolt/asgars_crush/prep"
+      }
+    ]
+  },
+  "magic.bolt.asgars_crush.crush":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/bolt/asgars_crush/bolt"
+      }
+    ]
+  },
+  "magic.bolt.bolt_dash.dash":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/bolt/lightning_dash"
+      }
+    ]
+  },
   "magic.hit":{
     "sounds": [
       {
@@ -273,6 +343,34 @@
     "sounds": [
       {
         "name": "trip_magic:magic/spell/ice/bolea_breath_end"
+      }
+    ]
+  },
+  "magic.ice.cryo_stasis.start":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/ice/cryo_stasis_start"
+      }
+    ]
+  },
+  "magic.ice.cryo_stasis.end":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/ice/cryo_stasis_end"
+      }
+    ]
+  },
+  "magic.ice.verbel_glaicis.start":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/ice/verbel_glaicis_start"
+      }
+    ]
+  },
+  "magic.ice.verbel_glaicis.shot":{
+    "sounds": [
+      {
+        "name": "trip_magic:magic/spell/ice/verbel_glaicis_shot"
       }
     ]
   },
@@ -335,6 +433,21 @@
     "sounds": [
       "trip_magic:magic/spell/void/thanatholos1",
       "trip_magic:magic/spell/void/thanatholos2"
+    ]
+  },
+  "magic.void.erebos_nova.start": {
+    "sounds": [
+      "trip_magic:magic/spell/void/erebos_nova_start"
+    ]
+  },
+  "magic.void.erebos_nova.blast_prep": {
+    "sounds": [
+      "trip_magic:magic/spell/void/erebos_nova_prep"
+    ]
+  },
+  "magic.void.erebos_nova.blast": {
+    "sounds": [
+      "trip_magic:magic/spell/void/erebos_nova_end"
     ]
   },
   "music.audexm.start": {

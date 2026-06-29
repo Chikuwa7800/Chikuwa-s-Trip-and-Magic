@@ -36,7 +36,7 @@
   execute if entity @s if score @s ch_tm_bosses_action matches 101..102 if entity @e[type=#ch_trip_and_magic_boss:ginga_priority_target,distance=..32] run function ch_trip_and_magic_boss:ginga/behavior/discover/main_illager
 
  #イレジャーがいなくなった場合
-  execute if score @s ch_tm_bosses_action matches 103 unless entity @e[type=#ch_trip_and_magic_boss:ginga_priority_target,tag=ch_tm.player.target.ginunga.illager,distance=..32] run function ch_trip_and_magic_boss:ginga/behavior/discover/lost_illager
+  #execute if score @s ch_tm_bosses_action matches 103 unless entity @e[type=#ch_trip_and_magic_boss:ginga_priority_target,tag=ch_tm.player.target.ginunga.illager,distance=..32] run function ch_trip_and_magic_boss:ginga/behavior/discover/lost_illager
 
  #敵から40ブロック以上離れたか、プレイヤーのゲームモードがクリエイティブorスペクテイターに変更された場合ターゲット変更
   execute if score @s ch_tm_bosses_action matches 102..103 if entity @s[tag=ch_tm.boss.ginunga.has_target] if entity @e[type=#ch_trip_and_magic_boss:ginga_target,tag=ch_tm.player.target.ginunga,distance=40..] run function ch_trip_and_magic_boss:ginga/behavior/discover/main
