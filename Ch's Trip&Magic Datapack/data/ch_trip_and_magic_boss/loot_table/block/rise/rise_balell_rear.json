@@ -2,11 +2,9 @@
     "type": "minecraft:chest",
     "pools": [
       {
-        "rolls": 4,
-        "bonus_rolls": {
-          "type": "minecraft:uniform",
-          "min": 1,
-          "max": 5
+        "rolls": {
+          "min": 5,
+          "max": 10
         },
         "entries": [
           {
@@ -16,11 +14,9 @@
         ]
       },
       {
-        "rolls": 6,
-        "bonus_rolls": {
-          "type": "minecraft:uniform",
-          "min": 0,
-          "max": 3
+        "rolls": {
+          "min": 6,
+          "max": 9
         },
         "entries": [
           {
@@ -37,14 +33,8 @@
       },
       {
         "rolls": {
-          "type": "minecraft:uniform",
           "min": 1,
-          "max": 5
-        },
-        "bonus_rolls": {
-          "type": "minecraft:uniform",
-          "min": 0,
-          "max": 2
+          "max": 7
         },
         "entries": [
           {
@@ -61,7 +51,6 @@
       },
       {
         "rolls": {
-          "type": "minecraft:uniform",
           "min": 2,
           "max": 6
         },
@@ -76,11 +65,9 @@
       },
       {
         "rolls": {
-          "type": "minecraft:binomial",
-          "n": 3,
-          "p": 8
+          "min": 3,
+          "max": 8
         },
-        "bonus_rolls": {},
         "entries": [
           {
             "type": "minecraft:item",
@@ -88,9 +75,7 @@
             "weight": 2,
             "quality": 4
           }
-        ],
-        "functions": [],
-        "conditions": []
+        ]
       },
       {
         "rolls": 1,

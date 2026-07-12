@@ -11,7 +11,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:bundle_contents": [],
                 "minecraft:item_name": {
                   "translate": "item.craive"
                 },
@@ -26,7 +25,7 @@
                     "color": "gray",
                     "italic": false
                   },
-                  {"text": " "},
+                  {"translate": "empty"},
                   {
                     "translate": "attribute.name.added_attack",
                     "color": "gray",
@@ -83,14 +82,19 @@
                   "glaive": true,
                   "ready":false
                 },
-                "!rarity":{},
                 "minecraft:weapon": {
                   "item_damage_per_attack": 1,
                   "disable_blocking_for_seconds": 0
                 },
                 "minecraft:max_damage": 462,
                 "minecraft:tool": {
-                  "rules": [],
+                  "rules": [
+                    {
+                      "blocks": "cobweb",
+                      "speed": 5,
+                      "correct_for_drops": false
+                    }
+                  ],
                   "default_mining_speed": 1,
                   "damage_per_block": 2,
                   "can_destroy_blocks_in_creative": false

@@ -27,9 +27,6 @@
           "translate": "item_lore.magic_staff",
           "color": "gray",
           "italic": false
-        },
-        {
-          "translate": "empty"
         }
       ],
       "minecraft:item_model":"trip_magic:magic_weapons/magic_staff/normal",

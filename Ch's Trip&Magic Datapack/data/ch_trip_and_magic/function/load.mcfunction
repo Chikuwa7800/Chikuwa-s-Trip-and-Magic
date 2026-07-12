@@ -18,11 +18,15 @@
  scoreboard objectives add ch_tm_motion_z2 dummy
  scoreboard objectives add ch_tm_death_count deathCount
  scoreboard objectives add ch_tm_keepinventory dummy
+ scoreboard objectives add ch_tm_0 dummy
+ scoreboard objectives add ch_tm_1 dummy
  scoreboard objectives add ch_tm_2 dummy
  scoreboard objectives add ch_tm_5 dummy
  scoreboard objectives add ch_tm_10 dummy
  scoreboard objectives add ch_tm_20 dummy
  scoreboard objectives add ch_tm_bloolean dummy
+ scoreboard players add #ch_trip_amount ch_tm_0 0
+ scoreboard players add #ch_trip_amount ch_tm_1 1
  scoreboard players add #ch_trip_amount ch_tm_2 2
  scoreboard players add #ch_trip_amount ch_tm_5 5
  scoreboard players add #ch_trip_amount ch_tm_10 10

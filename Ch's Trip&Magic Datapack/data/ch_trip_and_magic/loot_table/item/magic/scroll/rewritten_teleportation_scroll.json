@@ -34,7 +34,6 @@
                   "equipment_type": "scroll",
                   "item_condition": "rewritten_teleportation_scroll",
                   "has_location":false,
-                  "saved_location":0,
                   "item_magic": "true"
                 },
                 "minecraft:rarity": "common"

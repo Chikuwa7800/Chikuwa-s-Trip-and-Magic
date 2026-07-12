@@ -121,12 +121,7 @@
           "display": {
             "type": "override",
             "value": {
-                  "translate": "attribute.name.skill",
-          "extra": [
-            {
-              "translate": "item_skill.magic.fangs"
-            }
-          ],
+                  "translate": "item_skill.magic.fangs",
           "color": "dark_green",
           "italic": false
             }

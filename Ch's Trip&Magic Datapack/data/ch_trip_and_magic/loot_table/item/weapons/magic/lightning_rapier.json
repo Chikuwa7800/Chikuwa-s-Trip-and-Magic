@@ -50,14 +50,6 @@
                     ],
                     "color": "gray",
                     "italic": false
-                  },
-                  {
-                    "translate": "empty"
-                  },
-                  {
-                    "translate": "item.modifiers.mainhand",
-                    "color": "gray",
-                    "italic": false
                   }
                 ],
                 "minimum_attack_charge":0.5,

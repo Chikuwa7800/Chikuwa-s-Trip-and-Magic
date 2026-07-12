@@ -7,26 +7,7 @@
   "spawn_overrides": {
     "monster": {
       "bounding_box": "full",
-      "spawns": [
-        {
-          "type": "skeleton",
-          "weight": 3,
-          "minCount": 2,
-          "maxCount": 6
-        },
-        {
-          "type": "zombie",
-          "weight": 2,
-          "minCount": 1,
-          "maxCount": 5
-        },
-        {
-          "type": "zombie_villager",
-          "weight": 1,
-          "minCount": 1,
-          "maxCount": 3
-        }
-      ]
+      "spawns": []
     }
   },
   "start_height": {
@@ -34,6 +15,6 @@
   },
   "start_pool": "ch_trip_and_magic_boss:grave_yard",
   "step": "surface_structures",
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "beard_thin",
   "use_expansion_hack": true
 }

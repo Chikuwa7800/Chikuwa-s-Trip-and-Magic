@@ -1,14 +1,14 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 747284783,
-    "separation": 3,
+    "salt": 947284783,
+    "separation": 7,
     "spacing": 24
   },
   "structures": [
     {
       "structure": "ch_trip_and_magic:camp",
-      "weight": 4
+      "weight": 1
     }
   ]
 }
