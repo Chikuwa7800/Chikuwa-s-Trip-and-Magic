@@ -1,4 +1,4 @@
 function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/has_location/teleport_effect
-$execute if score #ch_trip_amount ch_tm_0 matches $(dimension) in minecraft:overworld run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/has_location/teleport
-$execute if score #ch_trip_amount ch_tm_0 matches $(dimension) in minecraft:the_nether run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/has_location/teleport
-$execute if score #ch_trip_amount ch_tm_0 matches $(dimension) in minecraft:the_end run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/has_location/teleport
+$execute if score #ch_trip_amount ch_tm_0 matches $(dimension) in minecraft:overworld positioned $(x) $(y) $(z) run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/has_location/teleport
+$execute if score #ch_trip_amount ch_tm_0 matches $(dimension) in minecraft:the_nether positioned $(x) $(y) $(z) run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/has_location/teleport
+$execute if score #ch_trip_amount ch_tm_0 matches $(dimension) in minecraft:the_end positioned $(x) $(y) $(z) run function ch_trip_and_magic:magic/items/artifacts/scroll/rewrited_teleportation_scroll/has_location/teleport 
