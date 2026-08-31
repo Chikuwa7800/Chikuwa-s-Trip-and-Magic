@@ -1,1 +1,0 @@
-$data merge entity @s {text:'{"text":"\\uE985","color":"$(tag)"}'}

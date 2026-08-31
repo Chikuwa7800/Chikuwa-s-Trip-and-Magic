@@ -23,3 +23,5 @@ execute if entity @s[tag=ch.effect.blast] run function ch_effect_temp:vfx/blast/
 execute if entity @s[tag=ch.effect.blast_outline] run function ch_effect_temp:vfx/blast_outline/tick
 execute if entity @s[tag=ch.effect.spike] run function ch_effect_temp:vfx/spike/_def
 execute if entity @s[tag=ch.effect.counter] run function ch_effect_temp:vfx/counter/tick
+execute if entity @s[tag=ch.effect.wood_spike] run function ch_effect_temp:vfx/wood_spike/_def
+execute if entity @s[tag=ch.effect.gaia_eidis] run function ch_effect_temp:effect/gaia_eidis/tick

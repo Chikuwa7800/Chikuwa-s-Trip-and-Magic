@@ -1,1 +1,0 @@
- execute if predicate ch_trip_and_magic:trip/claive/cross_ready

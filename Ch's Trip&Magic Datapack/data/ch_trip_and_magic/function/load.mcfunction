@@ -162,8 +162,6 @@
  scoreboard objectives add ch_trip_boss_tick_ex dummy
  scoreboard objectives add ch_tm_bash_shield_cooldown dummy
  scoreboard objectives add ch_tm_bash_shield_return dummy
- scoreboard objectives add ch_tm_craive_cooldown dummy
- scoreboard objectives add ch_tm_craive_damage dummy
  scoreboard objectives add ch_trip_boss_random dummy
  scoreboard objectives add ch_trip_boss_random_ex dummy
 

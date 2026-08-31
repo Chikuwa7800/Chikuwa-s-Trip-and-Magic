@@ -1,7 +1,6 @@
 {
 	"pack": {
 		"description": "Enjoy the trip, Practice the magic",
-	"min_format": 88.0,
-	"max_format": 88.0
+	"pack_format": 88.0
 	}
 }

@@ -19,6 +19,11 @@
                     "translate": "item_lore.scroll",
                     "color": "gray",
                     "italic": false
+                  },
+                  {
+                    "translate": "item_lore.scroll.teleport",
+                    "color": "gray",
+                    "italic": false
                   }
                 ],
                 "minecraft:item_model":"trip_magic:scroll/teleportation_scroll",

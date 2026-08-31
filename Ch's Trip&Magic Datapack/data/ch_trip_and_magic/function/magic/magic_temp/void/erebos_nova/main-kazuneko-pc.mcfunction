@@ -1,0 +1,8 @@
+scoreboard players add @s ch_tm_tick 1
+execute if score @s ch_tm_tick matches 1 run data merge entity @s {transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[0.1,0.2,0.1],translation:[-0.5,-1.5,-0.5]}}
+execute if score @s ch_tm_tick matches 3 run data merge entity @s {transformation:{left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[4,10.55,4],translation:[-2,-4.95,-2]}}
+$execute if score @s ch_tm_tick matches 13 if score @s ch_tm_tick matches 21 run execute as @e[type=!#ch_trip_and_magic:cannot_hurt_entities,distance=..4.5] unless score @s ch_tm_entity_id matches $(owner) run effect give @s slowness 1 1 true
+$execute if score @s ch_tm_tick matches 13 if score @s ch_tm_tick matches 21 run execute as @e[type=!#ch_trip_and_magic:cannot_hurt_entities,distance=..4.5] unless score @s ch_tm_entity_id matches $(owner) run effect give @s weakness 1 1 true
+execute if score @s ch_tm_tick matches 21 run function ch_trip_and_magic:magic/magic_temp/void/erebos_nova/break_prep
+$execute if score @s ch_tm_tick matches 21 run execute as @e[type=!#ch_trip_and_magic:cannot_hurt_entities,distance=..4.5] unless score @s ch_tm_entity_id matches $(owner) run damage @s 3 ch_trip_and_magic:magic/void_lv5 by @n[type=block_display,scores={ch_tm_entity_id=$(owner)}] from @n[type=!#ch_trip_and_magic:cannot_hurt_entities,scores={ch_tm_entity_id=$(owner)}]
+execute if score @s ch_tm_tick matches 31 run function ch_trip_and_magic:magic/magic_temp/void/erebos_nova/break with entity @s data

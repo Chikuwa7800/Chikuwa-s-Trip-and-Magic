@@ -21,6 +21,16 @@
                     "italic": false
                   },
                   {
+                    "translate": "item_lore.scroll.teleport",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item_lore.scroll.rewritten_teleport",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
                     "translate": "item_lore.rewritten_scroll.teleport",
                     "color": "gray",
                     "italic": false

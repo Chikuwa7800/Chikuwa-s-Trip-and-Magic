@@ -2,8 +2,8 @@
  # 当たったエンティティに実行者が乗っていたら失敗として返す
   $execute on passengers if entity @s[scores={ch_tm_entity_id=$(owner)}] run return fail
  # 演出
-  $function $(hit_ground_effect)
-  $function $(hit_effect)
+  $execute as @n[tag=ch_tm.magic_bullet] at @s run function $(hit_ground_effect)
+  $execute as @n[tag=ch_tm.magic_bullet] at @s run function $(hit_effect)
 
   tag @s add ch_tm.bullet.hitted
  # 当たったエンティティにダメージを与える
