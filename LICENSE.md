@@ -17,6 +17,7 @@ Claim any original contents about Chikuwa's Trip and Magic, claim copyright or o
 
 ### Terms of Use
 The use of textures, models, filed sound effects, music, etc. from this contents on digital platforms without citing the source is prohibited.
+In addition, it is prohibited to use of textures, models, filed sound effects, music, etc. from this contents on other datapacks, resourcepacks, and mods.
 If you post videos, articles, etc. using this contents on digital platforms, please include a Github link or Modrinth link to this contents.
 Please note that we cannot be held responsible for any damages incurred as a result of using this content.
 
