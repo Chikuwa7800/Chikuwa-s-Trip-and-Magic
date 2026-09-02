@@ -1,6 +1,6 @@
 # LICENSE
 
-Any elements/terms not stated here are governed by [Apache-2.0](https://www.apache.org/licenses/).
+© 2026 <a href="https://github.com/Chikuwa7800">Chikuwa7800</a> All Rights Reserved.
 
 ### Definition
 <ol>
